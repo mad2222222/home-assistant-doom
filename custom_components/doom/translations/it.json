@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Le forze dell'inferno hanno invaso la tua casa intelligente. Configura DOOM per contrattaccare con una carta giocabile direttamente sulla tua dashboard. Strappa e squarcia, finché non sarà finita."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM sta già strappando e squarciando sul tuo sistema. Può esserci solo un Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Strappa e lacera, finché non sarà finita.",
+          "huge_guts": "Sei enorme! Significa che hai budella enormi! Strappa e lacera!",
+          "rage_brutal": "Sono furia, brutali, senza pietà. Ma tu. Tu sarai peggio.",
+          "first_age": "Nella prima era, nella prima battaglia, quando le ombre si allungarono per la prima volta, uno si alzò. Bruciato dalle braci dell'Armageddon, la sua anima ustionata dai fuochi dell'Inferno e corrotta oltre l'ascensione, scelse il percorso del tormento perpetuo.",
+          "against_all_evil": "Contro tutto il male che l'Inferno può evocare, tutta la malvagità che l'umanità può produrre, invieremo contro di loro solo te.",
+          "only_thing_they_fear": "L'unica cosa che temono... sei tu.",
+          "not_a_massage": "Quello non era un massaggio!",
+          "ouch": "Ahia! Deve aver fatto male.",
+          "secret_area": "Guarda! Hai trovato un'area segreta.",
+          "be_careful": "Attenzione: Chi è là? Fai attenzione, potrebbe essere una trappola.",
+          "infested_starport": "Sei penetrato in profondità nello spazioporto infestato.",
+          "created_1993": "DOOM è stato creato da id Software e pubblicato il 10 dicembre 1993.",
+          "carmack_engine": "John Carmack ha programmato il motore di DOOM in circa 5 mesi.",
+          "team_of_six": "Il DOOM originale è stato sviluppato da un team di sole 6 persone.",
+          "deathmatch": "DOOM ha reso popolare il termine 'deathmatch' per il gioco multiplayer.",
+          "bfg": "BFG sta per 'Big Fragging Gun' (ufficialmente).",
+          "shareware_bbs": "DOOM è stato originariamente distribuito come shareware tramite sistemi bulletin board.",
+          "cacodemon_design": "Il design del Cacodemon è stato ispirato da una creatura dalla copertina del Manual of the Planes di Dungeons & Dragons.",
+          "moons_of_mars": "Il DOOM originale si svolge sulle lune di Marte: Phobos e Deimos.",
+          "bobby_prince": "Bobby Prince ha composto la colonna sonora di DOOM, notoriamente ispirata da band heavy metal come Metallica, Pantera e Slayer.",
+          "open_source": "Il codice sorgente di DOOM è stato rilasciato come open source il 23 dicembre 1997.",
+          "ported_everywhere": "DOOM è stato portato su quasi tutte le piattaforme informatiche immaginabili, inclusi bancomat, test di gravidanza e frigoriferi smart.",
+          "doomguy": "Il protagonista di DOOM è comunemente conosciuto come 'Doomguy' o il 'Doom Slayer'.",
+          "no_look_up_down": "Il DOOM originale non aveva la possibilità di guardare in alto o in basso.",
+          "wad_modding": "DOOM è stato uno dei primi giochi a supportare il modding tramite file WAD.",
+          "iddqd": "Il codice trucco IDDQD attiva la modalità Dio nel DOOM originale.",
+          "idkfa": "IDKFA ti dà tutte le chiavi, le munizioni complete e tutte le armi in DOOM.",
+          "spider_mastermind": "Lo Spider Mastermind era il boss finale del DOOM originale.",
+          "knee_deep_downloads": "L'episodio shareware di DOOM 'Knee Deep in the Dead' è stato scaricato milioni di volte nel suo primo anno.",
+          "super_shotgun": "DOOM II ha introdotto il Super Shotgun, una delle armi più amate nella storia degli FPS.",
+          "cyberdemon": "Il Cyberdemon è uno dei nemici più iconici nella storia dei videogiochi.",
+          "more_than_windows": "Al suo apice, si stimava che DOOM fosse installato su più computer di Windows 95.",
+          "imp_fireball": "La palla di fuoco dell'Imp è stata uno dei primi attacchi a proiettile in un FPS 3D.",
+          "bsp_rendering": "Il motore di DOOM renderizza grafica pseudo-3D usando una tecnica chiamata partizionamento binario dello spazio (BSP).",
+          "pinky_demon": "Il demone Pinky è stato chiamato così per il suo colore rosa acceso originale nelle prime fasi di sviluppo.",
+          "speedrun": "Gli speedrunner possono completare il primo episodio di DOOM in meno di 5 minuti.",
+          "romero_head": "La testa di John Romero su un bastone è il vero boss finale di DOOM II.",
+          "floppy_disks": "L'installatore originale di DOOM su floppy disk richiedeva quattro dischi da 3,5 pollici.",
+          "e1m1": "E1M1 ('Hangar') è uno dei livelli di videogiochi più riconosciuti mai creati.",
+          "popular_1995": "DOOM era così popolare nel 1995 che si stimava fosse su più PC di Microsoft Windows 95.",
+          "chainsaw_evil_dead": "La motosega in DOOM è stata ispirata dai film di Evil Dead.",
+          "lost_soul": "Il nemico Lost Soul era originariamente inteso come un teschio lanciato dal Pain Elemental, che è stato aggiunto in DOOM II.",
+          "blessed_server": "Un prete cattolico ha una volta benedetto un server LAN prima di un torneo deathmatch di DOOM.",
+          "resolution_320x200": "Il DOOM originale gira a una risoluzione di 320x200 pixel.",
+          "faster_processors": "DOOM ha costretto Intel e altre aziende ad accelerare lo sviluppo di processori più veloci per stare al passo con la domanda.",
+          "mars_setting": "L'ambientazione marziana è stata scelta perché John Carmack pensava che demoni da Marte suonasse bene."
+        },
+        "name": "Citazione/Fatto"
+      },
+      "last_played": {
+        "name": "Ultima partita"
+      },
+      "session_duration": {
+        "name": "Durata della sessione"
+      },
+      "total_play_time": {
+        "name": "Tempo di gioco totale"
+      },
+      "sessions_played": {
+        "name": "Sessioni giocate"
+      },
+      "current_player": {
+        "name": "Giocatore attuale",
+        "state": {
+          "nobody": "Nessuno sta giocando"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Squarcia e strappa",
+          "off": "Dormiente"
+        }
+      }
+    }
+  }
+}

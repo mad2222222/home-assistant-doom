@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "제목",
+        "sound": "소리",
+        "auto_start": "자동 시작"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "갓 모드 활성화"
+    }
+  }
+}

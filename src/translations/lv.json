@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Nosaukums",
+        "sound": "Skaņa",
+        "auto_start": "Automātiskā palaišana"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "DIEVA REŽĪMS AKTIVIZĒTS"
+    }
+  }
+}

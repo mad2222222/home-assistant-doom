@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "D'Höllekräften hunn däin Smart Home agebrach. Riicht DOOM an fir zréckzeschloen mat enger spillbarer Kaart direkt op dengem Dashboard. Räiss a zerrapp, bis et fäerdeg ass."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM ass scho um Räissen an Zerrappen op dengem System. Et kann nëmmen een Doom Slayer ginn."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Zitat/Fakt",
+        "state": {
+          "rip_and_tear": "Räiss a rass, bis et fäerdeg ass.",
+          "huge_guts": "Du bass riseg! Dat heescht du hues riseg Gedierms! Räiss a rass!",
+          "rage_brutal": "Si si Roserei, brutal, ouni Gnod. Mee du. Du wäerts méi schlëmm sinn.",
+          "first_age": "Am éischten Zäitalter, an der éischter Schluecht, wéi d'Schied sech fir d'éischt verlängert hunn, stoung een...",
+          "against_all_evil": "Géint alles Béist dat d'Häll kann zesummezauberen, all d'Schandtat déi d'Mënschheet ka produzéieren, schécke mir hinnen nëmmen dech.",
+          "only_thing_they_fear": "Dat eenzegt wat si fäerten... bass du.",
+          "not_a_massage": "Dat war keng Massage!",
+          "ouch": "Aua! Dat muss wéi gedoen hunn.",
+          "secret_area": "Kuck emol dat! Du hues e geheime Beräich fonnt.",
+          "be_careful": "Warnung: Wien ass do? Pass op, dat kéint eng Fal sinn.",
+          "infested_starport": "Du hues déif an de befallene Sternenhafen virgedrongen.",
+          "created_1993": "DOOM gouf vun id Software geschaaft an den 10. Dezember 1993 erausbruecht.",
+          "carmack_engine": "De John Carmack huet den DOOM-Motor an ongeféier 5 Méint programméiert.",
+          "team_of_six": "Dat originaalt DOOM gouf vun engem Team vu just 6 Leit entwéckelt.",
+          "deathmatch": "DOOM huet de Begrëff 'Deathmatch' fir Multiplayer-Spiller populär gemaach.",
+          "bfg": "BFG steet fir 'Big Fragging Gun' (offiziell).",
+          "shareware_bbs": "DOOM gouf ursprénglech als Shareware iwwer Bulletin Board Systemer verdeelt.",
+          "cacodemon_design": "Den Design vum Cacodemon gouf vun enger Kreatur vum Cover vum D&D Manual of the Planes inspiréiert.",
+          "moons_of_mars": "Dat originaalt DOOM spillt op de Monde vum Mars: Phobos an Deimos.",
+          "bobby_prince": "De Bobby Prince huet den DOOM-Soundtrack komponéiert, berühmt inspiréiert vu Heavy-Metal-Banden wéi Metallica, Pantera a Slayer.",
+          "open_source": "Den DOOM-Quellcode gouf den 23. Dezember 1997 als Open Source verëffentlecht.",
+          "ported_everywhere": "DOOM gouf op bal all Computersplattform portéiert déi ee sech virstelle kann, inklusiv Bankomaten, Schwangerschaftstester a Smart Frigo'en.",
+          "doomguy": "Den Protagonist vu DOOM ass allgemeng bekannt als 'Doomguy' oder den 'Doom Slayer'.",
+          "no_look_up_down": "Dat originaalt DOOM hat keng Méiglechkeet no uewen oder no ënnen ze kucken.",
+          "wad_modding": "DOOM war eent vun den éischte Spiller dat Modding duerch WAD-Dateien ënnerstëtzt huet.",
+          "iddqd": "Den IDDQD-Cheatcode aktivéiert de Gottmodus am originalen DOOM.",
+          "idkfa": "IDKFA gëtt dir all d'Schlësselen, voll Munitioun an all Waffen an DOOM.",
+          "spider_mastermind": "De Spider Mastermind war de leschte Boss vum originalen DOOM.",
+          "knee_deep_downloads": "DOOM seng Shareware-Episode 'Knee Deep in the Dead' gouf an hirem éischte Joer Millioune Mol erofgelueden.",
+          "super_shotgun": "DOOM II huet d'Super Shotgun agefouert, eng vun de beléifste Waffen an der FPS-Geschicht.",
+          "cyberdemon": "Den Cyberdemon ass ee vun den ikoneschste Feinde an der Spillgeschicht.",
+          "more_than_windows": "Op sengem Héichpunkt war DOOM geschätzt op méi Computere installéiert ze sinn wéi Windows 95.",
+          "imp_fireball": "Dem Imp seng Feierball war eng vun den éischte Projektilattacken an engem 3D-Éischt-Persoun-Shooter.",
+          "bsp_rendering": "Den DOOM-Motor rendert Pseudo-3D-Grafike mat enger Technik déi Binary Space Partitioning (BSP) heescht.",
+          "pinky_demon": "De Pinky-Demon gouf no senger originaler hellerouder Faarf an der fréier Entwécklung benannt.",
+          "speedrun": "Speedrunner kënnen DOOM seng éischt Episode an ënner 5 Minutte fäerdeg maachen.",
+          "romero_head": "Dem John Romero säi Kapp op engem Stach ass de richtege leschte Boss vu DOOM II.",
+          "floppy_disks": "Den originalen DOOM Floppy-Disk-Installer huet véier 3,5-Zoll-Diskette gebraucht.",
+          "e1m1": "E1M1 ('Hangar') ass ee vun de bekanntste Videospill-Levelen déi jee geschaf goufen.",
+          "popular_1995": "DOOM war 1995 sou populär datt et geschätzt gouf op méi PC'e ze sinn wéi Microsoft säi Windows 95.",
+          "chainsaw_evil_dead": "D'Kettesee an DOOM gouf vun den Evil Dead Filmer inspiréiert.",
+          "lost_soul": "De Lost Soul Feind war ursprénglech als e geworfene Schädel vum Pain Elemental geduecht, deen an DOOM II derbäikoum.",
+          "blessed_server": "E katholesche Prëschter huet eemol e LAN-Server geseent virun engem DOOM-Deathmatch-Tournoi.",
+          "resolution_320x200": "Dat originaalt DOOM leeft mat enger Opléisung vu 320x200 Pixel.",
+          "faster_processors": "DOOM huet Intel an aner Firmen gezwongen d'Entwécklung vu méi séiere Prozessoren ze beschleunegen.",
+          "mars_setting": "De Mars-Dréiort gouf gewielt well de John Carmack geduecht huet Demone vum Mars géifen cool kléngen."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Räisst a zerrt",
+          "off": "Schlofend"
+        }
+      }
+    }
+  }
+}

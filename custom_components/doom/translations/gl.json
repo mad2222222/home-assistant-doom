@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "As forzas do inferno invadiron o teu fogar intelixente. Configura DOOM para contraatacar cunha tarxeta xogable no teu panel. Rasga e destroza, ata que estea feito."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM xa está rasgando e destrozando no teu sistema. Só pode haber un Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Cita/Dato",
+        "state": {
+          "rip_and_tear": "Arrinca e desgarra, ata que estea feito.",
+          "huge_guts": "Es enorme! Iso significa que tes unhas tripas enormes! Arrinca e desgarra!",
+          "rage_brutal": "Son rabia, brutalidade, sen piedade. Pero ti. Ti serás peor.",
+          "first_age": "Na primeira era, na primeira batalla, cando as sombras se alongaron por primeira vez, un permaneceu en pé...",
+          "against_all_evil": "Contra todo o mal que o Inferno poida conxurar, toda a maldade que a humanidade poida producir, enviarémoslles só a ti.",
+          "only_thing_they_fear": "O único que temen... es ti.",
+          "not_a_massage": "Iso non foi unha masaxe!",
+          "ouch": "Ai! Iso ten que doer.",
+          "secret_area": "Mira iso! Atopaches unha área secreta.",
+          "be_careful": "Aviso: Quen anda aí? Ten coidado, podería ser unha trampa.",
+          "infested_starport": "Adentráraste no porto estelar infestado.",
+          "created_1993": "DOOM foi creado por id Software e lanzado o 10 de decembro de 1993.",
+          "carmack_engine": "John Carmack programou o motor de DOOM en aproximadamente 5 meses.",
+          "team_of_six": "O DOOM orixinal foi desenvolvido por un equipo de só 6 persoas.",
+          "deathmatch": "DOOM popularizou o termo 'deathmatch' para o xogo multixogador.",
+          "bfg": "BFG significa 'Big Fragging Gun' (oficialmente).",
+          "shareware_bbs": "DOOM distribuíuse orixinalmente como shareware a través de sistemas de taboleiro de anuncios electrónicos.",
+          "cacodemon_design": "O deseño do Cacodemon inspirouse nunha criatura da portada do Manual of the Planes de D&D.",
+          "moons_of_mars": "O DOOM orixinal transcorre nas lúas de Marte: Fobos e Deimos.",
+          "bobby_prince": "Bobby Prince compuxo a banda sonora de DOOM, famosamente inspirada en bandas de heavy metal como Metallica, Pantera e Slayer.",
+          "open_source": "O código fonte de DOOM foi liberado como código aberto o 23 de decembro de 1997.",
+          "ported_everywhere": "DOOM foi portado a case todas as plataformas informáticas imaxinables, incluíndo caixeiros automáticos, tests de embarazo e frigoríficos intelixentes.",
+          "doomguy": "O protagonista de DOOM é coñecido comunmente como 'Doomguy' ou o 'Doom Slayer'.",
+          "no_look_up_down": "O DOOM orixinal non tiña a capacidade de mirar cara arriba ou cara abaixo.",
+          "wad_modding": "DOOM foi un dos primeiros xogos en soportar modificacións a través de ficheiros WAD.",
+          "iddqd": "O código trampa IDDQD activa o modo Deus no DOOM orixinal.",
+          "idkfa": "IDKFA dáche todas as chaves, munición completa e todas as armas en DOOM.",
+          "spider_mastermind": "O Spider Mastermind foi o xefe final do DOOM orixinal.",
+          "knee_deep_downloads": "O episodio shareware de DOOM 'Knee Deep in the Dead' foi descargado millóns de veces no seu primeiro ano.",
+          "super_shotgun": "DOOM II introduciu a Super Escopeta, unha das armas máis queridas na historia dos FPS.",
+          "cyberdemon": "O Cyberdemon é un dos inimigos máis icónicos na historia dos videoxogos.",
+          "more_than_windows": "No seu apoxeo, estimábase que DOOM estaba instalado en máis computadores que Windows 95.",
+          "imp_fireball": "A bóla de lume do Imp foi un dos primeiros ataques de proxectil nun shooter en primeira persoa 3D.",
+          "bsp_rendering": "O motor de DOOM renderiza gráficos pseudo-3D usando unha técnica chamada partición binaria do espazo (BSP).",
+          "pinky_demon": "O demo Pinky recibiu o seu nome pola súa cor rosa brillante orixinal no desenvolvemento inicial.",
+          "speedrun": "Os speedrunners poden completar o primeiro episodio de DOOM en menos de 5 minutos.",
+          "romero_head": "A cabeza de John Romero nun pau é o verdadeiro xefe final de DOOM II.",
+          "floppy_disks": "O instalador en disquetes do DOOM orixinal requiría catro disquetes de 3,5 polgadas.",
+          "e1m1": "E1M1 ('Hangar') é un dos niveis de videoxogos máis recoñecidos que se crearon.",
+          "popular_1995": "DOOM era tan popular en 1995 que se estimaba que estaba en máis PCs que o Windows 95 de Microsoft.",
+          "chainsaw_evil_dead": "A motoserra de DOOM estivo inspirada nas películas de Evil Dead.",
+          "lost_soul": "O inimigo Lost Soul estaba orixinalmente pensado como un cranio lanzado polo Pain Elemental, que foi engadido en DOOM II.",
+          "blessed_server": "Un sacerdote católico bendiciu unha vez un servidor LAN antes dun torneo de deathmatch de DOOM.",
+          "resolution_320x200": "O DOOM orixinal funciona a unha resolución de 320x200 píxeles.",
+          "faster_processors": "DOOM obrigou a Intel e outras empresas a acelerar o desenvolvemento de procesadores máis rápidos.",
+          "mars_setting": "O escenario de Marte foi escollido porque John Carmack pensou que demos de Marte soaban xenial."
+        }
+      },
+      "last_played": {
+        "name": "Última partida"
+      },
+      "session_duration": {
+        "name": "Duración da sesión"
+      },
+      "total_play_time": {
+        "name": "Tempo total de xogo"
+      },
+      "sessions_played": {
+        "name": "Sesións xogadas"
+      },
+      "current_player": {
+        "name": "Xogador actual",
+        "state": {
+          "nobody": "Ninguén está xogando"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Rasgando e desgarrando",
+          "off": "Durmido"
+        }
+      }
+    }
+  }
+}

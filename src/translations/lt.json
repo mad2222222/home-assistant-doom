@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Pavadinimas",
+        "sound": "Garsas",
+        "auto_start": "Automatinis paleidimas"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "DIEVO REŽIMAS AKTYVUOTAS"
+    }
+  }
+}

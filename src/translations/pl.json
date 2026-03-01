@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Tytuł",
+        "sound": "Dźwięk",
+        "auto_start": "Automatyczny start"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "TRYB BOGA AKTYWOWANY"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "標題",
+        "sound": "聲音",
+        "auto_start": "自動啟動"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "上帝模式已啟動"
+    }
+  }
+}

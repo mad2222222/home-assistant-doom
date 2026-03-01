@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "지옥의 군대가 당신의 스마트 홈을 침범했습니다. 대시보드에 플레이 가능한 카드로 맞서 싸우기 위해 DOOM을 설정하세요. 찢고 또 찢어라, 끝날 때까지."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM이 이미 당신의 시스템에서 찢고 있습니다. Doom Slayer는 오직 하나뿐입니다."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "찢고 또 찢어라, 끝날 때까지.",
+          "huge_guts": "넌 거대해! 그건 내장도 거대하다는 뜻이야! 찢고 또 찢어!",
+          "rage_brutal": "그들은 분노, 잔인함, 자비 없음 그 자체. 하지만 너. 너는 더 나쁠 거야.",
+          "first_age": "첫 번째 시대에, 첫 번째 전투에서, 그림자가 처음으로 길어졌을 때, 하나가 섰다. 아마겟돈의 잔불에 타고, 지옥의 불길에 영혼이 물집 잡히고, 승천을 넘어 더럽혀진 그는 영원한 고통의 길을 택했다.",
+          "against_all_evil": "지옥이 불러낼 수 있는 모든 악, 인류가 만들어낼 수 있는 모든 사악함에 맞서, 우리는 그들에게 오직 너만을 보낼 것이다.",
+          "only_thing_they_fear": "그들이 두려워하는 단 하나... 그건 바로 너.",
+          "not_a_massage": "그건 마사지가 아니었어!",
+          "ouch": "아야! 그건 아팠겠다.",
+          "secret_area": "이것 봐! 비밀 구역을 찾았어.",
+          "be_careful": "경고: 거기 누구야? 조심해, 함정일 수 있어.",
+          "infested_starport": "감염된 우주항의 깊은 곳으로 들어왔다.",
+          "created_1993": "DOOM은 id Software가 만들었으며 1993년 12월 10일에 출시되었다.",
+          "carmack_engine": "존 카맥은 약 5개월 만에 DOOM 엔진을 프로그래밍했다.",
+          "team_of_six": "오리지널 DOOM은 단 6명의 팀으로 개발되었다.",
+          "deathmatch": "DOOM은 멀티플레이어 게임에서 '데스매치'라는 용어를 대중화했다.",
+          "bfg": "BFG는 'Big Fragging Gun'의 약자다(공식적으로).",
+          "shareware_bbs": "DOOM은 원래 BBS(전자 게시판 시스템)를 통해 셰어웨어로 배포되었다.",
+          "cacodemon_design": "카코데몬의 디자인은 던전 앤 드래곤 Manual of the Planes 표지의 생물에서 영감을 받았다.",
+          "moons_of_mars": "오리지널 DOOM은 화성의 위성 포보스와 데이모스에서 벌어진다.",
+          "bobby_prince": "바비 프린스가 DOOM 사운드트랙을 작곡했으며, 메탈리카, 판테라, 슬레이어 같은 헤비메탈 밴드에서 영감을 받은 것으로 유명하다.",
+          "open_source": "DOOM의 소스 코드는 1997년 12월 23일에 오픈 소스로 공개되었다.",
+          "ported_everywhere": "DOOM은 ATM, 임신 테스트기, 스마트 냉장고를 포함해 상상할 수 있는 거의 모든 컴퓨터 플랫폼에 이식되었다.",
+          "doomguy": "DOOM의 주인공은 일반적으로 '둠가이' 또는 '둠 슬레이어'로 알려져 있다.",
+          "no_look_up_down": "오리지널 DOOM에는 위아래를 볼 수 있는 기능이 없었다.",
+          "wad_modding": "DOOM은 WAD 파일을 통한 모딩을 지원한 최초의 게임 중 하나였다.",
+          "iddqd": "IDDQD 치트 코드는 오리지널 DOOM에서 갓 모드를 활성화한다.",
+          "idkfa": "IDKFA는 DOOM에서 모든 열쇠, 전체 탄약, 모든 무기를 준다.",
+          "spider_mastermind": "스파이더 마스터마인드는 오리지널 DOOM의 최종 보스였다.",
+          "knee_deep_downloads": "DOOM의 셰어웨어 에피소드 'Knee Deep in the Dead'는 첫 해에 수백만 번 다운로드되었다.",
+          "super_shotgun": "DOOM II는 FPS 역사상 가장 사랑받는 무기 중 하나인 슈퍼 샷건을 도입했다.",
+          "cyberdemon": "사이버데몬은 게임 역사상 가장 상징적인 적 중 하나다.",
+          "more_than_windows": "전성기에 DOOM은 윈도우 95보다 더 많은 컴퓨터에 설치된 것으로 추정되었다.",
+          "imp_fireball": "임프의 파이어볼은 3D FPS에서 최초의 투사체 공격 중 하나였다.",
+          "bsp_rendering": "DOOM 엔진은 BSP(이진 공간 분할)라는 기술을 사용하여 유사 3D 그래픽을 렌더링한다.",
+          "pinky_demon": "핑키 데몬은 초기 개발 시절의 밝은 분홍색에서 이름을 따왔다.",
+          "speedrun": "스피드러너들은 DOOM의 첫 번째 에피소드를 5분 이내에 클리어할 수 있다.",
+          "romero_head": "막대기에 꽂힌 존 로메로의 머리가 DOOM II의 진짜 최종 보스다.",
+          "floppy_disks": "오리지널 DOOM 플로피 디스크 설치 프로그램에는 3.5인치 디스크 4장이 필요했다.",
+          "e1m1": "E1M1('격납고')은 역사상 가장 유명한 비디오 게임 레벨 중 하나다.",
+          "popular_1995": "1995년에 DOOM은 너무 인기가 많아서 마이크로소프트 윈도우 95보다 더 많은 PC에 있는 것으로 추정되었다.",
+          "chainsaw_evil_dead": "DOOM의 전기톱은 이블 데드 영화에서 영감을 받았다.",
+          "lost_soul": "로스트 소울 적은 원래 DOOM II에서 추가된 페인 엘리멘탈이 던지는 해골로 고안되었다.",
+          "blessed_server": "가톨릭 사제가 DOOM 데스매치 토너먼트 전에 LAN 서버를 축복한 적이 있다.",
+          "resolution_320x200": "오리지널 DOOM은 320x200 픽셀 해상도로 실행된다.",
+          "faster_processors": "DOOM은 인텔과 다른 회사들이 수요를 따라잡기 위해 더 빠른 프로세서 개발을 가속화하도록 만들었다.",
+          "mars_setting": "화성 배경은 존 카맥이 화성에서 온 악마가 멋지다고 생각해서 선택되었다."
+        },
+        "name": "인용/사실"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "찢고 또 찢는 중",
+          "off": "휴면 중"
+        }
+      }
+    }
+  }
+}

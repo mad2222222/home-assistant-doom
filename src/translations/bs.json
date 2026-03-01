@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Naslov",
+        "sound": "Zvuk",
+        "auto_start": "Automatsko pokretanje"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "BOŽJI REŽIM AKTIVIRAN"
+    }
+  }
+}

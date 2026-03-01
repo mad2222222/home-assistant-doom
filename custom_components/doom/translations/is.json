@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Herjar helvítis hafa brotist inn í snjallheimilið þitt. Settu upp DOOM til að berjast til baka með spilanlegum spjaldi beint á stjórnborðinu þínu. Rífðu og slíttu, þar til því er lokið."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM er þegar að rífa og slíta á kerfinu þínu. Það getur aðeins verið einn Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Rífðu og slíttu, þar til því er lokið.",
+          "huge_guts": "Þú ert risavaxinn! Það þýðir að þú átt risastórar innyfli! Rífðu og slíttu!",
+          "rage_brutal": "Þeir eru reiði, grimmd, án miskunnar. En þú. Þú verður verri.",
+          "first_age": "Á fyrstu öld, í fyrstu orrustu, þegar skuggarnir lengdust fyrst, stóð einn...",
+          "against_all_evil": "Gegn öllu illu sem Helvíti getur fram kallað, allri þeirri illsku sem mannkynið getur framleitt, munum við senda þeim aðeins þig.",
+          "only_thing_they_fear": "Það eina sem þeir óttast... ert þú.",
+          "not_a_massage": "Þetta var ekki nudd!",
+          "ouch": "Áá! Þetta hlýtur að vera sársaukafullt.",
+          "secret_area": "Sjáðu þetta! Þú fannst leynilegt svæði.",
+          "be_careful": "Viðvörun: Hver er þarna? Vertu varkár, þetta gæti verið gildra.",
+          "infested_starport": "Þú hefur ýtt þér djúpt inn í sýkta stjörnuhöfnina.",
+          "created_1993": "DOOM var búið til af id Software og gefið út 10. desember 1993.",
+          "carmack_engine": "John Carmack forritaði DOOM-vélina á um það bil 5 mánuðum.",
+          "team_of_six": "Upprunalega DOOM var þróað af teymi aðeins 6 manna.",
+          "deathmatch": "DOOM gerði hugtakið 'deathmatch' vinsælt í fjölspilunarleikjum.",
+          "bfg": "BFG stendur fyrir 'Big Fragging Gun' (opinberlega).",
+          "shareware_bbs": "DOOM var upphaflega dreift sem shareware í gegnum rafræn tilkynningarkerfi.",
+          "cacodemon_design": "Hönnun Cacodemon var innblásin af veru af forsíðu D&D Manual of the Planes.",
+          "moons_of_mars": "Upprunalega DOOM gerist á tunglum Mars: Phobos og Deimos.",
+          "bobby_prince": "Bobby Prince samdi DOOM-hljóðrásinuna, sem var frægt innblásin af þungamálmsveitum eins og Metallica, Pantera og Slayer.",
+          "open_source": "DOOM-frumkóðinn var gefinn út sem opinn hugbúnaður 23. desember 1997.",
+          "ported_everywhere": "DOOM hefur verið flutt á næstum hverja tölvuvettvang sem hægt er að ímynda sér, þar á meðal hraðbanka, meðgöngupróf og snjallísskápa.",
+          "doomguy": "Söguhetja DOOM er almennt þekktur sem 'Doomguy' eða 'Doom Slayer'.",
+          "no_look_up_down": "Upprunalega DOOM hafði enga möguleika á því að horfa upp eða niður.",
+          "wad_modding": "DOOM var einn af fyrstu leikjunum til að styðja breytingar í gegnum WAD-skrár.",
+          "iddqd": "IDDQD-svindlkóðinn virkjar guðsham í upprunalega DOOM.",
+          "idkfa": "IDKFA gefur þér alla lykla, fullt af skotfærum og öll vopn í DOOM.",
+          "spider_mastermind": "Spider Mastermind var lokabossinn í upprunalega DOOM.",
+          "knee_deep_downloads": "Shareware-þáttur DOOM 'Knee Deep in the Dead' var sóttur milljónir skipta á fyrsta árinu.",
+          "super_shotgun": "DOOM II kynnti Super Shotgun, eitt vinsælasta vopnið í sögu skotleikja.",
+          "cyberdemon": "Cyberdemon er einn af táknrænastu óvinum í sögu tölvuleikja.",
+          "more_than_windows": "Þegar mest var áætlað að DOOM væri uppsett á fleiri tölvum en Windows 95.",
+          "imp_fireball": "Eldkúla Imp var ein af fyrstu skotárásun í þrívíddar skotleik.",
+          "bsp_rendering": "DOOM-vélin birtir gervi-þrívíddargrafík með tækni sem kallast binary space partitioning (BSP).",
+          "pinky_demon": "Pinky-djöfullinn var nefndur eftir upprunalegum skærbbleikum lit hans í fyrstu þróun.",
+          "speedrun": "Hraðhleyparar geta klárað fyrsta þátt DOOM á innan við 5 mínútum.",
+          "romero_head": "Höfuð John Romero á staf er hinn raunverulegi lokaboss DOOM II.",
+          "floppy_disks": "Upprunalegi DOOM-disklingauppsetjarinn krafðist fjögurra 3,5 tommu disklinga.",
+          "e1m1": "E1M1 ('Hangar') er eitt þekktasta borð tölvuleikja sem nokkru sinni hefur verið búið til.",
+          "popular_1995": "DOOM var svo vinsælt árið 1995 að áætlað var að það væri á fleiri tölvum en Windows 95 frá Microsoft.",
+          "chainsaw_evil_dead": "Keðjusögin í DOOM var innblásin af Evil Dead kvikmyndunum.",
+          "lost_soul": "Lost Soul óvinurinn var upphaflega ætlaður sem kastað hauskúpa frá Pain Elemental, sem var bætt við í DOOM II.",
+          "blessed_server": "Kaþólskur prestur blessaði einu sinni LAN-þjón fyrir DOOM deathmatch-mót.",
+          "resolution_320x200": "Upprunalega DOOM keyrir á upplausn 320x200 punkta.",
+          "faster_processors": "DOOM neyddi Intel og önnur fyrirtæki til að flýta þróun hraðvirkari örgjörva.",
+          "mars_setting": "Mars-umhverfið var valið vegna þess að John Carmack taldi djöfla frá Mars hljóma flott."
+        },
+        "name": "Tilvitnun/Stadreynd"
+      },
+      "last_played": {
+        "name": "Síðast spilað"
+      },
+      "session_duration": {
+        "name": "Lengd lotu"
+      },
+      "total_play_time": {
+        "name": "Heildarspilatími"
+      },
+      "sessions_played": {
+        "name": "Spilaðar lotur"
+      },
+      "current_player": {
+        "name": "Núverandi leikmaður",
+        "state": {
+          "nobody": "Enginn er að spila"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Rífa og tæta",
+          "off": "Sofandi"
+        }
+      }
+    }
+  }
+}

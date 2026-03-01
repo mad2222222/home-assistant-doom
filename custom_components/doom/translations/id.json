@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Pasukan neraka telah menerobos rumah pintarmu. Siapkan DOOM untuk melawan balik dengan kartu yang bisa dimainkan langsung di dasbor. Sobek dan cabik, sampai selesai."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM sudah menyobek dan mencabik di sistemmu. Hanya boleh ada satu Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Robek dan cabik, sampai selesai.",
+          "huge_guts": "Kau besar sekali! Itu artinya kau punya isi perut yang besar! Robek dan cabik!",
+          "rage_brutal": "Mereka adalah amarah, brutal, tanpa belas kasihan. Tapi kau. Kau akan lebih buruk.",
+          "first_age": "Di zaman pertama, dalam pertempuran pertama, ketika bayangan pertama kali memanjang, satu sosok berdiri...",
+          "against_all_evil": "Melawan semua kejahatan yang bisa dimunculkan Neraka, semua keburukan yang bisa dihasilkan umat manusia, kami akan mengirimkan kepada mereka hanya kau.",
+          "only_thing_they_fear": "Satu-satunya hal yang mereka takuti... adalah kau.",
+          "not_a_massage": "Itu bukan pijatan!",
+          "ouch": "Aduh! Itu pasti sakit.",
+          "secret_area": "Lihat itu! Kau menemukan area rahasia.",
+          "be_careful": "Peringatan: Siapa di sana? Hati-hati, itu bisa jadi jebakan.",
+          "infested_starport": "Kau telah masuk jauh ke dalam pelabuhan antariksa yang terinfeksi.",
+          "created_1993": "DOOM dibuat oleh id Software dan dirilis pada 10 Desember 1993.",
+          "carmack_engine": "John Carmack memprogram mesin DOOM dalam waktu sekitar 5 bulan.",
+          "team_of_six": "DOOM asli dikembangkan oleh tim yang hanya terdiri dari 6 orang.",
+          "deathmatch": "DOOM mempopulerkan istilah 'deathmatch' untuk permainan multipemain.",
+          "bfg": "BFG adalah singkatan dari 'Big Fragging Gun' (secara resmi).",
+          "shareware_bbs": "DOOM awalnya didistribusikan sebagai shareware melalui sistem papan buletin.",
+          "cacodemon_design": "Desain Cacodemon terinspirasi dari makhluk di sampul D&D Manual of the Planes.",
+          "moons_of_mars": "DOOM asli berlatar di bulan-bulan Mars: Phobos dan Deimos.",
+          "bobby_prince": "Bobby Prince menggubah soundtrack DOOM, yang terkenal terinspirasi oleh band heavy metal seperti Metallica, Pantera, dan Slayer.",
+          "open_source": "Kode sumber DOOM dirilis sebagai sumber terbuka pada 23 Desember 1997.",
+          "ported_everywhere": "DOOM telah di-porting ke hampir setiap platform komputasi yang bisa dibayangkan, termasuk ATM, alat tes kehamilan, dan kulkas pintar.",
+          "doomguy": "Protagonis DOOM umumnya dikenal sebagai 'Doomguy' atau 'Doom Slayer'.",
+          "no_look_up_down": "DOOM asli tidak memiliki kemampuan untuk melihat ke atas atau ke bawah.",
+          "wad_modding": "DOOM adalah salah satu game pertama yang mendukung modding melalui file WAD.",
+          "iddqd": "Kode curang IDDQD mengaktifkan mode Dewa di DOOM asli.",
+          "idkfa": "IDKFA memberimu semua kunci, amunisi penuh, dan semua senjata di DOOM.",
+          "spider_mastermind": "Spider Mastermind adalah bos terakhir dari DOOM asli.",
+          "knee_deep_downloads": "Episode shareware DOOM 'Knee Deep in the Dead' diunduh jutaan kali pada tahun pertamanya.",
+          "super_shotgun": "DOOM II memperkenalkan Super Shotgun, salah satu senjata paling dicintai dalam sejarah FPS.",
+          "cyberdemon": "Cyberdemon adalah salah satu musuh paling ikonik dalam sejarah permainan video.",
+          "more_than_windows": "Pada puncaknya, DOOM diperkirakan terpasang di lebih banyak komputer daripada Windows 95.",
+          "imp_fireball": "Bola api Imp adalah salah satu serangan proyektil pertama dalam game tembak orang pertama 3D.",
+          "bsp_rendering": "Mesin DOOM merender grafis pseudo-3D menggunakan teknik yang disebut binary space partitioning (BSP).",
+          "pinky_demon": "Iblis Pinky dinamai berdasarkan warna merah muda cerahnya yang asli pada pengembangan awal.",
+          "speedrun": "Pemain speedrun bisa menyelesaikan episode pertama DOOM dalam waktu kurang dari 5 menit.",
+          "romero_head": "Kepala John Romero di atas tongkat adalah bos terakhir yang sebenarnya di DOOM II.",
+          "floppy_disks": "Installer disket DOOM asli membutuhkan empat disket 3,5 inci.",
+          "e1m1": "E1M1 ('Hangar') adalah salah satu level permainan video paling dikenal yang pernah dibuat.",
+          "popular_1995": "DOOM begitu populer pada tahun 1995 sehingga diperkirakan terpasang di lebih banyak PC daripada Windows 95 buatan Microsoft.",
+          "chainsaw_evil_dead": "Gergaji mesin di DOOM terinspirasi dari film Evil Dead.",
+          "lost_soul": "Musuh Lost Soul awalnya dimaksudkan sebagai tengkorak yang dilempar dari Pain Elemental, yang ditambahkan di DOOM II.",
+          "blessed_server": "Seorang imam Katolik pernah memberkati server LAN sebelum turnamen deathmatch DOOM.",
+          "resolution_320x200": "DOOM asli berjalan pada resolusi 320x200 piksel.",
+          "faster_processors": "DOOM memaksa Intel dan perusahaan lain untuk mempercepat pengembangan prosesor yang lebih cepat.",
+          "mars_setting": "Latar Mars dipilih karena John Carmack berpikir iblis dari Mars terdengar keren."
+        },
+        "name": "Kutipan/Fakta"
+      },
+      "last_played": {
+        "name": "Terakhir dimainkan"
+      },
+      "session_duration": {
+        "name": "Durasi sesi"
+      },
+      "total_play_time": {
+        "name": "Total waktu bermain"
+      },
+      "sessions_played": {
+        "name": "Sesi dimainkan"
+      },
+      "current_player": {
+        "name": "Pemain saat ini",
+        "state": {
+          "nobody": "Tidak ada yang bermain"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Mengoyak dan merobek",
+          "off": "Tidur"
+        }
+      }
+    }
+  }
+}

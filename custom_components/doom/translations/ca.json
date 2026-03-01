@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Les forces de l'infern han envaït la teva llar intel·ligent. Configura DOOM per contraatacar amb una targeta jugable al teu tauler. Esquinça i destrossa, fins que s'acabi."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM ja està esquinçant i destrossant al teu sistema. Només pot haver-hi un Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Cita/Fet",
+        "state": {
+          "rip_and_tear": "Esquinça i estripa, fins que estigui fet.",
+          "huge_guts": "Ets enorme! Això vol dir que tens les entranyes enormes! Esquinça i estripa!",
+          "rage_brutal": "Són ràbia, brutalitat, sense pietat. Però tu. Tu seràs pitjor.",
+          "first_age": "En la primera era, en la primera batalla, quan les ombres es van allargar per primera vegada, un es va mantenir dret. Cremat per les brases de l'Armageddon, la seva ànima marcada pels focs de l'Infern i corrompuda més enllà de l'ascensió, va triar el camí del turment perpetu.",
+          "against_all_evil": "Contra tot el mal que l'Infern pugui conjurar, tota la maldat que la humanitat pugui produir, els hi enviarem només a tu.",
+          "only_thing_they_fear": "L'única cosa que temen... ets tu.",
+          "not_a_massage": "Això no era un massatge!",
+          "ouch": "Ai! Això ha de fer mal.",
+          "secret_area": "Mira això! Has trobat una àrea secreta.",
+          "be_careful": "Alerta: Qui hi ha? Ves amb compte, podria ser una trampa.",
+          "infested_starport": "T'has endinsat profundament en l'estació espacial infestada.",
+          "created_1993": "DOOM va ser creat per id Software i publicat el 10 de desembre de 1993.",
+          "carmack_engine": "John Carmack va programar el motor de DOOM en aproximadament 5 mesos.",
+          "team_of_six": "El DOOM original va ser desenvolupat per un equip de només 6 persones.",
+          "deathmatch": "DOOM va popularitzar el terme 'deathmatch' per als jocs multijugador.",
+          "bfg": "BFG significa 'Big Fragging Gun' (oficialment).",
+          "shareware_bbs": "DOOM es va distribuir originalment com a shareware a través de sistemes de tauler d'anuncis electrònics.",
+          "cacodemon_design": "El disseny del Cacodemon va ser inspirat per una criatura de la portada del Manual of the Planes de Dungeons & Dragons.",
+          "moons_of_mars": "El DOOM original està ambientat a les llunes de Mart: Fobos i Deimos.",
+          "bobby_prince": "Bobby Prince va compondre la banda sonora de DOOM, famosament inspirada en grups de heavy metal com Metallica, Pantera i Slayer.",
+          "open_source": "El codi font de DOOM es va publicar com a codi obert el 23 de desembre de 1997.",
+          "ported_everywhere": "DOOM ha estat portat a gairebé totes les plataformes informàtiques imaginables, incloent caixers automàtics, tests d'embaràs i neveres intel·ligents.",
+          "doomguy": "El protagonista de DOOM és conegut comunament com a 'Doomguy' o el 'Doom Slayer'.",
+          "no_look_up_down": "El DOOM original no tenia la capacitat de mirar amunt o avall.",
+          "wad_modding": "DOOM va ser un dels primers jocs a suportar mods a través de fitxers WAD.",
+          "iddqd": "El codi trampa IDDQD activa el mode Déu al DOOM original.",
+          "idkfa": "IDKFA et dona totes les claus, munició completa i totes les armes a DOOM.",
+          "spider_mastermind": "L'Spider Mastermind era el cap final del DOOM original.",
+          "knee_deep_downloads": "L'episodi shareware de DOOM 'Knee Deep in the Dead' va ser descarregat milions de vegades durant el seu primer any.",
+          "super_shotgun": "DOOM II va introduir la Super Escopeta, una de les armes més estimades de la història dels FPS.",
+          "cyberdemon": "El Cyberdemon és un dels enemics més icònics de la història dels videojocs.",
+          "more_than_windows": "En el seu punt àlgid, es va estimar que DOOM estava instal·lat en més ordinadors que Windows 95.",
+          "imp_fireball": "La bola de foc de l'Imp va ser un dels primers atacs de projectil en un shooter en primera persona 3D.",
+          "bsp_rendering": "El motor de DOOM renderitza gràfics pseudo-3D utilitzant una tècnica anomenada partició binària de l'espai (BSP).",
+          "pinky_demon": "El dimoni Pinky va rebre el seu nom pel seu color rosa brillant original en el desenvolupament inicial.",
+          "speedrun": "Els speedrunners poden completar el primer episodi de DOOM en menys de 5 minuts.",
+          "romero_head": "El cap de John Romero en un pal és el veritable cap final de DOOM II.",
+          "floppy_disks": "L'instal·lador original de DOOM en disquets requeria quatre discos de 3,5 polzades.",
+          "e1m1": "E1M1 ('Hangar') és un dels nivells de videojocs més reconeguts mai creats.",
+          "popular_1995": "DOOM era tan popular el 1995 que es va estimar que estava en més PC que el Windows 95 de Microsoft.",
+          "chainsaw_evil_dead": "La motoserra de DOOM va ser inspirada per les pel·lícules d'Evil Dead.",
+          "lost_soul": "L'enemic Lost Soul originalment havia de ser un crani llançat pel Pain Elemental, que va ser afegit a DOOM II.",
+          "blessed_server": "Un sacerdot catòlic va beneir un cop un servidor LAN abans d'un torneig de deathmatch de DOOM.",
+          "resolution_320x200": "El DOOM original funciona a una resolució de 320x200 píxels.",
+          "faster_processors": "DOOM va obligar Intel i altres empreses a accelerar el desenvolupament de processadors més ràpids per satisfer la demanda.",
+          "mars_setting": "L'ambientació a Mart va ser triada perquè John Carmack pensava que els dimonis de Mart sonaven genial."
+        }
+      },
+      "last_played": {
+        "name": "Última partida"
+      },
+      "session_duration": {
+        "name": "Durada de la sessió"
+      },
+      "total_play_time": {
+        "name": "Temps total de joc"
+      },
+      "sessions_played": {
+        "name": "Sessions jugades"
+      },
+      "current_player": {
+        "name": "Jugador actual",
+        "state": {
+          "nobody": "Ningú està jugant"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Esquinçant i estripant",
+          "off": "Latent"
+        }
+      }
+    }
+  }
+}

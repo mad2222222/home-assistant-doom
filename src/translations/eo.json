@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Titolo",
+        "sound": "Sono",
+        "auto_start": "Aŭtomata komenco"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "DIA REĜIMO AKTIVIGITA"
+    }
+  }
+}

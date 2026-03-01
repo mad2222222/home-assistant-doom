@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Lực lượng địa ngục đã xâm nhập ngôi nhà thông minh của bạn. Thiết lập DOOM để phản công bằng thẻ chơi được ngay trên bảng điều khiển. Xé và xé nát, cho đến khi xong."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM đang xé và xé nát trên hệ thống của bạn rồi. Chỉ có thể có một Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Trích dẫn/Sự thật",
+        "state": {
+          "rip_and_tear": "Xe toạc và xoay xoay, cho đến khi xong.",
+          "huge_guts": "Mày to lớn quá! Tức là mày có bộ ruột khổng lồ! Xé toạc và xoay xoay!",
+          "rage_brutal": "Chúng là cơn thịnh nộ, tàn bạo, không thương tiếc. Nhưng ngươi. Ngươi sẽ còn tệ hơn.",
+          "first_age": "Trong thời đại đầu tiên, trong trận chiến đầu tiên, khi bóng tối bắt đầu kéo dài, một người đã đứng lên. Bị thiêu đốt bởi than hồng của Ngày Tận Thế, linh hồn bị phồng rộp bởi lửa Địa Ngục và bị ô uế không thể siêu thoát, hắn đã chọn con đường đau khổ vĩnh cửu.",
+          "against_all_evil": "Chống lại mọi tà ác mà Địa Ngục có thể triệu hồi, mọi sự xấu xa mà loài người có thể tạo ra, chúng ta sẽ gửi đến chúng chỉ một mình ngươi.",
+          "only_thing_they_fear": "Thứ duy nhất chúng sợ... là ngươi.",
+          "not_a_massage": "Đó không phải là mát-xa!",
+          "ouch": "Oái! Cái đó chắc đau lắm.",
+          "secret_area": "Nhìn kìa! Bạn đã tìm thấy một khu vực bí mật.",
+          "be_careful": "Cảnh báo: Ai đó? Cẩn thận, đó có thể là một cái bẫy.",
+          "infested_starport": "Bạn đã đi sâu vào cảng vũ trụ bị xâm nhiễm.",
+          "created_1993": "DOOM được tạo ra bởi id Software và phát hành vào ngày 10 tháng 12 năm 1993.",
+          "carmack_engine": "John Carmack đã lập trình engine DOOM trong khoảng 5 tháng.",
+          "team_of_six": "DOOM gốc được phát triển bởi một đội chỉ gồm 6 người.",
+          "deathmatch": "DOOM đã phổ biến thuật ngữ 'deathmatch' cho trò chơi nhiều người.",
+          "bfg": "BFG là viết tắt của 'Big Fragging Gun' (theo cách gọi chính thức).",
+          "shareware_bbs": "DOOM ban đầu được phân phối dưới dạng shareware qua hệ thống bảng tin điện tử.",
+          "cacodemon_design": "Thiết kế của Cacodemon được lấy cảm hứng từ một sinh vật trên bìa sách Manual of the Planes của Dungeons & Dragons.",
+          "moons_of_mars": "DOOM gốc diễn ra trên các mặt trăng của Sao Hỏa: Phobos và Deimos.",
+          "bobby_prince": "Bobby Prince sáng tác nhạc nền DOOM, nổi tiếng được lấy cảm hứng từ các ban nhạc heavy metal như Metallica, Pantera và Slayer.",
+          "open_source": "Mã nguồn DOOM được phát hành dưới dạng mã nguồn mở vào ngày 23 tháng 12 năm 1997.",
+          "ported_everywhere": "DOOM đã được chuyển đổi sang hầu hết mọi nền tảng máy tính có thể tưởng tượng, bao gồm cả máy ATM, que thử thai và tủ lạnh thông minh.",
+          "doomguy": "Nhân vật chính của DOOM thường được gọi là 'Doomguy' hoặc 'Doom Slayer'.",
+          "no_look_up_down": "DOOM gốc không có khả năng nhìn lên hoặc nhìn xuống.",
+          "wad_modding": "DOOM là một trong những trò chơi đầu tiên hỗ trợ mod thông qua tệp WAD.",
+          "iddqd": "Mã gian lận IDDQD kích hoạt chế độ Thần trong DOOM gốc.",
+          "idkfa": "IDKFA cho bạn tất cả chìa khóa, đạn đầy đủ và tất cả vũ khí trong DOOM.",
+          "spider_mastermind": "Spider Mastermind là trùm cuối của DOOM gốc.",
+          "knee_deep_downloads": "Phần shareware 'Knee Deep in the Dead' của DOOM đã được tải xuống hàng triệu lần trong năm đầu tiên.",
+          "super_shotgun": "DOOM II giới thiệu Super Shotgun, một trong những vũ khí được yêu thích nhất trong lịch sử FPS.",
+          "cyberdemon": "Cyberdemon là một trong những kẻ thù mang tính biểu tượng nhất trong lịch sử trò chơi điện tử.",
+          "more_than_windows": "Vào thời kỳ đỉnh cao, DOOM được ước tính đã được cài đặt trên nhiều máy tính hơn cả Windows 95.",
+          "imp_fireball": "Quả cầu lửa của Imp là một trong những đòn tấn công đạn đầu tiên trong game bắn súng góc nhìn thứ nhất 3D.",
+          "bsp_rendering": "Engine của DOOM hiển thị đồ họa giả 3D bằng kỹ thuật gọi là phân vùng không gian nhị phân (BSP).",
+          "pinky_demon": "Quỷ Pinky được đặt tên theo màu hồng sáng ban đầu của nó trong giai đoạn phát triển sớm.",
+          "speedrun": "Những người chơi speedrun có thể hoàn thành phần đầu tiên của DOOM trong dưới 5 phút.",
+          "romero_head": "Đầu của John Romero trên một cây cọc là trùm cuối thực sự của DOOM II.",
+          "floppy_disks": "Bộ cài đặt đĩa mềm DOOM gốc cần bốn đĩa 3,5 inch.",
+          "e1m1": "E1M1 ('Hangar') là một trong những màn chơi trò chơi điện tử được nhận biết nhiều nhất từng được tạo ra.",
+          "popular_1995": "DOOM phổ biến đến mức vào năm 1995, nó được ước tính có mặt trên nhiều PC hơn cả Windows 95 của Microsoft.",
+          "chainsaw_evil_dead": "Cưa máy trong DOOM được lấy cảm hứng từ loạt phim Evil Dead.",
+          "lost_soul": "Kẻ thù Lost Soul ban đầu được thiết kế là một hộp sọ được ném từ Pain Elemental, được thêm vào trong DOOM II.",
+          "blessed_server": "Một linh mục Công giáo đã từng ban phước cho một máy chủ LAN trước giải đấu deathmatch DOOM.",
+          "resolution_320x200": "DOOM gốc chạy ở độ phân giải 320x200 pixel.",
+          "faster_processors": "DOOM đã buộc Intel và các công ty khác phải đẩy nhanh việc phát triển bộ xử lý nhanh hơn để đáp ứng nhu cầu.",
+          "mars_setting": "Bối cảnh Sao Hỏa được chọn vì John Carmack nghĩ rằng quỷ từ Sao Hỏa nghe rất ngầu."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Đang xé xác",
+          "off": "Ngủ đông"
+        }
+      }
+    }
+  }
+}

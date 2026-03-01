@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "D Höllekräft händ dis Smart Home iibrooche. Richt DOOM ii zum zruggschlaa mit ere spielbare Charte uf dim Dashboard. Riiss und zerfetz, bis es gmacht isch."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM riisst und zerfetzt scho uf dim System. Es cha nur ein Doom Slayer gäh."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Riiss und zerfetz, bis es fertig isch.",
+          "huge_guts": "Du bisch riesig! Das heisst, du hesch riesigi Iigeweid! Riiss und zerfetz!",
+          "rage_brutal": "Si sind Wuet, brutal, ohni Gnad. Aber du. Du wirsch schlimmer sii.",
+          "first_age": "Im erschte Zitalter, i de erschte Schlacht, wo d Schatte sich s erschte Mal verlängeret händ, isch eine gstande...",
+          "against_all_evil": "Gege alles Böse, wo d Höll cha uufbschwöre, all d Bosheit, wo d Mönschheit cha hervorbbringe, schicke mir ihne nur dich.",
+          "only_thing_they_fear": "S Einzig, wo si förchte... bisch du.",
+          "not_a_massage": "Das isch kei Massage gsi!",
+          "ouch": "Autsch! Das muess wehtue.",
+          "secret_area": "Lueg das aa! Du hesch es gheims Gebiet gfunde.",
+          "be_careful": "Warnig: Wer isch da? Pass uuf, das chönnt e Falle sii.",
+          "infested_starport": "Du bisch tüüf i de versuechte Ruumhaafe iigdrunge.",
+          "created_1993": "DOOM isch vo id Software entwicklet und am 10. Dezämber 1993 veröffentlicht worde.",
+          "carmack_engine": "De John Carmack het d DOOM-Engine i öppe 5 Mönet programmiert.",
+          "team_of_six": "S Original-DOOM isch vo eme Team vo nur 6 Lüüt entwicklet worde.",
+          "deathmatch": "DOOM het de Begriff 'Deathmatch' für Multiplayer-Gäme populär gmacht.",
+          "bfg": "BFG stoot für 'Big Fragging Gun' (offiziell).",
+          "shareware_bbs": "DOOM isch ursprünglich als Shareware über Bulletin-Board-Systeem verteilt worde.",
+          "cacodemon_design": "S Design vom Cacodemon isch vo enere Kreatur uf em Cover vom D&D Manual of the Planes inspiriert worde.",
+          "moons_of_mars": "S Original-DOOM spiilt uf de Marsmönd Phobos und Deimos.",
+          "bobby_prince": "De Bobby Prince het de DOOM-Soundtrack komponiert, berüehmt inspiriert vo Heavy-Metal-Bands wie Metallica, Pantera und Slayer.",
+          "open_source": "De DOOM-Quellcode isch am 23. Dezämber 1997 als Open Source veröffentlicht worde.",
+          "ported_everywhere": "DOOM isch uf fascht jedi dänkbari Computerplattform portiert worde, inklusiv Bancomaten, Schwangerschaftstests und smarte Chüelschränk.",
+          "doomguy": "De Protagonist vo DOOM isch allgemein als 'Doomguy' oder 'Doom Slayer' bekannt.",
+          "no_look_up_down": "S Original-DOOM het kei Möglichkeit gha, ue oder abe z luege.",
+          "wad_modding": "DOOM isch eis vo de erschte Gäme gsi, wo Modding über WAD-Dateie unterstützt het.",
+          "iddqd": "De Cheatcode IDDQD aktiviert de Gott-Modus im Original-DOOM.",
+          "idkfa": "IDKFA git dir alli Schlüssel, volli Munition und alli Waffe i DOOM.",
+          "spider_mastermind": "De Spider Mastermind isch de Ändboss vom Original-DOOM gsi.",
+          "knee_deep_downloads": "D DOOM-Shareware-Episode 'Knee Deep in the Dead' isch i ihrem erschte Jahr millionefach abelade worde.",
+          "super_shotgun": "DOOM II het d Super Shotgun iigführt, eini vo de beliebtischte Waffe i de FPS-Gschicht.",
+          "cyberdemon": "De Cyberdemon isch eine vo de ikonischste Finde i de Gäme-Gschicht.",
+          "more_than_windows": "Uf em Höhepunkt isch DOOM schätzigswiis uf meh Computer installiert gsi als Windows 95.",
+          "imp_fireball": "De Füürball vom Imp isch eine vo de erschte Projektil-Aagriff i emne 3D-Ego-Shooter gsi.",
+          "bsp_rendering": "D DOOM-Engine renderet Pseudo-3D-Grafike mit enere Technik namens Binary Space Partitioning (BSP).",
+          "pinky_demon": "De Pinky-Dämon isch nach sinere ursprünglich knallrosa Farb i de früehe Entwicklig benännt worde.",
+          "speedrun": "Speedrunner chönd DOOMs erschti Episode i weniger als 5 Minute dürespiilä.",
+          "romero_head": "Em John Romero sin Chopf uf emne Stock isch de echt Ändboss vo DOOM II.",
+          "floppy_disks": "De Original-DOOM-Installationsprogramm uf Diskette het vier 3,5-Zoll-Diskette bruucht.",
+          "e1m1": "E1M1 ('Hangar') isch eis vo de bekänntischte Videogäme-Level aller Ziite.",
+          "popular_1995": "DOOM isch 1995 so populär gsi, dass es schätzigswiis uf meh PCs installiert gsi isch als Microsofts Windows 95.",
+          "chainsaw_evil_dead": "D Chettisägi i DOOM isch vo de Evil Dead-Film inspiriert worde.",
+          "lost_soul": "De Lost Soul-Find isch ursprünglich als gwürfnä Schädel vom Pain Elemental dänkt gsi, wo i DOOM II dezueche isch.",
+          "blessed_server": "En katholische Prieschter het mal en LAN-Server gsägnet vor emne DOOM-Deathmatch-Turnier.",
+          "resolution_320x200": "S Original-DOOM lauft mit enere Uflösig vo 320x200 Pixel.",
+          "faster_processors": "DOOM het Intel und anderi Firmene zwunge, d Entwicklig vo schnällere Prozessore z beschlüünige.",
+          "mars_setting": "D Mars-Kulisse isch gwählt worde, will de John Carmack gfunde het, dass Dämone vom Mars cool klinge."
+        },
+        "name": "Zitat/Fakt"
+      },
+      "last_played": {
+        "name": "Zletscht gschpilt"
+      },
+      "session_duration": {
+        "name": "Sitzigsduure"
+      },
+      "total_play_time": {
+        "name": "Gsamtspiilzyt"
+      },
+      "sessions_played": {
+        "name": "Gspilti Sitzige"
+      },
+      "current_player": {
+        "name": "Aktuelle Spiiler",
+        "state": {
+          "nobody": "Niemer spiilt"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Risst und zerrt",
+          "off": "Schlofend"
+        }
+      }
+    }
+  }
+}

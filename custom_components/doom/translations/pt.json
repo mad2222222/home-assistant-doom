@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "As forças do inferno invadiram a tua casa inteligente. Configura o DOOM para contra-atacar com um cartão jogável diretamente no teu painel. Rasga e destroça, até que esteja feito."
+      }
+    },
+    "abort": {
+      "already_configured": "O DOOM já está a rasgar e a destroçar no teu sistema. Só pode haver um Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Rasga e despedaça, até que esteja feito.",
+          "huge_guts": "Tu és enorme! Isso significa que tens tripas enormes! Rasga e despedaça!",
+          "rage_brutal": "Eles são fúria, brutais, sem piedade. Mas tu. Tu serás pior.",
+          "first_age": "Na primeira era, na primeira batalha, quando as sombras se alongaram pela primeira vez, um ergueu-se. Queimado pelas brasas do Armagedão, a sua alma marcada pelos fogos do Inferno e corrompida além da ascensão, escolheu o caminho do tormento perpétuo.",
+          "against_all_evil": "Contra todo o mal que o Inferno pode conjurar, toda a maldade que a humanidade pode produzir, enviaremos contra eles apenas tu.",
+          "only_thing_they_fear": "A única coisa que eles temem... és tu.",
+          "not_a_massage": "Isso não foi uma massagem!",
+          "ouch": "Ai! Isso deve ter doído.",
+          "secret_area": "Olha só! Encontraste uma área secreta.",
+          "be_careful": "Aviso: Quem está aí? Tem cuidado, pode ser uma armadilha.",
+          "infested_starport": "Entraste profundamente no porto espacial infestado.",
+          "created_1993": "DOOM foi criado pela id Software e lançado a 10 de dezembro de 1993.",
+          "carmack_engine": "John Carmack programou o motor do DOOM em cerca de 5 meses.",
+          "team_of_six": "O DOOM original foi desenvolvido por uma equipa de apenas 6 pessoas.",
+          "deathmatch": "DOOM popularizou o termo 'deathmatch' para jogos multijogador.",
+          "bfg": "BFG significa 'Big Fragging Gun' (oficialmente).",
+          "shareware_bbs": "DOOM foi originalmente distribuído como shareware através de sistemas de bulletin board.",
+          "cacodemon_design": "O design do Cacodemon foi inspirado numa criatura da capa do Manual of the Planes de Dungeons & Dragons.",
+          "moons_of_mars": "O DOOM original passa-se nas luas de Marte: Fobos e Deimos.",
+          "bobby_prince": "Bobby Prince compôs a banda sonora do DOOM, famosamente inspirada por bandas de heavy metal como Metallica, Pantera e Slayer.",
+          "open_source": "O código-fonte do DOOM foi disponibilizado como open source a 23 de dezembro de 1997.",
+          "ported_everywhere": "DOOM foi portado para quase todas as plataformas informáticas imagináveis, incluindo caixas multibanco, testes de gravidez e frigoríficos inteligentes.",
+          "doomguy": "O protagonista do DOOM é comummente conhecido como 'Doomguy' ou o 'Doom Slayer'.",
+          "no_look_up_down": "O DOOM original não tinha capacidade de olhar para cima ou para baixo.",
+          "wad_modding": "DOOM foi um dos primeiros jogos a suportar modding através de ficheiros WAD.",
+          "iddqd": "O código de batota IDDQD ativa o modo Deus no DOOM original.",
+          "idkfa": "IDKFA dá-te todas as chaves, munição completa e todas as armas no DOOM.",
+          "spider_mastermind": "O Spider Mastermind era o chefe final do DOOM original.",
+          "knee_deep_downloads": "O episódio shareware do DOOM 'Knee Deep in the Dead' foi descarregado milhões de vezes no seu primeiro ano.",
+          "super_shotgun": "DOOM II introduziu a Super Shotgun, uma das armas mais adoradas na história dos FPS.",
+          "cyberdemon": "O Cyberdemon é um dos inimigos mais icónicos na história dos videojogos.",
+          "more_than_windows": "No seu auge, estimava-se que o DOOM estivesse instalado em mais computadores do que o Windows 95.",
+          "imp_fireball": "A bola de fogo do Imp foi um dos primeiros ataques de projétil num FPS 3D.",
+          "bsp_rendering": "O motor do DOOM renderiza gráficos pseudo-3D usando uma técnica chamada partição binária do espaço (BSP).",
+          "pinky_demon": "O demónio Pinky foi nomeado pela sua cor rosa brilhante original no desenvolvimento inicial.",
+          "speedrun": "Os speedrunners conseguem completar o primeiro episódio do DOOM em menos de 5 minutos.",
+          "romero_head": "A cabeça de John Romero num pau é o verdadeiro chefe final de DOOM II.",
+          "floppy_disks": "O instalador original do DOOM em disquetes requeria quatro disquetes de 3,5 polegadas.",
+          "e1m1": "E1M1 ('Hangar') é um dos níveis de videojogos mais reconhecidos alguma vez criados.",
+          "popular_1995": "DOOM era tão popular em 1995 que se estimava estar em mais PCs do que o Microsoft Windows 95.",
+          "chainsaw_evil_dead": "A motosserra no DOOM foi inspirada nos filmes Evil Dead.",
+          "lost_soul": "O inimigo Lost Soul era originalmente suposto ser um crânio atirado pelo Pain Elemental, que foi adicionado no DOOM II.",
+          "blessed_server": "Um padre católico uma vez abençoou um servidor LAN antes de um torneio deathmatch de DOOM.",
+          "resolution_320x200": "O DOOM original corre a uma resolução de 320x200 píxeis.",
+          "faster_processors": "DOOM forçou a Intel e outras empresas a acelerar o desenvolvimento de processadores mais rápidos para acompanhar a procura.",
+          "mars_setting": "O cenário de Marte foi escolhido porque John Carmack achou que demónios de Marte soava fixe."
+        },
+        "name": "Citação/Facto"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "A rasgar e a destroçar",
+          "off": "Adormecido"
+        }
+      }
+    }
+  }
+}

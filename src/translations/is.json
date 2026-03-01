@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Titill",
+        "sound": "Hljóð",
+        "auto_start": "Sjálfvirk ræsing"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "GUÐSTILLING VIRKJUÐ"
+    }
+  }
+}

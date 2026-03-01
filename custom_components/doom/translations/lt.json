@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Pragaro pajėgos įsiveržė į tavo išmanųjį namą. Nustatyk DOOM, kad kovotum atgal su žaidžiama kortele tiesiai savo prietaisų skydelyje. Plėšk ir drakok, kol bus baigta."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM jau plėšia ir drakoja tavo sistemoje. Gali būti tik vienas Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citata/Faktas",
+        "state": {
+          "rip_and_tear": "Plėšyk ir draskyk, kol bus baigta.",
+          "huge_guts": "Tu didžiulis! Tai reiškia, kad turi didžiules žarnas! Plėšyk ir draskyk!",
+          "rage_brutal": "Jie yra įtūžis, žiaurumas, be gailestingumo. Bet tu. Tu būsi blogesnis.",
+          "first_age": "Pirmajame amžiuje, pirmajame mūšyje, kai šešėliai pirmą kartą pailgėjo, vienas stovėjo...",
+          "against_all_evil": "Prieš visą blogį, kurį Pragaras gali sukelti, visą nedorybę, kurią žmonija gali sukurti, mes siųsime jiems tik tave.",
+          "only_thing_they_fear": "Vienintelis dalykas, kurio jie bijo... esi tu.",
+          "not_a_massage": "Tai nebuvo masažas!",
+          "ouch": "Ai! Tai tikrai turi skaudėti.",
+          "secret_area": "Pažiūrėk! Tu radai slaptą zoną.",
+          "be_careful": "Įspėjimas: Kas ten? Būk atsargus, tai gali būti spąstai.",
+          "infested_starport": "Tu įsiskverbei giliai į užkrėstą kosminį uostą.",
+          "created_1993": "DOOM sukūrė 'id Software' ir išleido 1993 m. gruodžio 10 d.",
+          "carmack_engine": "Johnas Carmackas suprogramavo DOOM variklį maždaug per 5 mėnesius.",
+          "team_of_six": "Originalų DOOM sukūrė vos 6 žmonių komanda.",
+          "deathmatch": "DOOM išpopuliarino terminą 'deathmatch' daugelio žaidėjų žaidimams.",
+          "bfg": "BFG reiškia 'Big Fragging Gun' (oficialiai).",
+          "shareware_bbs": "DOOM iš pradžių buvo platinamas kaip 'shareware' per skelbimų lentų sistemas.",
+          "cacodemon_design": "Cacodemono dizainą įkvėpė būtybė nuo D&D 'Manual of the Planes' viršelio.",
+          "moons_of_mars": "Originalaus DOOM veiksmas vyksta Marso palydovuose: Fobose ir Deimose.",
+          "bobby_prince": "Bobby Prince sukūrė DOOM garso takelį, įkvėptą sunkiojo metalo grupių, tokių kaip 'Metallica', 'Pantera' ir 'Slayer'.",
+          "open_source": "DOOM šaltinio kodas buvo išleistas kaip atvirasis kodas 1997 m. gruodžio 23 d.",
+          "ported_everywhere": "DOOM buvo perkeltas beveik į kiekvieną įsivaizduojamą kompiuterinę platformą, įskaitant bankomatus, nėštumo testus ir išmaniuosius šaldytuvus.",
+          "doomguy": "DOOM protagonistas paprastai žinomas kaip 'Doomguy' arba 'Doom Slayer'.",
+          "no_look_up_down": "Originaliame DOOM nebuvo galimybės žiūrėti aukštyn ar žemyn.",
+          "wad_modding": "DOOM buvo vienas pirmųjų žaidimų, palaikančių modifikacijas per WAD failus.",
+          "iddqd": "IDDQD sukčiavimo kodas įjungia Dievo režimą originaliame DOOM.",
+          "idkfa": "IDKFA suteikia visus raktus, pilną amuniciją ir visus ginklus DOOM žaidime.",
+          "spider_mastermind": "Voro Protėvis buvo galutinis originalaus DOOM bosas.",
+          "knee_deep_downloads": "DOOM 'shareware' epizodas 'Knee Deep in the Dead' buvo atsisiųstas milijonus kartų per pirmuosius metus.",
+          "super_shotgun": "DOOM II pristatė Super šautuvą – vieną mylimiausių ginklų FPS istorijoje.",
+          "cyberdemon": "Kiberdemonas yra vienas ikoniškiausių priešų žaidimų istorijoje.",
+          "more_than_windows": "Savo piko metu DOOM buvo įdiegtas daugiau kompiuterių nei 'Windows 95'.",
+          "imp_fireball": "Impo ugnies kamuolys buvo viena pirmųjų sviedinių atakų 3D pirmojo asmens šaudyklėje.",
+          "bsp_rendering": "DOOM variklis atvaizduoja pseudo-3D grafiką naudodamas techniką, vadinamą dvejetainiu erdvės padalijimu (BSP).",
+          "pinky_demon": "Pinky demonas buvo pavadintas pagal savo pradinę ryškiai rožinę spalvą ankstyvoje kūrimo stadijoje.",
+          "speedrun": "Greičio bėgikai gali užbaigti pirmąjį DOOM epizodą per mažiau nei 5 minutes.",
+          "romero_head": "Johno Romero galva ant pagalio yra tikrasis galutinis DOOM II bosas.",
+          "floppy_disks": "Originaliam DOOM diskelių diegimui reikėjo keturių 3,5 colio diskelių.",
+          "e1m1": "E1M1 ('Hangar') yra vienas labiausiai atpažįstamų vaizdo žaidimų lygių visų laikų.",
+          "popular_1995": "DOOM buvo toks populiarus 1995 m., kad buvo įdiegtas daugiau kompiuterių nei 'Microsoft Windows 95'.",
+          "chainsaw_evil_dead": "Grandininį pjūklą DOOM žaidime įkvėpė 'Evil Dead' filmai.",
+          "lost_soul": "Prarastos Sielos priešas iš pradžių turėjo būti mesta kaukolė iš Skausmo Elemento, kuris buvo pridėtas DOOM II.",
+          "blessed_server": "Katalikų kunigas kartą palaimino LAN serverį prieš DOOM mirties mačo turnyrą.",
+          "resolution_320x200": "Originalus DOOM veikia 320x200 pikselių raiška.",
+          "faster_processors": "DOOM privertė 'Intel' ir kitas bendroves paspartinti greitesnių procesorių kūrimą.",
+          "mars_setting": "Marso aplinka buvo pasirinkta, nes Johnas Carmackas manė, kad demonai iš Marso skamba šauniai."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Plėšia ir drasko",
+          "off": "Miega"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Pekelné síly pronikly do vaší chytré domácnosti. Nastavte DOOM a bojujte zpět s hratelnou kartou přímo na vašem dashboardu. Trhej a drásej, dokud to neskončí."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM už trhá a drásá ve vašem systému. Může být jen jeden Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citace/Fakt",
+        "state": {
+          "rip_and_tear": "Trhej a drásej, dokud to neskončí.",
+          "huge_guts": "Jsi obrovský! To znamená, že máš obrovské vnitřnosti! Trhej a drásej!",
+          "rage_brutal": "Jsou vztek, brutalita, bez milosti. Ale ty. Ty budeš horší.",
+          "first_age": "V prvním věku, v první bitvě, když se stíny poprvé prodloužily, jeden stál...",
+          "against_all_evil": "Proti všemu zlu, které Peklo dokáže vyvolat, veškeré špatnosti, kterou lidstvo dokáže zplodit, pošleme na ně pouze tebe.",
+          "only_thing_they_fear": "Jediné, čeho se bojí... jsi ty.",
+          "not_a_massage": "To nebyla masáž!",
+          "ouch": "Au! To muselo bolet.",
+          "secret_area": "Podívej se na to! Našel jsi tajnou oblast.",
+          "be_careful": "Varování: Kdo je tam? Buď opatrný, mohla by to být past.",
+          "infested_starport": "Pronikl jsi hluboko do zamořeného hvězdného přístavu.",
+          "created_1993": "DOOM vytvořilo studio id Software a byl vydán 10. prosince 1993.",
+          "carmack_engine": "John Carmack naprogramoval engine DOOMu přibližně za 5 měsíců.",
+          "team_of_six": "Původní DOOM vyvinul tým pouhých 6 lidí.",
+          "deathmatch": "DOOM zpopularizoval termín 'deathmatch' pro hru více hráčů.",
+          "bfg": "BFG znamená 'Big Fragging Gun' (oficiálně).",
+          "shareware_bbs": "DOOM byl původně distribuován jako shareware přes systémy BBS (bulletin board systems).",
+          "cacodemon_design": "Design Cacodemona byl inspirován tvorem z obálky příručky D&D Manual of the Planes.",
+          "moons_of_mars": "Původní DOOM se odehrává na měsících Marsu: Phobos a Deimos.",
+          "bobby_prince": "Bobby Prince složil soundtrack DOOMu, slavně inspirovaný heavy metalovými kapelami jako Metallica, Pantera a Slayer.",
+          "open_source": "Zdrojový kód DOOMu byl uvolněn jako open source 23. prosince 1997.",
+          "ported_everywhere": "DOOM byl portován téměř na každou myslitelnou výpočetní platformu, včetně bankomatů, těhotenských testů a chytrých ledniček.",
+          "doomguy": "Hlavní hrdina DOOMu je běžně znám jako 'Doomguy' nebo 'Doom Slayer'.",
+          "no_look_up_down": "Původní DOOM neměl možnost dívat se nahoru nebo dolů.",
+          "wad_modding": "DOOM byl jednou z prvních her, která podporovala modifikace pomocí souborů WAD.",
+          "iddqd": "Cheat kód IDDQD aktivuje režim boha v původním DOOMu.",
+          "idkfa": "IDKFA vám dá všechny klíče, plnou munici a všechny zbraně v DOOMu.",
+          "spider_mastermind": "Spider Mastermind byl poslední boss původního DOOMu.",
+          "knee_deep_downloads": "Sharewarová epizoda DOOMu 'Knee Deep in the Dead' byla v prvním roce stažena milionkrát.",
+          "super_shotgun": "DOOM II představil Super Shotgun, jednu z nejoblíbenějších zbraní v historii FPS.",
+          "cyberdemon": "Cyberdemon je jedním z nejikoničtějších nepřátel v historii videoher.",
+          "more_than_windows": "Na svém vrcholu byl DOOM údajně nainstalován na více počítačích než Windows 95.",
+          "imp_fireball": "Ohnivá koule Impa byla jedním z prvních projektilových útoků v 3D střílečce z první osoby.",
+          "bsp_rendering": "Engine DOOMu vykresluje pseudo-3D grafiku pomocí techniky zvané binární dělení prostoru (BSP).",
+          "pinky_demon": "Démon Pinky byl pojmenován podle své původní jasně růžové barvy v rané fázi vývoje.",
+          "speedrun": "Speedrunneři dokáží dokončit první epizodu DOOMu za méně než 5 minut.",
+          "romero_head": "Hlava Johna Romera na tyči je skutečný poslední boss DOOMu II.",
+          "floppy_disks": "Původní instalátor DOOMu na disketách vyžadoval čtyři 3,5palcové diskety.",
+          "e1m1": "E1M1 ('Hangar') je jednou z nejznámějších úrovní videoher vůbec.",
+          "popular_1995": "DOOM byl v roce 1995 tak populární, že se odhadovalo, že je na více počítačích než Microsoft Windows 95.",
+          "chainsaw_evil_dead": "Motorová pila v DOOMu byla inspirována filmy Evil Dead.",
+          "lost_soul": "Nepřítel Lost Soul byl původně zamýšlen jako vržená lebka od Pain Elementala, který byl přidán v DOOMu II.",
+          "blessed_server": "Katolický kněz kdysi požehnal LAN server před turnajem v DOOM deathmatchi.",
+          "resolution_320x200": "Původní DOOM běží v rozlišení 320×200 pixelů.",
+          "faster_processors": "DOOM přinutil Intel a další společnosti urychlit vývoj rychlejších procesorů.",
+          "mars_setting": "Prostředí Marsu bylo zvoleno, protože John Carmack si myslel, že démoni z Marsu zní skvěle."
+        }
+      },
+      "last_played": {
+        "name": "Naposledy hráno"
+      },
+      "session_duration": {
+        "name": "Délka relace"
+      },
+      "total_play_time": {
+        "name": "Celkový čas hraní"
+      },
+      "sessions_played": {
+        "name": "Odehraných relací"
+      },
+      "current_player": {
+        "name": "Aktuální hráč",
+        "state": {
+          "nobody": "Nikdo nehraje"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Trhá a ničí",
+          "off": "Spící"
+        }
+      }
+    }
+  }
+}

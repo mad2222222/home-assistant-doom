@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Forțele iadului au invadat casa ta inteligentă. Configurează DOOM pentru a riposta cu un card jucabil direct pe panoul tău. Sfâșie și distruge, până va fi gata."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM deja sfâșie și distruge pe sistemul tău. Poate exista doar un singur Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citat/Fapt",
+        "state": {
+          "rip_and_tear": "Rupe și sfâșie, până se termină.",
+          "huge_guts": "Ești enorm! Asta înseamnă că ai măruntaie enorme! Rupe și sfâșie!",
+          "rage_brutal": "Ei sunt furie, brutali, fără milă. Dar tu. Tu vei fi mai rău.",
+          "first_age": "În prima eră, în prima bătălie, când umbrele s-au lungit pentru prima dată, unul a rămas în picioare...",
+          "against_all_evil": "Împotriva întregului rău pe care Iadul îl poate invoca, a toată ticăloșia pe care omenirea o poate produce, le vom trimite doar pe tine.",
+          "only_thing_they_fear": "Singurul lucru de care se tem... ești tu.",
+          "not_a_massage": "Ăla nu a fost un masaj!",
+          "ouch": "Au! Asta sigur a durut.",
+          "secret_area": "Uite ce-ai găsit! Ai descoperit o zonă secretă.",
+          "be_careful": "Atenție: Cine-i acolo? Fii precaut, ar putea fi o capcană.",
+          "infested_starport": "Ai pătruns adânc în spatiopoartul infestat.",
+          "created_1993": "DOOM a fost creat de id Software și lansat pe 10 decembrie 1993.",
+          "carmack_engine": "John Carmack a programat motorul DOOM în aproximativ 5 luni.",
+          "team_of_six": "DOOM original a fost dezvoltat de o echipă de doar 6 persoane.",
+          "deathmatch": "DOOM a popularizat termenul „deathmatch” pentru jocurile multiplayer.",
+          "bfg": "BFG înseamnă „Big Fragging Gun” (oficial).",
+          "shareware_bbs": "DOOM a fost distribuit inițial ca shareware prin sisteme de tip bulletin board.",
+          "cacodemon_design": "Designul Cacodemonului a fost inspirat de o creatură de pe coperta Manualului Planurilor din D&D.",
+          "moons_of_mars": "DOOM original se desfășoară pe sateliții planetei Marte: Phobos și Deimos.",
+          "bobby_prince": "Bobby Prince a compus coloana sonoră DOOM, inspirată în mod celebru de formații de heavy metal precum Metallica, Pantera și Slayer.",
+          "open_source": "Codul sursă al DOOM a fost lansat ca open source pe 23 decembrie 1997.",
+          "ported_everywhere": "DOOM a fost portat pe aproape orice platformă de calcul imaginabilă, inclusiv bancomate, teste de sarcină și frigidere inteligente.",
+          "doomguy": "Protagonistul DOOM este cunoscut sub numele de „Doomguy” sau „Doom Slayer”.",
+          "no_look_up_down": "DOOM original nu avea posibilitatea de a privi în sus sau în jos.",
+          "wad_modding": "DOOM a fost unul dintre primele jocuri care a acceptat modding prin fișiere WAD.",
+          "iddqd": "Codul de trișare IDDQD activează modul Dumnezeu în DOOM original.",
+          "idkfa": "IDKFA îți oferă toate cheile, muniție maximă și toate armele în DOOM.",
+          "spider_mastermind": "Spider Mastermind a fost bossul final al DOOM original.",
+          "knee_deep_downloads": "Episodul shareware al DOOM „Knee Deep in the Dead” a fost descărcat de milioane de ori în primul an.",
+          "super_shotgun": "DOOM II a introdus Super Shotgun-ul, una dintre cele mai îndrăgite arme din istoria jocurilor FPS.",
+          "cyberdemon": "Cyberdemonul este unul dintre cei mai emblematici inamici din istoria jocurilor.",
+          "more_than_windows": "La apogeu, se estima că DOOM era instalat pe mai multe computere decât Windows 95.",
+          "imp_fireball": "Mingea de foc a Imp-ului a fost unul dintre primele atacuri cu proiectile într-un shooter 3D la persoana întâi.",
+          "bsp_rendering": "Motorul DOOM redă grafică pseudo-3D folosind o tehnică numită partiționare binară a spațiului (BSP).",
+          "pinky_demon": "Demonul Pinky a fost numit după culoarea sa roz aprins originală din dezvoltarea timpurie.",
+          "speedrun": "Speedrunnerii pot termina primul episod din DOOM în mai puțin de 5 minute.",
+          "romero_head": "Capul lui John Romero pe un băț este adevăratul boss final din DOOM II.",
+          "floppy_disks": "Instalatorul original DOOM pe dischete necesita patru discuri de 3,5 inci.",
+          "e1m1": "E1M1 („Hangar”) este unul dintre cele mai recunoscute niveluri de joc video create vreodată.",
+          "popular_1995": "DOOM era atât de popular în 1995 încât se estima că era pe mai multe PC-uri decât Windows 95 de la Microsoft.",
+          "chainsaw_evil_dead": "Drujba din DOOM a fost inspirată de filmele Evil Dead.",
+          "lost_soul": "Inamicul Lost Soul a fost inițial conceput ca un craniu aruncat de Pain Elemental, care a fost adăugat în DOOM II.",
+          "blessed_server": "Un preot catolic a binecuvântat odată un server LAN înainte de un turneu de deathmatch în DOOM.",
+          "resolution_320x200": "DOOM original rulează la o rezoluție de 320x200 de pixeli.",
+          "faster_processors": "DOOM a forțat Intel și alte companii să accelereze dezvoltarea procesoarelor mai rapide.",
+          "mars_setting": "Locația pe Marte a fost aleasă deoarece John Carmack a considerat că demonii de pe Marte sună grozav."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Sfâșie și rupe",
+          "off": "Adormit"
+        }
+      }
+    }
+  }
+}

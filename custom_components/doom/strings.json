@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Hell's forces have breached your smart home. Set up DOOM to fight back with a playable card right on your dashboard. Rip and tear, until it is done."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM is already ripping and tearing on your system. There can only be one Doom Slayer."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Ripping and tearing",
+          "off": "Dormant"
+        }
+      }
+    },
+    "sensor": {
+      "fact": {
+        "name": "Quote/Fact",
+        "state": {
+          "rip_and_tear": "Rip and tear, until it is done.",
+          "huge_guts": "You are huge! That means you have huge guts! Rip and tear!",
+          "rage_brutal": "They are rage, brutal, without mercy. But you. You will be worse.",
+          "first_age": "In the first age, in the first battle, when the shadows first lengthened, one stood. Burned by the embers of Armageddon, his soul blistered by the fires of Hell and tainted beyond ascension, he chose the path of perpetual torment.",
+          "against_all_evil": "Against all the evil that Hell can conjure, all the wickedness that mankind can produce, we will send unto them only you.",
+          "only_thing_they_fear": "The only thing they fear... is you.",
+          "not_a_massage": "That wasn't a massage!",
+          "ouch": "Ouch! That had to hurt.",
+          "secret_area": "Look at that! You've found a secret area.",
+          "be_careful": "Warning: Who's there? Be careful, that could be a trick.",
+          "infested_starport": "You've entered deeply into the infested starport.",
+          "created_1993": "DOOM was created by id Software and released on December 10, 1993.",
+          "carmack_engine": "John Carmack programmed the DOOM engine in about 5 months.",
+          "team_of_six": "The original DOOM was developed by a team of just 6 people.",
+          "deathmatch": "DOOM popularized the term 'deathmatch' for multiplayer gaming.",
+          "bfg": "The BFG stands for 'Big Fragging Gun' (officially).",
+          "shareware_bbs": "DOOM was originally distributed as shareware via bulletin board systems.",
+          "cacodemon_design": "The Cacodemon's design was inspired by a creature from the cover of the Dungeons & Dragons Manual of the Planes.",
+          "moons_of_mars": "The original DOOM takes place on the moons of Mars: Phobos and Deimos.",
+          "bobby_prince": "Bobby Prince composed the DOOM soundtrack, famously inspired by heavy metal bands like Metallica, Pantera, and Slayer.",
+          "open_source": "The DOOM source code was released as open source on December 23, 1997.",
+          "ported_everywhere": "DOOM has been ported to almost every computing platform imaginable, including ATMs, pregnancy tests, and smart fridges.",
+          "doomguy": "DOOM's protagonist is commonly known as 'Doomguy' or the 'Doom Slayer'.",
+          "no_look_up_down": "The original DOOM had no ability to look up or down.",
+          "wad_modding": "DOOM was one of the first games to support modding through WAD files.",
+          "iddqd": "The IDDQD cheat code enables God mode in the original DOOM.",
+          "idkfa": "IDKFA gives you all keys, full ammo, and all weapons in DOOM.",
+          "spider_mastermind": "The Spider Mastermind was the final boss of the original DOOM.",
+          "knee_deep_downloads": "DOOM's shareware episode 'Knee Deep in the Dead' was downloaded millions of times in its first year.",
+          "super_shotgun": "DOOM II introduced the Super Shotgun, one of the most beloved weapons in FPS history.",
+          "cyberdemon": "The Cyberdemon is one of the most iconic enemies in gaming history.",
+          "more_than_windows": "At its peak, DOOM was estimated to be installed on more computers than Windows 95.",
+          "imp_fireball": "The Imp's fireball was one of the first projectile attacks in a 3D first-person shooter.",
+          "bsp_rendering": "DOOM's engine renders pseudo-3D graphics using a technique called binary space partitioning (BSP).",
+          "pinky_demon": "The Pinky demon was named after its original bright pink color in early development.",
+          "speedrun": "Speed runners can complete DOOM's first episode in under 5 minutes.",
+          "romero_head": "John Romero's head on a stick is the true final boss of DOOM II.",
+          "floppy_disks": "The original DOOM floppy disk installer required four 3.5-inch disks.",
+          "e1m1": "E1M1 ('Hangar') is one of the most recognized video game levels ever made.",
+          "popular_1995": "DOOM was so popular in 1995 that it was estimated to be on more PCs than Microsoft's Windows 95.",
+          "chainsaw_evil_dead": "The Chainsaw in DOOM was inspired by the Evil Dead films.",
+          "lost_soul": "The Lost Soul enemy was originally meant to be a thrown skull from the Pain Elemental, which was added in DOOM II.",
+          "blessed_server": "A Catholic priest once blessed a LAN server before a DOOM deathmatch tournament.",
+          "resolution_320x200": "The original DOOM runs at a resolution of 320x200 pixels.",
+          "faster_processors": "DOOM forced Intel and other companies to accelerate development of faster processors to keep up with demand.",
+          "mars_setting": "The Mars setting was chosen because John Carmack thought demons from Mars sounded cool."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    }
+  }
+}

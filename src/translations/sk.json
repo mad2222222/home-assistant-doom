@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Názov",
+        "sound": "Zvuk",
+        "auto_start": "Automatické spustenie"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "REŽIM BOHA AKTIVOVANÝ"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Վերնագիր",
+        "sound": "Ձայն",
+        "auto_start": "Ինքնաադարձակ գործարկում"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "GOD MODE ACTIVATED"
+    }
+  }
+}

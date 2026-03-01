@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Pealkiri",
+        "sound": "Heli",
+        "auto_start": "Automaatne käivitamine"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "JUMALAREŽIIM AKTIVEERITUD"
+    }
+  }
+}

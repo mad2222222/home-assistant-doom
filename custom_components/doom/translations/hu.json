@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "A pokol erői betörtek az okosotthonodba. Állítsd be a DOOM-ot, hogy visszavágj egy játszható kártyával közvetlenül az irányítópultodon. Tépd és szaggasd, amíg véget nem ér."
+      }
+    },
+    "abort": {
+      "already_configured": "A DOOM már tépi és szaggatja a rendszeredet. Csak egy Doom Slayer létezhet."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Idézet/Tény",
+        "state": {
+          "rip_and_tear": "Tépd és szaggazd, amíg végeztél.",
+          "huge_guts": "Hatalmas vagy! Ez azt jelenti, hogy hatalmas beleid vannak! Tépd és szaggazd!",
+          "rage_brutal": "Ők a düh, a brutalitás, az irgalmatlanság. De te. Te rosszabb leszel.",
+          "first_age": "Az első korban, az első csatában, amikor az árnyékok először megnyúltak, egy valaki ott állt...",
+          "against_all_evil": "A Pokol minden gonoszsága és az emberiség minden bűne ellen csak téged küldünk.",
+          "only_thing_they_fear": "Az egyetlen dolog, amitől félnek... te vagy.",
+          "not_a_massage": "Az nem masszázs volt!",
+          "ouch": "Aú! Az fájhatott.",
+          "secret_area": "Nézd csak! Találtál egy titkos területet.",
+          "be_careful": "Figyelmeztetés: Ki van ott? Légy óvatos, ez csapda lehet.",
+          "infested_starport": "Mélyre hatoltál a fertőzött űrkikötőben.",
+          "created_1993": "A DOOM-ot az id Software készítette, és 1993. december 10-én jelent meg.",
+          "carmack_engine": "John Carmack körülbelül 5 hónap alatt programozta le a DOOM motort.",
+          "team_of_six": "Az eredeti DOOM-ot mindössze 6 fős csapat fejlesztette.",
+          "deathmatch": "A DOOM tette népszerűvé a 'deathmatch' kifejezést a többjátékos játékokban.",
+          "bfg": "A BFG a 'Big Fragging Gun' rövidítése (hivatalosan).",
+          "shareware_bbs": "A DOOM-ot eredetileg shareware-ként terjesztették hirdetőtábla-rendszereken keresztül.",
+          "cacodemon_design": "A Cacodemon megjelenését a D&D Manual of the Planes borítóján szereplő lény ihlette.",
+          "moons_of_mars": "Az eredeti DOOM a Mars holdjain játszódik: a Phoboszon és a Deimoszon.",
+          "bobby_prince": "Bobby Prince szerezte a DOOM zenéjét, amelyet olyan heavy metal zenekarok ihlettek, mint a Metallica, a Pantera és a Slayer.",
+          "open_source": "A DOOM forráskódját 1997. december 23-án nyílt forráskódúként adták ki.",
+          "ported_everywhere": "A DOOM-ot szinte minden elképzelhető számítástechnikai platformra portolták, beleértve az ATM-eket, terhességi teszteket és okoshűtőket.",
+          "doomguy": "A DOOM főszereplőjét általában 'Doomguy'-nak vagy 'Doom Slayer'-nek nevezik.",
+          "no_look_up_down": "Az eredeti DOOM-ban nem lehetett felfelé vagy lefelé nézni.",
+          "wad_modding": "A DOOM az egyik első játék volt, amely WAD fájlokon keresztül támogatta a moddolást.",
+          "iddqd": "Az IDDQD csalókód bekapcsolja az Isten módot az eredeti DOOM-ban.",
+          "idkfa": "Az IDKFA megadja az összes kulcsot, teljes lőszert és minden fegyvert a DOOM-ban.",
+          "spider_mastermind": "A Spider Mastermind volt az eredeti DOOM végső főellenssége.",
+          "knee_deep_downloads": "A DOOM shareware epizódját, a 'Knee Deep in the Dead'-et az első évben milliószor töltötték le.",
+          "super_shotgun": "A DOOM II bevezette a Super Shotgunt, az FPS történelem egyik legkedveltebb fegyverét.",
+          "cyberdemon": "A Cyberdemon a játéktörténelem egyik legikonikusabb ellensége.",
+          "more_than_windows": "Csúcsidőszakában a DOOM becslések szerint több számítógépre volt telepítve, mint a Windows 95.",
+          "imp_fireball": "Az Imp tűzgömbje az egyik első lövedéktámadás volt egy 3D-s egyes szám első személyű lövöldözős játékban.",
+          "bsp_rendering": "A DOOM motor álháromdimenziós grafikát jelenít meg bináris térparticionálás (BSP) technikával.",
+          "pinky_demon": "A Pinky démon nevét az eredeti élénk rózsaszín színéről kapta a korai fejlesztés során.",
+          "speedrun": "A speedrunnerek 5 perc alatt teljesítik a DOOM első epizódját.",
+          "romero_head": "John Romero nyársra tűzött feje a DOOM II igazi végső főellensége.",
+          "floppy_disks": "Az eredeti DOOM floppy lemezes telepítőjéhez négy darab 3,5 hüvelykes lemez kellett.",
+          "e1m1": "Az E1M1 ('Hangar') az egyik legismertebb videojáték-pálya, amit valaha készítettek.",
+          "popular_1995": "A DOOM 1995-ben annyira népszerű volt, hogy becslések szerint több PC-n volt fenn, mint a Microsoft Windows 95.",
+          "chainsaw_evil_dead": "A DOOM-beli láncfűrészt a Gonosz halott filmek ihlették.",
+          "lost_soul": "A Lost Soul ellenséget eredetileg a Pain Elemental által dobott koponyának szánták, amelyet a DOOM II-ben adtak hozzá.",
+          "blessed_server": "Egy katolikus pap egyszer megáldott egy LAN szervert egy DOOM deathmatch torna előtt.",
+          "resolution_320x200": "Az eredeti DOOM 320x200 pixeles felbontásban fut.",
+          "faster_processors": "A DOOM arra kényszerítette az Intelt és más vállalatokat, hogy felgyorsítsák a gyorsabb processzorok fejlesztését.",
+          "mars_setting": "A Mars helyszínt azért választották, mert John Carmack szerint a Marsról jövő démonok menőn hangzottak."
+        }
+      },
+      "last_played": {
+        "name": "Utoljára játszva"
+      },
+      "session_duration": {
+        "name": "Munkamenet időtartama"
+      },
+      "total_play_time": {
+        "name": "Összes játékidő"
+      },
+      "sessions_played": {
+        "name": "Lejátszott munkamenetek"
+      },
+      "current_player": {
+        "name": "Jelenlegi játékos",
+        "state": {
+          "nobody": "Senki sem játszik"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Tép és szaggat",
+          "off": "Alvó"
+        }
+      }
+    }
+  }
+}

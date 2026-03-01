@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Otsikko",
+        "sound": "Ääni",
+        "auto_start": "Automaattinen käynnistys"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "JUMALATILA AKTIVOITU"
+    }
+  }
+}

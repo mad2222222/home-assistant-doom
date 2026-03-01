@@ -1,0 +1,59 @@
+---
+name: Release
+
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: 🏗 Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0 # zizmor: ignore[cache-poisoning]
+        with:
+          node-version: "22"
+          cache: ""
+
+      - name: 📦 Install frontend dependencies
+        run: npm ci
+
+      - name: 🔨 Build frontend
+        run: npm run build
+
+      - name: 📝 Update version in manifest
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          version="${RELEASE_TAG#v}"
+          jq --arg v "$version" '.version = $v' \
+            custom_components/doom/manifest.json > tmp.json \
+            && mv tmp.json custom_components/doom/manifest.json
+
+      - name: 📦 Create release zip
+        run: |
+          cd custom_components/doom
+          zip -r ../../doom.zip .
+
+      - name: 🔏 Sign release artifacts
+        uses: sigstore/gh-action-sigstore-python@a5caf349bc536fbef3668a10ed7f5cd309a4b53d # v3.2.0
+        with:
+          inputs: doom.zip
+
+      - name: 🚀 Upload release assets
+        uses: softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b # v2.5.0
+        with:
+          files: |
+            doom.zip
+            doom.zip.sigstore.json

@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "地獄的力量已經入侵了你的智慧家居。設定 DOOM，用儀表板上的可玩卡片奮起反擊。撕裂和毀滅，直到一切結束。"
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM 已經在你的系統上撕裂和毀滅了。只能有一個 Doom Slayer。"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "語錄/趣聞",
+        "state": {
+          "rip_and_tear": "撕裂並粉碎，直到一切結束。",
+          "huge_guts": "你好巨大！這表示你有巨大的膽量！撕裂並粉碎！",
+          "rage_brutal": "他們是憤怒、殘暴、毫無憐憫的。但你，你會比他們更可怕。",
+          "first_age": "在第一紀元，在第一場戰役中，當陰影初次延伸時，有一人屹立不搖。被末日的餘燼灼燒，他的靈魂被地獄之火燎泡，墮落到無法超脫，他選擇了永恆折磨之路。",
+          "against_all_evil": "面對地獄所能召喚的一切邪惡，人類所能製造的一切罪行，我們只會派出你。",
+          "only_thing_they_fear": "他們唯一恐懼的……就是你。",
+          "not_a_massage": "那可不是按摩！",
+          "ouch": "哎喲！那一定很痛。",
+          "secret_area": "看看那個！你發現了一個秘密區域。",
+          "be_careful": "警告：誰在那裡？小心，那可能是個陷阱。",
+          "infested_starport": "你已經深入了被感染的太空港。",
+          "created_1993": "DOOM 由 id Software 開發，於 1993 年 12 月 10 日發行。",
+          "carmack_engine": "John Carmack 在大約 5 個月內完成了 DOOM 引擎的程式設計。",
+          "team_of_six": "最初的 DOOM 僅由 6 人團隊開發完成。",
+          "deathmatch": "DOOM 使'死亡競賽'一詞在多人遊戲中廣為流傳。",
+          "bfg": "BFG 的官方全稱是'Big Fragging Gun'（大轟炸槍）。",
+          "shareware_bbs": "DOOM 最初透過電子佈告欄系統以共享軟體形式發布。",
+          "cacodemon_design": "惡魔浮球（Cacodemon）的設計靈感來自《龍與地下城》位面手冊封面上的生物。",
+          "moons_of_mars": "最初的 DOOM 故事發生在火星的衛星：火衛一（乏乏斯）和火衛二（得摩斯）。",
+          "bobby_prince": "Bobby Prince 創作了 DOOM 的原聲音樂，其靈感來自 Metallica、Pantera 和 Slayer 等重金屬樂團。",
+          "open_source": "DOOM 的原始碼於 1997 年 12 月 23 日以開源形式釋出。",
+          "ported_everywhere": "DOOM 幾乎已被移植到所有可以想像的運算平台上，包括自動提款機、驗孕棒和智慧冰箱。",
+          "doomguy": "DOOM 的主角通常被稱為'Doomguy'或'毀滅戰士'。",
+          "no_look_up_down": "最初的 DOOM 無法向上或向下看。",
+          "wad_modding": "DOOM 是最早透過 WAD 檔案支援模組製作的遊戲之一。",
+          "iddqd": "在最初的 DOOM 中，IDDQD 作弊碼可以啟用上帝模式。",
+          "idkfa": "在 DOOM 中，IDKFA 可以給你所有鑰匙、滿彈藥和所有武器。",
+          "spider_mastermind": "蜘蛛魔腦（Spider Mastermind）是最初 DOOM 的最終頭目。",
+          "knee_deep_downloads": "DOOM 的共享軟體章節'Knee Deep in the Dead'在發行第一年就被下載了數百萬次。",
+          "super_shotgun": "DOOM II 引入了超級霰彈槍，這是 FPS 歷史上最受喜愛的武器之一。",
+          "cyberdemon": "電化惡魔（Cyberdemon）是遊戲史上最具代表性的敵人之一。",
+          "more_than_windows": "在巔峰時期，據估計安裝 DOOM 的電腦數量超過了 Windows 95。",
+          "imp_fireball": "小惡魔（Imp）的火球是 3D 第一人稱射擊遊戲中最早的投射物攻擊之一。",
+          "bsp_rendering": "DOOM 的引擎使用一種稱為二元空間分割（BSP）的技術來渲染偽 3D 圖形。",
+          "pinky_demon": "粉紅惡魔（Pinky）的名稱來自其在早期開發中鮮豔的粉紅色。",
+          "speedrun": "速通玩家可以在 5 分鐘內通關 DOOM 的第一章節。",
+          "romero_head": "John Romero 插在棍子上的頭顱是 DOOM II 真正的最終頭目。",
+          "floppy_disks": "最初的 DOOM 軟碟安裝程式需要四張 3.5 吋磁碟。",
+          "e1m1": "E1M1（'停機坪'）是有史以來最具辨識度的電子遊戲關卡之一。",
+          "popular_1995": "DOOM 在 1995 年非常受歡迎，據估計安裝在比微軟 Windows 95 更多的個人電腦上。",
+          "chainsaw_evil_dead": "DOOM 中的電鋸靈感來自《乍乍——乍》系列電影。",
+          "lost_soul": "失落靈魂（Lost Soul）敵人最初被設計為由痛苦元素（Pain Elemental）丟出的骷髏頭，該敵人在 DOOM II 中被加入。",
+          "blessed_server": "曾經有一位天主教神父在 DOOM 死亡競賽錦標賽前為區域網路伺服器祈福。",
+          "resolution_320x200": "最初的 DOOM 以 320x200 像素的解析度執行。",
+          "faster_processors": "DOOM 迫使英特爾和其他公司加速開發更快的處理器以滿足需求。",
+          "mars_setting": "選擇火星作為背景是因為 John Carmack 認為來自火星的惡魔聽起來很酷。"
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "正在撕裂",
+          "off": "休眠中"
+        }
+      }
+    }
+  }
+}

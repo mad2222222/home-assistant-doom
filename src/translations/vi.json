@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Tiêu đề",
+        "sound": "Âm thanh",
+        "auto_start": "Tự động bắt đầu"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "CHẾ ĐỘ THẦN ĐÃ KÍCH HOẠT"
+    }
+  }
+}

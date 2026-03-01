@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Elles spēki ir ielauzušies tavā viedajā mājā. Iestati DOOM, lai cīnītos pretī ar spēlējamu karti tieši uz tava paneļa. Plēs un rauj, līdz tas būs padarīts."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM jau plēš un rauj tavā sistēmā. Var būt tikai viens Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citats/Fakts",
+        "state": {
+          "rip_and_tear": "Plēs un rāvi, līdz tas ir izdarīts.",
+          "huge_guts": "Tu esi milzīgs! Tas nozīmē, ka tev ir milzīgas zarnas! Plēs un rāvi!",
+          "rage_brutal": "Viņi ir niknums, brutāli, bez žēlastības. Bet tu. Tu būsi vēl ļaunāks.",
+          "first_age": "Pirmajā laikmetā, pirmajā kaujā, kad ēnas pirmo reizi pagarinājās, viens stāvēja...",
+          "against_all_evil": "Pret visu ļaunumu, ko Elle spēj radīt, pret visu nelietību, ko cilvēce spēj producēt, mēs sūtīsim viņiem tikai tevi.",
+          "only_thing_they_fear": "Vienīgais, no kā viņi baidās... esi tu.",
+          "not_a_massage": "Tā nebija masāža!",
+          "ouch": "Au! Tam noteikti vajadzēja sāpēt.",
+          "secret_area": "Paskaties uz to! Tu atradi slepenu zonu.",
+          "be_careful": "Brīdinājums: Kas tur ir? Esi uzmanīgs, tās varētu būt slazds.",
+          "infested_starport": "Tu esi ielauzies dziļi inficētajā kosmosa ostā.",
+          "created_1993": "DOOM izveidoja id Software un izlaida 1993. gada 10. decembrī.",
+          "carmack_engine": "Džons Karmaks ieprogrammēja DOOM dzinēju aptuveni 5 mēnešos.",
+          "team_of_six": "Oriģinālo DOOM izstrādāja komanda no tikai 6 cilvēkiem.",
+          "deathmatch": "DOOM popularizēja terminu 'deathmatch' daudzspēlētāju spēlēm.",
+          "bfg": "BFG apzīmē 'Big Fragging Gun' (oficiāli).",
+          "shareware_bbs": "DOOM sākotnēji tika izplatīts kā bezmaksas izmēģinājums caur biļetenu dēļu sistēmām.",
+          "cacodemon_design": "Kakodēmona dizains tika iedvesmots no radījuma uz D&D Manual of the Planes vāka.",
+          "moons_of_mars": "Oriģinālā DOOM darbība notiek uz Marsa pavadoņiem: Fobosa un Deimosa.",
+          "bobby_prince": "Bobijs Prinss komponēja DOOM skaņu celiņu, slaveni iedvesmojoties no smagā metāla grupām, piemēram, Metallica, Pantera un Slayer.",
+          "open_source": "DOOM pirmkods tika publiskots kā atvērtais kods 1997. gada 23. decembrī.",
+          "ported_everywhere": "DOOM ir portēts uz gandrīz katru iedomājamo skaitļošanas platformu, ieskaitot bankomātus, grūtniecības testus un viedos ledusskapjus.",
+          "doomguy": "DOOM galvenais varonis ir plaši pazīstams kā 'Doomguy' vai 'Doom Slayer'.",
+          "no_look_up_down": "Oriģinālajā DOOM nebija iespējas skatīties uz augšu vai leju.",
+          "wad_modding": "DOOM bija viena no pirmajām spēlēm, kas atbalstīja modificēšanu caur WAD failiem.",
+          "iddqd": "Apkrāpšanas kods IDDQD aktivizē Dieva režīmu oriģinālajā DOOM.",
+          "idkfa": "IDKFA piešķir visas atslēgas, pilnu munīciju un visus ieročus DOOM.",
+          "spider_mastermind": "Zirnekļu Supergalva bija oriģinālā DOOM galīgais boss.",
+          "knee_deep_downloads": "DOOM bezmaksas epizode 'Knee Deep in the Dead' pirmajā gadā tika lejupielādēta miljoniem reižu.",
+          "super_shotgun": "DOOM II ieviesa Super Shotgun — vienu no iemīļotākajiem ieročiem FPS vēsturē.",
+          "cyberdemon": "Kiberdēmons ir viens no ikoniskākajiem ienaidniekiem spēļu vēsturē.",
+          "more_than_windows": "Savā augstākajā punktā DOOM bija uzstādīts uz vairāk datoriem nekā Windows 95.",
+          "imp_fireball": "Impa ugunsbumba bija viens no pirmajiem šāviņu uzbrukumiem 3D pirmās personas šāvējā.",
+          "bsp_rendering": "DOOM dzinējs atveido pseido-3D grafiku, izmantojot tehniku, ko sauc par bināro telpas sadalīšanu (BSP).",
+          "pinky_demon": "Pinky dēmons tika nosaukts pēc savas sākotnējās spilgti rozā krāsas agrīnajā izstrādē.",
+          "speedrun": "Ātrskrējēji var pabeigt DOOM pirmo epizodi mazāk nekā 5 minūtēs.",
+          "romero_head": "Džona Romero galva uz nūjas ir patiesais DOOM II galīgais boss.",
+          "floppy_disks": "Oriģinālais DOOM diskešu instalētājs prasīja četras 3,5 collu disketes.",
+          "e1m1": "E1M1 ('Hangar') ir viens no atpazīstamākajiem videospēļu līmeņiem jebkad.",
+          "popular_1995": "DOOM 1995. gadā bija tik populārs, ka tas bija uzstādīts uz vairāk datoriem nekā Microsoft Windows 95.",
+          "chainsaw_evil_dead": "Motorzāģis DOOM tika iedvesmots no Evil Dead filmām.",
+          "lost_soul": "Pazudusī dvēsele sākotnēji bija paredzēta kā metamta galvaskauss no Pain Elemental, kas tika pievienots DOOM II.",
+          "blessed_server": "Katoļu priesteris reiz svētīja LAN serveri pirms DOOM deathmatch turnīra.",
+          "resolution_320x200": "Oriģinālais DOOM darbojas ar izšķirtspēju 320x200 pikseļi.",
+          "faster_processors": "DOOM piespieda Intel un citus uzņēmumus paātrināt ātrāku procesoru izstrādi.",
+          "mars_setting": "Marsa vide tika izvēlēta, jo Džons Karmaks uzskatīja, ka dēmoni no Marsa izklausās forši."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Plēš un rauj",
+          "off": "Guļ"
+        }
+      }
+    }
+  }
+}

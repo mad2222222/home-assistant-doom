@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Cím",
+        "sound": "Hang",
+        "auto_start": "Automatikus indítás"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "ISTEN MÓD AKTIVÁLVA"
+    }
+  }
+}

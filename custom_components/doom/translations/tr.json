@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Cehennemin güçleri akıllı evine sızdı. Kontrol panelinde oynanabilir bir kartla karşılık vermek için DOOM'u kur. Parçala ve yırt, bitene kadar."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM zaten sisteminde parçalıyor ve yırtıyor. Yalnızca bir Doom Slayer olabilir."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Parçala ve yırt, bitene kadar.",
+          "huge_guts": "Kocamansın! Bu dev bağırsakların olduğu anlamına gelir! Parçala ve yırt!",
+          "rage_brutal": "Onlar öfke, acımasız, merhametsiz. Ama sen. Sen daha kötü olacaksın.",
+          "first_age": "İlk çağda, ilk savaşta, gölgeler ilk kez uzadığında, biri ayağa kalktı. Kıyametin koruyla yanmış, ruhu Cehennem ateşleriyle kavrulmuş ve kurtuluşun ötesinde kirlenmiş, o sonsuz azap yolunu seçti.",
+          "against_all_evil": "Cehennemin çağırabileceği tüm kötülüğe, insanlığın üretebileceği tüm fenalığa karşı, onlara sadece seni göndereceğiz.",
+          "only_thing_they_fear": "Korktukları tek şey... sensin.",
+          "not_a_massage": "O bir masaj değildi!",
+          "ouch": "Ayy! Acımış olmalı.",
+          "secret_area": "Şuna bak! Gizli bir alan buldun.",
+          "be_careful": "Uyarı: Kim var orada? Dikkatli ol, tuzak olabilir.",
+          "infested_starport": "İstila edilmiş uzay limanının derinliklerine girdin.",
+          "created_1993": "DOOM, id Software tarafından oluşturuldu ve 10 Aralık 1993'te yayınlandı.",
+          "carmack_engine": "John Carmack, DOOM motorunu yaklaşık 5 ayda programladı.",
+          "team_of_six": "Orijinal DOOM sadece 6 kişilik bir ekip tarafından geliştirildi.",
+          "deathmatch": "DOOM, çok oyunculu oyunlarda 'deathmatch' terimini popüler hale getirdi.",
+          "bfg": "BFG, 'Big Fragging Gun' anlamına gelir (resmi olarak).",
+          "shareware_bbs": "DOOM, başlangıçta BBS (elektronik ilan tahtası sistemleri) aracılığıyla shareware olarak dağıtıldı.",
+          "cacodemon_design": "Cacodemon'un tasarımı, Dungeons & Dragons Manual of the Planes kapağındaki bir yaratıktan esinlenmiştir.",
+          "moons_of_mars": "Orijinal DOOM, Mars'ın uyduları Phobos ve Deimos'ta geçer.",
+          "bobby_prince": "Bobby Prince, DOOM müziklerini besteledi; Metallica, Pantera ve Slayer gibi heavy metal gruplarından ilham almıştır.",
+          "open_source": "DOOM'un kaynak kodu 23 Aralık 1997'de açık kaynak olarak yayınlandı.",
+          "ported_everywhere": "DOOM, ATM'ler, hamilelik testleri ve akıllı buzdolapları dahil olmak üzere akla gelebilecek neredeyse her bilgisayar platformuna taşınmıştır.",
+          "doomguy": "DOOM'un başkarakteri yaygın olarak 'Doomguy' veya 'Doom Slayer' olarak bilinir.",
+          "no_look_up_down": "Orijinal DOOM'da yukarı veya aşağı bakma özelliği yoktu.",
+          "wad_modding": "DOOM, WAD dosyaları aracılığıyla modlamayı destekleyen ilk oyunlardan biriydi.",
+          "iddqd": "IDDQD hile kodu orijinal DOOM'da tanrı modunu etkinleştirir.",
+          "idkfa": "IDKFA, DOOM'da tüm anahtarları, tam mühimmatı ve tüm silahları verir.",
+          "spider_mastermind": "Spider Mastermind, orijinal DOOM'un son patronuydu.",
+          "knee_deep_downloads": "DOOM'un shareware bölümü 'Knee Deep in the Dead' ilk yılında milyonlarca kez indirildi.",
+          "super_shotgun": "DOOM II, FPS tarihinin en sevilen silahlarından biri olan Super Shotgun'u tanıttı.",
+          "cyberdemon": "Cyberdemon, oyun tarihinin en ikonik düşmanlarından biridir.",
+          "more_than_windows": "Zirve döneminde DOOM'un Windows 95'ten daha fazla bilgisayara yüklendiği tahmin ediliyordu.",
+          "imp_fireball": "Imp'in ateş topu, 3D birinci şahıs nişancı oyunundaki ilk mermi saldırılarından biriydi.",
+          "bsp_rendering": "DOOM motoru, ikili uzay bölümleme (BSP) adlı bir teknik kullanarak sahte 3D grafikler işler.",
+          "pinky_demon": "Pinky şeytanı, erken geliştirme dönemindeki parlak pembe renginden dolayı bu adı almıştır.",
+          "speedrun": "Hız koşucuları DOOM'un ilk bölümünü 5 dakikadan kısa sürede bitirebilir.",
+          "romero_head": "Bir çubuğun üstündeki John Romero'nun kafası, DOOM II'nin gerçek son patronudur.",
+          "floppy_disks": "Orijinal DOOM disket yükleyicisi dört adet 3,5 inçlik disket gerektiriyordu.",
+          "e1m1": "E1M1 ('Hangar'), şimdiye kadar yaratılmış en tanınmış oyun seviyelerinden biridir.",
+          "popular_1995": "DOOM, 1995'te o kadar popülerdi ki Microsoft Windows 95'ten daha fazla bilgisayarda olduğu tahmin ediliyordu.",
+          "chainsaw_evil_dead": "DOOM'daki motorlu testere Evil Dead filmlerinden esinlenmiştir.",
+          "lost_soul": "Lost Soul düşmanı, başlangıçta DOOM II'de eklenen Pain Elemental tarafından fırlatılan bir kafatası olarak tasarlanmıştı.",
+          "blessed_server": "Bir Katolik rahip, bir DOOM deathmatch turnuvasından önce bir LAN sunucusunu kutsamıştır.",
+          "resolution_320x200": "Orijinal DOOM, 320x200 piksel çözünürlükte çalışır.",
+          "faster_processors": "DOOM, Intel ve diğer şirketleri talebi karşılamak için daha hızlı işlemci geliştirmeyi hızlandırmaya zorladı.",
+          "mars_setting": "Mars ortamı, John Carmack'ın Mars'tan gelen şeytanların havalı geldiğini düşünmesi nedeniyle seçildi."
+        },
+        "name": "Alıntı/Gerçek"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Parçalıyor",
+          "off": "Uyuyor"
+        }
+      }
+    }
+  }
+}

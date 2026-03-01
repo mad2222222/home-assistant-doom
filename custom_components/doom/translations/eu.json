@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Infernuko indarrek zure etxe adimenduna bortxatu dute. Konfiguratu DOOM zure panelean jokatze-txartel batekin aurre egiteko. Urratu eta apurtu, egina egon arte."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM dagoeneko urratzen eta apurtzen ari da zure sisteman. Doom Slayer bakarra egon daiteke."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Aipamen/Gertaera",
+        "state": {
+          "rip_and_tear": "Urratu eta zatitu, amaituta egon arte.",
+          "huge_guts": "Erraldoia zara! Horrek esan nahi du errai handiak dituzula! Urratu eta zatitu!",
+          "rage_brutal": "Haserrea dira, basatiak, errukigabeak. Baina zu. Zu okerragoa izango zara.",
+          "first_age": "Lehen aroan, lehen borrokan, itzalak lehen aldiz luzatu zirenean, bat zutik egon zen...",
+          "against_all_evil": "Infernuak sor dezakeen gaitz guztien aurka, gizateriak ekoitzi dezakeen gaiztakeria guztien aurka, zu bakarrik bidaliko dizugu.",
+          "only_thing_they_fear": "Beldur duten gauza bakarra... zu zara.",
+          "not_a_massage": "Hori ez zen masaje bat!",
+          "ouch": "Ai! Horrek mindu behar du.",
+          "secret_area": "Begira hori! Eremu sekretu bat aurkitu duzu.",
+          "be_careful": "Kontuz: Nor dago hor? Kontuz ibili, tranpa bat izan liteke.",
+          "infested_starport": "Kutsatutako izar-portura sakon sartu zara.",
+          "created_1993": "DOOM id Software-k sortu zuen eta 1993ko abenduaren 10ean kaleratu zen.",
+          "carmack_engine": "John Carmackek DOOM motorra gutxi gorabehera 5 hilabetetan programatu zuen.",
+          "team_of_six": "Jatorrizko DOOM 6 pertsonako talde batek garatu zuen.",
+          "deathmatch": "DOOMek 'deathmatch' terminoa ezagundu zuen joko anitzeko jokoetarako.",
+          "bfg": "BFG 'Big Fragging Gun' esan nahi du (ofizialki).",
+          "shareware_bbs": "DOOM hasieran shareware gisa banatu zen iragarki-taulen sistemen bidez.",
+          "cacodemon_design": "Cacodemon-aren diseinua D&D Manual of the Planes-en azaleko izaki batean inspiratu zen.",
+          "moons_of_mars": "Jatorrizko DOOM Marteren ilargietan gertatzen da: Phobos eta Deimos.",
+          "bobby_prince": "Bobby Princek DOOM-en soinu-banda konposatu zuen, metal astunen taldeen inspiraziopean, hala nola Metallica, Pantera eta Slayer.",
+          "open_source": "DOOM-en iturburu-kodea kode ireki gisa kaleratu zen 1997ko abenduaren 23an.",
+          "ported_everywhere": "DOOM ia edozein konputazio-plataformara eramangarritu da, kutxazain automatikoak, haurdunaldi-probak eta hozkailuak barne.",
+          "doomguy": "DOOM-en protagonista 'Doomguy' edo 'Doom Slayer' izenez ezagutzen da.",
+          "no_look_up_down": "Jatorrizko DOOMek ez zuen gora edo behera begiratzeko aukerarik.",
+          "wad_modding": "DOOM WAD fitxategien bidez moddinga onartzen zuen lehen jokoetako bat izan zen.",
+          "iddqd": "IDDQD truko-kodeak Jainko modua aktibatzen du jatorrizko DOOMen.",
+          "idkfa": "IDKFA-k gako guztiak, munizio osoa eta arma guztiak ematen dizkizu DOOMen.",
+          "spider_mastermind": "Spider Mastermind jatorrizko DOOM-en azken buruzagia izan zen.",
+          "knee_deep_downloads": "DOOM-en shareware atala 'Knee Deep in the Dead' milioika aldiz deskargatu zen bere lehen urtean.",
+          "super_shotgun": "DOOM II-k Super Shotgun-a aurkeztu zuen, FPS historiako armarik maitatuenetako bat.",
+          "cyberdemon": "Cyberdemon-a jokoen historiako etsairik ikonikoentetako bat da.",
+          "more_than_windows": "Bere gorenean, DOOM Windows 95 baino ordenagailu gehiagotan instalatuta zegoela kalkulatzen zen.",
+          "imp_fireball": "Imp-aren su-pilota 3D-ko lehen pertsonako tiratzaile bateko lehen proiektil-erasoetako bat izan zen.",
+          "bsp_rendering": "DOOM motorrak sasi-3D grafikoak bistaratzeko espazio-partizio bitarraren (BSP) teknika erabiltzen du.",
+          "pinky_demon": "Pinky demonioari izena bere jatorrizko arrosa koloreagatik jarri zioten garapen goiztiarrean.",
+          "speedrun": "Speedrunner-ek DOOM-en lehen atala 5 minutu baino gutxiagoan amaitu dezakete.",
+          "romero_head": "John Romeroren burua makila batean DOOM II-ren benetako azken buruzagia da.",
+          "floppy_disks": "Jatorrizko DOOM disketea instalatzaileak lau 3,5 hazbeteko disko behar zituen.",
+          "e1m1": "E1M1 ('Hangar') inoiz sortutako bideo-jokoen maila ezagunenetako bat da.",
+          "popular_1995": "DOOM hain ezaguna zen 1995ean, ezen Microsoften Windows 95 baino PC gehiagotan zegoela kalkulatzen zen.",
+          "chainsaw_evil_dead": "DOOM-eko motoserra Evil Dead filmeetan inspiratu zen.",
+          "lost_soul": "Lost Soul etsaia hasieran Pain Elemental-etik jaurtitako burezur bat izateko sortu zen, DOOM II-n gehitu zena.",
+          "blessed_server": "Apaiz katoliko batek LAN zerbitzari bat bedeinkatu zuen DOOM deathmatch txapelketa baten aurretik.",
+          "resolution_320x200": "Jatorrizko DOOM 320x200 pixeleko bereizmenean exekutatzen da.",
+          "faster_processors": "DOOMek Intel eta beste enpresa batzuk prozesadore azkarragoen garapena bizkortzera behartu zituen.",
+          "mars_setting": "Marteren eszenatokia aukeratu zen John Carmackek Martetik datozen deabruak itsusi iruditzen zitzaizkiolako."
+        }
+      },
+      "last_played": {
+        "name": "Azken aldiz jokatua"
+      },
+      "session_duration": {
+        "name": "Saioaren iraupena"
+      },
+      "total_play_time": {
+        "name": "Jokatutako denbora guztira"
+      },
+      "sessions_played": {
+        "name": "Jokatutako saioak"
+      },
+      "current_player": {
+        "name": "Uneko jokalaria",
+        "state": {
+          "nobody": "Inor ez da jokatzen"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Urratu eta apurtzen",
+          "off": "Lo"
+        }
+      }
+    }
+  }
+}

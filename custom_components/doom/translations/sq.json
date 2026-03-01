@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Forcat e ferrit kanë depërtuar në shtëpinë tuaj inteligjente. Konfiguro DOOM për t'u përballur me një kartë të luajtshme direkt në panelin tënd. Shqye dhe gris, derisa të mbarojë."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM tashmë po shqyen dhe gris në sistemin tënd. Mund të ketë vetëm një Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citim/Fakt",
+        "state": {
+          "rip_and_tear": "Shqye dhe copëto, derisa të mbarojë.",
+          "huge_guts": "Je i madh! Kjo do të thotë se ke zorrë të mëdha! Shqye dhe copëto!",
+          "rage_brutal": "Ata janë tërbim, brutalë, pa mëshirë. Por ti. Ti do të jesh më i keq.",
+          "first_age": "Në epokën e parë, në betejën e parë, kur hijet u zgjatën për herë të parë, një u ngrit...",
+          "against_all_evil": "Kundër gjithë së keqes që Ferri mund të nxjerrë, gjithë ligësisë që njerëzimi mund të prodhojë, ne do t'u dërgojmë atyre vetëm ty.",
+          "only_thing_they_fear": "E vetmja gjë nga e cila kanë frikë... je ti.",
+          "not_a_massage": "Ai nuk ishte masazh!",
+          "ouch": "Uh! Kjo duhet të ketë dhembur.",
+          "secret_area": "Shiko! Ke zbuluar një zonë sekrete.",
+          "be_careful": "Paralajmërim: Kush është aty? Ki kujdes, mund të jetë kurth.",
+          "infested_starport": "Ke depërtuar thellë në portin stellar të pushtuar.",
+          "created_1993": "DOOM u krijua nga id Software dhe u lëshua më 10 dhjetor 1993.",
+          "carmack_engine": "John Carmack e programoi motorin e DOOM-it në rreth 5 muaj.",
+          "team_of_six": "DOOM origjinal u zhvillua nga një ekip prej vetëm 6 personash.",
+          "deathmatch": "DOOM popullarizoi termin 'deathmatch' për lojërat me shumë lojtarë.",
+          "bfg": "BFG do të thotë 'Big Fragging Gun' (zyrtarisht).",
+          "shareware_bbs": "DOOM fillimisht u shpërnda si shareware përmes sistemeve të tabelave të buletinit.",
+          "cacodemon_design": "Dizajni i Cacodemon-it u frymëzua nga një krijesë në kopertinën e Manualit të Planeve D&D.",
+          "moons_of_mars": "DOOM origjinal zhvillohet në hënat e Marsit: Fobos dhe Deimos.",
+          "bobby_prince": "Bobby Prince kompozoi kolonën zanore të DOOM-it, e frymëzuar nga grupet e metalit të rëndë si Metallica, Pantera dhe Slayer.",
+          "open_source": "Kodi burimor i DOOM-it u lëshua si burim i hapur më 23 dhjetor 1997.",
+          "ported_everywhere": "DOOM është portuar pothuajse në çdo platformë kompjuterike të imagjinueshme, përfshirë bankomate, teste shtatzënie dhe frigofiferë të zgjuar.",
+          "doomguy": "Protagonisti i DOOM-it njihet zakonisht si 'Doomguy' ose 'Doom Slayer'.",
+          "no_look_up_down": "DOOM origjinal nuk kishte mundësinë të shikonte lart ose poshtë.",
+          "wad_modding": "DOOM ishte një nga lojërat e para që mbështeti modifikimin përmes skedarëve WAD.",
+          "iddqd": "Kodi i mashtrimit IDDQD aktivizon modalitetin Zot në DOOM origjinal.",
+          "idkfa": "IDKFA të jep të gjitha çelësat, municion të plotë dhe të gjitha armët në DOOM.",
+          "spider_mastermind": "Spider Mastermind ishte bosi përfundimtar i DOOM origjinal.",
+          "knee_deep_downloads": "Episodi shareware i DOOM-it 'Knee Deep in the Dead' u shkarkua miliona herë në vitin e parë.",
+          "super_shotgun": "DOOM II prezantoi Super Shotgun-in, një nga armët më të dashura në historinë e FPS.",
+          "cyberdemon": "Cyberdemon-i është një nga armiqtë më ikonikë në historinë e lojërave.",
+          "more_than_windows": "Në kulmin e tij, DOOM vlerësohej se ishte i instaluar në më shumë kompjuterë sesa Windows 95.",
+          "imp_fireball": "Topi i zjarrtë i Imp-it ishte një nga sulmet e para me projektil në një gjuajtës nga vetja e parë 3D.",
+          "bsp_rendering": "Motori i DOOM-it paraqet grafikë pseudo-3D duke përdorur një teknikë të quajtur ndarje hapësinore binare (BSP).",
+          "pinky_demon": "Demoni Pinky u emërtua sipas ngjyrës së tij origjinale rozë të ndritshme në zhvillimin e hershëm.",
+          "speedrun": "Garuesit e shpejtësisë mund ta përfundojnë episodin e parë të DOOM-it në më pak se 5 minuta.",
+          "romero_head": "Koka e John Romero-s mbi një shkop është bosi i vërtetë përfundimtar i DOOM II.",
+          "floppy_disks": "Instaluesi origjinal i DOOM-it në disketë kërkonte katër disketa 3.5-inçëshe.",
+          "e1m1": "E1M1 ('Hangari') është një nga nivelet më të njohura të lojërave video të krijuara ndonjëherë.",
+          "popular_1995": "DOOM ishte aq popullor në 1995 sa vlerësohej se gjendej në më shumë PC sesa Windows 95 i Microsoft-it.",
+          "chainsaw_evil_dead": "Sharrë me zinxhir në DOOM u frymëzua nga filmat Evil Dead.",
+          "lost_soul": "Armiku Lost Soul fillimisht synohej të ishte një kafkë e hedhur nga Pain Elemental, i cili u shtua në DOOM II.",
+          "blessed_server": "Një prift katolik njëherë bekoi një server LAN para një turneu deathmatch të DOOM-it.",
+          "resolution_320x200": "DOOM origjinal funksionon me një rezolucion prej 320x200 pikselësh.",
+          "faster_processors": "DOOM detyroi Intel-in dhe kompani të tjera të përshpejtonin zhvillimin e procesorëve më të shpejtë.",
+          "mars_setting": "Vendndodhja në Mars u zgjodh sepse John Carmack mendoi se demonët nga Marsi tingëllonin bukur."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Gris dhe shqyen",
+          "off": "Në gjumë"
+        }
+      }
+    }
+  }
+}

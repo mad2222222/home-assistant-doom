@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Titulli",
+        "sound": "Tingulli",
+        "auto_start": "Auto start"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "MODALITETI I ZOTIT I AKTIVIZUAR"
+    }
+  }
+}

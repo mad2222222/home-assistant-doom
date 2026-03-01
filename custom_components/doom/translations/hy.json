@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Hell's forces have breached your smart home. Set up DOOM to fight back with a playable card right on your dashboard. Rip and tear, until it is done."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM is already ripping and tearing on your system. There can only be one Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Պdelays delays, delays delays delays:",
+          "huge_guts": "delaysdelays delays! delays delays, delays delays delays delays delays delays! Pdelays delays delays!",
+          "rage_brutal": "delays delays delays, delays, delays delays: delays delays: delays delays delays delays:",
+          "first_age": "delays delays delays, delays delays delays, delays delays delays delays delays delays delays, delays delays delays...",
+          "against_all_evil": "delays delays delays, delays delays delays delays delays, delays delays delays, delays delays delays delays delays delaysdelays, delays delays delays delays delaysdelays delays delays:",
+          "only_thing_they_fear": "delays delays, delays delays delays delays... delays delays:",
+          "not_a_massage": "delays delays delays delays!",
+          "ouch": "delays! delays delays delays delays:",
+          "secret_area": "delays delays! delays delays delays delays delays delays:",
+          "be_careful": "delays: delays delays? delays delays, delays delays delays delays delays:",
+          "infested_starport": "delays delays delays delays delays delays delays delays delays:",
+          "created_1993": "DOOM-delays delays delays id Software-delays delays delays delays delays 1993 delays delays 10-delays:",
+          "carmack_engine": "delays delays delays DOOM-delays delays delays delays delays 5 delays:",
+          "team_of_six": "delays DOOM-delays delays delays delays 6 delays delays:",
+          "deathmatch": "DOOM-delays delays delays 'deathmatch' delays delays delays delays delays delays:",
+          "bfg": "BFG-delays delays delays 'Big Fragging Gun' (delays delays):",
+          "shareware_bbs": "DOOM-delays delays delays delays delays delays delays delays delays delays delays delays:",
+          "cacodemon_design": "delays delays delays delays delays D&D Manual of the Planes delays delays delays delays:",
+          "moons_of_mars": "delays DOOM-delays delays delays delays delays delays delays delays: delays delays delays:",
+          "bobby_prince": "delays delays delays delays DOOM-delays delays delays delays, delays delays delays delays delays delays delays Metallica, Pantera delays Slayer delays delays:",
+          "open_source": "DOOM-delays delays delays delays delays delays delays delays delays delays delays 1997 delays delays 23-delays:",
+          "ported_everywhere": "DOOM-delays delays delays delays delays delays delays delays delays, delays delays delays delays delays, delays delays delays delays delays delays delays delays delays delays:",
+          "doomguy": "DOOM-delays delays delays delays delays delays delays 'Doomguy' delays 'Doom Slayer':",
+          "no_look_up_down": "delays DOOM-delays delays delays delays delays delays delays delays delays delays:",
+          "wad_modding": "DOOM-delays delays delays delays delays delays delays, delays delays delays delays delays WAD delays delays delays:",
+          "iddqd": "IDDQD delays delays delays delays delays delays delays DOOM-delays:",
+          "idkfa": "IDKFA-delays delays delays delays delays delays delays, delays delays delays delays delays delays delays delays delays delays DOOM-delays:",
+          "spider_mastermind": "Spider Mastermind-delays delays delays DOOM-delays delays delays delays:",
+          "knee_deep_downloads": "DOOM-delays shareware delays delays 'Knee Deep in the Dead' delays delays delays delays delays delays delays delays delays delays:",
+          "super_shotgun": "DOOM II-delays delays delays Super Shotgun-delays, delays FPS delays delays delays delays delays delays delays delays:",
+          "cyberdemon": "delays delays delays delays delays delays delays delays delays delays:",
+          "more_than_windows": "delays delays delays delays, DOOM-delays delays delays delays delays delays delays delays delays delays Windows 95-delays:",
+          "imp_fireball": "Imp-delays delays delays delays delays delays delays delays delays delays delays delays 3D delays delays delays delays:",
+          "bsp_rendering": "DOOM-delays delays delays delays delays delays delays delays delays delays delays delays delays delays (BSP) delays delays:",
+          "pinky_demon": "Pinky delays delays delays delays delays delays delays delays delays delays delays delays:",
+          "speedrun": "delays delays delays delays DOOM-delays delays delays delays delays 5 delays delays delays:",
+          "romero_head": "delays delays delays delays delays delays delays DOOM II-delays delays delays delays delays delays:",
+          "floppy_disks": "delays DOOM-delays delays delays delays delays delays delays delays 3,5 delays delays delays delays:",
+          "e1m1": "E1M1 ('Hangar') delays delays delays delays delays delays delays delays delays delays delays:",
+          "popular_1995": "DOOM-delays delays delays delays 1995 delays, delays delays delays delays delays delays delays delays Microsoft-delays Windows 95-delays:",
+          "chainsaw_evil_dead": "DOOM-delays delays delays delays delays delays Evil Dead delays delays delays:",
+          "lost_soul": "Lost Soul delays delays delays delays delays delays Pain Elemental-delays delays delays delays delays, delays delays delays delays DOOM II-delays:",
+          "blessed_server": "delays delays delays delays delays delays delays LAN delays delays delays DOOM deathmatch delays delays:",
+          "resolution_320x200": "delays DOOM-delays delays delays 320x200 delays delays delays:",
+          "faster_processors": "DOOM-delays delays Intel-delays delays delays delays delays delays delays delays delays delays delays delays delays:",
+          "mars_setting": "delays delays delays delays delays delays, delays delays delays delays delays delays delays delays delays delays delays delays:"
+        },
+        "name": "Մեջբերում/Փաստ"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Պատռում և հոշոտում",
+          "off": "Քնած"
+        }
+      }
+    }
+  }
+}

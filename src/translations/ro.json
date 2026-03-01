@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Titlu",
+        "sound": "Sunet",
+        "auto_start": "Pornire automată"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "MODUL DIVIN ACTIVAT"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Naslov",
+        "sound": "Zvok",
+        "auto_start": "Samodejni zagon"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "BOŽJI NAČIN AKTIVIRAN"
+    }
+  }
+}

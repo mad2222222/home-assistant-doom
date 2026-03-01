@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Helvetes styrker har invadert ditt smarte hjem. Sett opp DOOM for å slå tilbake med et spillbart kort rett på dashbordet ditt. Riv og flerr, til det er gjort."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM river og flerrer allerede på systemet ditt. Det kan bare være én Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Riv og flerre, til det er ferdig.",
+          "huge_guts": "Du er enorm! Det betyr at du har enorme innvoller! Riv og flerre!",
+          "rage_brutal": "De er raseri, brutale, uten nåde. Men du. Du vil være verre.",
+          "first_age": "I den første tidsalder, i det første slaget, da skyggene først ble lengre, sto én. Brent av Armageddons glør, hans sjel blemmet av Helvetes flammer og forurenset hinsides frelse, valgte han den evige pinslens sti.",
+          "against_all_evil": "Mot alt det onde som Helvete kan mane frem, all ondskapen menneskeheten kan frembringe, sender vi mot dem bare deg.",
+          "only_thing_they_fear": "Det eneste de frykter... er deg.",
+          "not_a_massage": "Det var ikke en massasje!",
+          "ouch": "Au! Det må ha gjort vondt.",
+          "secret_area": "Se! Du har funnet et hemmelig område.",
+          "be_careful": "Advarsel: Hvem er der? Vær forsiktig, det kan være en felle.",
+          "infested_starport": "Du har trengt dypt inn i den infiserte romhavnen.",
+          "created_1993": "DOOM ble laget av id Software og utgitt 10. desember 1993.",
+          "carmack_engine": "John Carmack programmerte DOOM-motoren på omtrent 5 måneder.",
+          "team_of_six": "Det originale DOOM ble utviklet av et team på bare 6 personer.",
+          "deathmatch": "DOOM populariserte begrepet 'deathmatch' for flerspillerspill.",
+          "bfg": "BFG står for 'Big Fragging Gun' (offisielt).",
+          "shareware_bbs": "DOOM ble opprinnelig distribuert som shareware via oppslagstavlesystemer.",
+          "cacodemon_design": "Cacodemons design ble inspirert av et vesen fra forsiden av Dungeons & Dragons Manual of the Planes.",
+          "moons_of_mars": "Det originale DOOM foregår på Mars' måner: Phobos og Deimos.",
+          "bobby_prince": "Bobby Prince komponerte DOOM-soundtracket, berømt inspirert av heavy metal-band som Metallica, Pantera og Slayer.",
+          "open_source": "DOOMs kildekode ble frigitt som åpen kildekode 23. desember 1997.",
+          "ported_everywhere": "DOOM har blitt overført til nesten enhver tenkelig datamaskinplattform, inkludert minibanker, graviditetstester og smarte kjøleskap.",
+          "doomguy": "Hovedpersonen i DOOM er allment kjent som 'Doomguy' eller 'Doom Slayer'.",
+          "no_look_up_down": "Det originale DOOM hadde ingen mulighet til å se opp eller ned.",
+          "wad_modding": "DOOM var et av de første spillene som støttet modding gjennom WAD-filer.",
+          "iddqd": "Juksekoden IDDQD aktiverer gudemodus i det originale DOOM.",
+          "idkfa": "IDKFA gir deg alle nøkler, full ammunisjon og alle våpen i DOOM.",
+          "spider_mastermind": "Spider Mastermind var sluttbossen i det originale DOOM.",
+          "knee_deep_downloads": "DOOMs shareware-episode 'Knee Deep in the Dead' ble lastet ned millioner av ganger det første året.",
+          "super_shotgun": "DOOM II introduserte Super Shotgun, et av de mest elskede våpnene i FPS-historien.",
+          "cyberdemon": "Cyberdemon er en av de mest ikoniske fiendene i spillhistorien.",
+          "more_than_windows": "På sitt høyeste var DOOM anslått å være installert på flere datamaskiner enn Windows 95.",
+          "imp_fireball": "Impens ildkule var et av de første prosjektiangrepene i en 3D førstepersonsskytespill.",
+          "bsp_rendering": "DOOM-motoren renderer pseudo-3D-grafikk ved hjelp av en teknikk kalt binær rompartisjonering (BSP).",
+          "pinky_demon": "Pinky-demonen ble oppkalt etter sin opprinnelige lyserosa farge under tidlig utvikling.",
+          "speedrun": "Speedrunnere kan fullføre DOOMs første episode på under 5 minutter.",
+          "romero_head": "John Romeros hode på en pinne er den virkelige sluttbossen i DOOM II.",
+          "floppy_disks": "Det originale DOOMs diskettinstallasjon krevde fire 3,5-tommers disketter.",
+          "e1m1": "E1M1 ('Hangar') er en av de mest gjenkjennelige spillbanene noensinne laget.",
+          "popular_1995": "DOOM var så populært i 1995 at det anslås å ha vært på flere PC-er enn Microsofts Windows 95.",
+          "chainsaw_evil_dead": "Motorsagen i DOOM ble inspirert av Evil Dead-filmene.",
+          "lost_soul": "Lost Soul-fienden var opprinnelig ment som en kastet hodeskalle fra Pain Elemental, som ble lagt til i DOOM II.",
+          "blessed_server": "En katolsk prest velsignet en gang en LAN-server før en DOOM deathmatch-turnering.",
+          "resolution_320x200": "Det originale DOOM kjører i en oppløsning på 320x200 piksler.",
+          "faster_processors": "DOOM tvang Intel og andre selskaper til å fremskynde utviklingen av raskere prosessorer.",
+          "mars_setting": "Mars-settingen ble valgt fordi John Carmack syntes at demoner fra Mars hørtes kult ut."
+        },
+        "name": "Sitat/Faktum"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "River og flenger",
+          "off": "Dvale"
+        }
+      }
+    }
+  }
+}

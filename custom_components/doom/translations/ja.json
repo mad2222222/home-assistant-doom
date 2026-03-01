@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "地獄の軍勢があなたのスマートホームに侵入しました。ダッシュボードにプレイ可能なカードを追加して反撃するためにDOOMをセットアップしましょう。引き裂け、終わるまで。"
+      }
+    },
+    "abort": {
+      "already_configured": "DOOMはすでにあなたのシステムで引き裂いています。Doom Slayerは一人だけです。"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "引き裂け、終わるまで。",
+          "huge_guts": "お前はデカい！つまり内臓もデカいってことだ！引き裂け！",
+          "rage_brutal": "彼らは怒り、残忍で、情け容赦なし。だがお前。お前はもっとひどい。",
+          "first_age": "第一紀、最初の戦いで、影が初めて伸びた時、一人が立ち上がった。ハルマゲドンの燃えさしに焼かれ、地獄の炎に魂を焦がされ、昇天を超えて汚染された彼は、永遠の苦悶の道を選んだ。",
+          "against_all_evil": "地獄が呼び起こせるすべての悪、人類が生み出せるすべての邪悪に対して、我々は彼らにお前だけを送り込む。",
+          "only_thing_they_fear": "彼らが恐れる唯一のもの...それはお前だ。",
+          "not_a_massage": "マッサージじゃなかったぞ！",
+          "ouch": "痛っ！あれは痛かったに違いない。",
+          "secret_area": "見ろ！秘密のエリアを見つけたぞ。",
+          "be_careful": "警告：誰だ？気をつけろ、罠かもしれない。",
+          "infested_starport": "感染した宇宙港の奥深くに入り込んだ。",
+          "created_1993": "DOOMはid Softwareによって作られ、1993年12月10日にリリースされた。",
+          "carmack_engine": "ジョン・カーマックは約5ヶ月でDOOMエンジンをプログラムした。",
+          "team_of_six": "オリジナルのDOOMはわずか6人のチームで開発された。",
+          "deathmatch": "DOOMはマルチプレイヤーゲームにおける「デスマッチ」という用語を普及させた。",
+          "bfg": "BFGは「Big Fragging Gun」の略（公式には）。",
+          "shareware_bbs": "DOOMは元々BBS（電子掲示板システム）を通じてシェアウェアとして配布された。",
+          "cacodemon_design": "カコデーモンのデザインは、ダンジョンズ＆ドラゴンズのManual of the Planesの表紙にある生き物から着想を得た。",
+          "moons_of_mars": "オリジナルのDOOMは火星の衛星フォボスとデイモスが舞台。",
+          "bobby_prince": "ボビー・プリンスがDOOMのサウンドトラックを作曲し、メタリカ、パンテラ、スレイヤーなどのヘビーメタルバンドに影響を受けたことで有名。",
+          "open_source": "DOOMのソースコードは1997年12月23日にオープンソースとして公開された。",
+          "ported_everywhere": "DOOMはATM、妊娠検査薬、スマート冷蔵庫など、考えうるほぼすべてのコンピュータプラットフォームに移植されている。",
+          "doomguy": "DOOMの主人公は一般的に「ドゥームガイ」または「ドゥームスレイヤー」として知られている。",
+          "no_look_up_down": "オリジナルのDOOMには上下を見る機能がなかった。",
+          "wad_modding": "DOOMはWADファイルによるModをサポートした最初のゲームの一つ。",
+          "iddqd": "IDDQDチートコードはオリジナルDOOMでゴッドモードを有効にする。",
+          "idkfa": "IDKFAはDOOMですべての鍵、全弾薬、全武器を入手できる。",
+          "spider_mastermind": "スパイダー・マスターマインドはオリジナルDOOMの最終ボスだった。",
+          "knee_deep_downloads": "DOOMのシェアウェアエピソード「Knee Deep in the Dead」は最初の1年で何百万回もダウンロードされた。",
+          "super_shotgun": "DOOM IIはスーパーショットガンを導入した。FPS史上最も愛された武器の一つ。",
+          "cyberdemon": "サイバーデーモンはゲーム史上最も象徴的な敵の一つ。",
+          "more_than_windows": "全盛期にはDOOMはWindows 95よりも多くのコンピュータにインストールされていたと推定された。",
+          "imp_fireball": "インプの火球は3Dファーストパーソンシューターにおける最初の飛び道具攻撃の一つだった。",
+          "bsp_rendering": "DOOMエンジンはBSP（二分空間分割）と呼ばれる技術を使って疑似3Dグラフィックスを描画している。",
+          "pinky_demon": "ピンキーデーモンの名前は開発初期の明るいピンク色に由来する。",
+          "speedrun": "スピードランナーはDOOMの最初のエピソードを5分以内にクリアできる。",
+          "romero_head": "棒に刺さったジョン・ロメロの頭がDOOM IIの真の最終ボス。",
+          "floppy_disks": "オリジナルDOOMのフロッピーディスクインストーラーには3.5インチディスクが4枚必要だった。",
+          "e1m1": "E1M1（「ハンガー」）は史上最も有名なビデオゲームレベルの一つ。",
+          "popular_1995": "1995年、DOOMは非常に人気があり、MicrosoftのWindows 95よりも多くのPCに入っていると推定された。",
+          "chainsaw_evil_dead": "DOOMのチェーンソーは映画「死霊のはらわた」シリーズに影響を受けた。",
+          "lost_soul": "ロストソウルの敵は元々DOOM IIで追加されたペインエレメンタルから投げられる頭蓋骨として考案された。",
+          "blessed_server": "カトリックの司祭がDOOMデスマッチトーナメントの前にLANサーバーを祝福したことがある。",
+          "resolution_320x200": "オリジナルDOOMは320x200ピクセルの解像度で動作する。",
+          "faster_processors": "DOOMはインテルや他の企業により高速なプロセッサの開発を加速させるきっかけとなった。",
+          "mars_setting": "火星という舞台は、ジョン・カーマックが火星からの悪魔はクールだと思ったから選ばれた。"
+        },
+        "name": "引用/豆知識"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "引き裂き中",
+          "off": "休眠中"
+        }
+      }
+    }
+  }
+}

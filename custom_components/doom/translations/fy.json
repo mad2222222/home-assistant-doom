@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "De machten fan 'e hel binne dyn tûke hûs ynkaam. Stel DOOM yn om werom te fjochtsjen mei in spylbere kaart rjocht op dyn dashboard. Skuor en ferskuor, oant it dien is."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM is al oan it skuorren en ferskuorren op dyn systeem. Der kin mar ien Doom Slayer wêze."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Sitaat/Feit",
+        "state": {
+          "rip_and_tear": "Skuor en skuor, oant it klear is.",
+          "huge_guts": "Do bist grut! Dat betsjut datst grutte darmen hast! Skuor en skuor!",
+          "rage_brutal": "Se binne grime, wreed, sûnder genede. Mar do. Do silst slimmer wêze.",
+          "first_age": "Yn it earste tiidrek, yn de earste slach, doe't de skaadden foar it earst langer waarden, stie ien...",
+          "against_all_evil": "Tsjin al it kwea dat de Hel oproppe kin, al de goddeleazens dy't de minske produsearje kin, sille wy nei harren allinne dy stjoere.",
+          "only_thing_they_fear": "It iennige dêr't se bang foar binne... bisto.",
+          "not_a_massage": "Dat wie gjin massage!",
+          "ouch": "Au! Dat moat sear dwaan.",
+          "secret_area": "Sjoch ris oan! Do hast in geheim gebiet fûn.",
+          "be_careful": "Warskôging: Wa is dêr? Pas op, dat kin in fâle wêze.",
+          "infested_starport": "Do bist djip yn de oantaaste stjerrehaven trochkrongen.",
+          "created_1993": "DOOM is makke troch id Software en útbrocht op 10 desimber 1993.",
+          "carmack_engine": "John Carmack hat de DOOM-motor yn likernôch 5 moanne programmearre.",
+          "team_of_six": "De orizjinele DOOM is ûntwikkele troch in team fan mar 6 minsken.",
+          "deathmatch": "DOOM hat de term 'deathmatch' foar multispiler-gaming populêr makke.",
+          "bfg": "De BFG stiet foar 'Big Fragging Gun' (offisjeel).",
+          "shareware_bbs": "DOOM waard oarspronklik ferspraat as shareware fia bulletin board-systemen.",
+          "cacodemon_design": "It ûntwerp fan de Cacodemon is ynspirearre troch in skepsel fan de omslach fan it D&D Manual of the Planes.",
+          "moons_of_mars": "De orizjinele DOOM spilet op de moanen fan Mars: Phobos en Deimos.",
+          "bobby_prince": "Bobby Prince hat de DOOM-soundtrack komponearre, ferneamd ynspirearre troch heavy metal-bands lykas Metallica, Pantera en Slayer.",
+          "open_source": "De DOOM-boarnekoade is frijjûn as iepen boarne op 23 desimber 1997.",
+          "ported_everywhere": "DOOM is oerbrocht nei hast elk tinkber kompjûterplatfoarm, ynklusyf pinautomaten, swangerskipstests en tûke kuolkasten.",
+          "doomguy": "De haadpersoan fan DOOM is algemien bekend as 'Doomguy' of de 'Doom Slayer'.",
+          "no_look_up_down": "De orizjinele DOOM hie gjin mooglikheid om omheech of omleech te sjen.",
+          "wad_modding": "DOOM wie ien fan de earste spultsjes dy't modding fia WAD-bestannen stipe.",
+          "iddqd": "De IDDQD-cheatkoade skeakelt God-modus yn yn de orizjinele DOOM.",
+          "idkfa": "IDKFA jout dy alle kaaien, folsleine munytsje en alle wapens yn DOOM.",
+          "spider_mastermind": "De Spider Mastermind wie de einbaas fan de orizjinele DOOM.",
+          "knee_deep_downloads": "De shareware-ôflevering fan DOOM 'Knee Deep in the Dead' is miljoenen kearen download yn it earste jier.",
+          "super_shotgun": "DOOM II yntrodusearre de Super Shotgun, ien fan de meast beminde wapens yn FPS-skiednis.",
+          "cyberdemon": "De Cyberdemon is ien fan de meast ikoanyske fijannen yn de gamingskiednis.",
+          "more_than_windows": "Op syn hichtepunt waard skat dat DOOM op mear kompjûters ynstalearre wie as Windows 95.",
+          "imp_fireball": "De fjoerbal fan de Imp wie ien fan de earste projektyloanfallen yn in 3D first-person shooter.",
+          "bsp_rendering": "De DOOM-motor renderet pseudo-3D-grafiken mei in technyk neamd binary space partitioning (BSP).",
+          "pinky_demon": "De Pinky-demon is ferneamd nei syn oarspronklike heldere roze kleur yn de iere ûntwikkeling.",
+          "speedrun": "Speedrunners kinne de earste ôflevering fan DOOM yn minder as 5 minuten foltôgje.",
+          "romero_head": "De holle fan John Romero op in stôk is de echte einbaas fan DOOM II.",
+          "floppy_disks": "De orizjinele DOOM floppydisk-ynstallearder ferge fjouwer 3,5-inch diskettes.",
+          "e1m1": "E1M1 ('Hangar') is ien fan de meast werkende fideospultsjenivo's ea makke.",
+          "popular_1995": "DOOM wie sa populêr yn 1995 dat skat waard dat it op mear PC's stie as Microsoft's Windows 95.",
+          "chainsaw_evil_dead": "De kettingsage yn DOOM is ynspirearre troch de Evil Dead-films.",
+          "lost_soul": "De Lost Soul-fijân wie oarspronklik bedoeld as in smiten skedel fan de Pain Elemental, dy't tafoege waard yn DOOM II.",
+          "blessed_server": "In katolike preester hat ienris in LAN-tsjinner segene foar in DOOM-deathmatch-toernoai.",
+          "resolution_320x200": "De orizjinele DOOM draait op in resolúsje fan 320x200 piksels.",
+          "faster_processors": "DOOM twong Intel en oare bedriuwen om de ûntwikkeling fan flugere processors te fersnellen.",
+          "mars_setting": "De Mars-setting is keazen om't John Carmack fûn dat demoanen fan Mars cool klonken."
+        }
+      },
+      "last_played": {
+        "name": "Lêst spile"
+      },
+      "session_duration": {
+        "name": "Sesjedoer"
+      },
+      "total_play_time": {
+        "name": "Totale spyltiid"
+      },
+      "sessions_played": {
+        "name": "Spile sesjes"
+      },
+      "current_player": {
+        "name": "Hjoeddeiske spiler",
+        "state": {
+          "nobody": "Nimmen spilet"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Skuort en skuort",
+          "off": "Sliepend"
+        }
+      }
+    }
+  }
+}

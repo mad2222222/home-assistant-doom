@@ -1,0 +1,12 @@
+{
+  "domain": "doom",
+  "name": "DOOM",
+  "codeowners": ["@frenck"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "websocket_api"],
+  "documentation": "https://github.com/frenck/home-assistant-doom",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/frenck/home-assistant-doom/issues",
+  "version": "0.0.0"
+}

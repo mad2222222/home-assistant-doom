@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Die hel se magte het jou slimhuis binnegedring. Stel DOOM op om terug te veg met 'n speelbare kaart reg op jou dashboard. Skeur en verskeur, totdat dit klaar is."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM is reeds besig om te skeur en verskeur op jou stelsel. Daar kan net een Doom Slayer wees."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Skeur en ruk, totdat dit klaar is.",
+          "huge_guts": "Jy is enorm! Dit beteken jy het enorme derms! Skeur en ruk!",
+          "rage_brutal": "Hulle is woede, brutaal, sonder genade. Maar jy. Jy sal erger wees.",
+          "first_age": "In die eerste era, in die eerste geveg, toe die skaduwees die eerste keer langer geword het, het een gestaan. Gebrand deur die as van Armageddon, sy siel geblaar deur die vure van die Hel en besoedel verby verlossing, het hy die pad van ewige kwelling gekies.",
+          "against_all_evil": "Teen al die boosheid wat die Hel kan oproep, al die kwaad wat die mensdom kan voortbring, stuur ons teen hulle net jou.",
+          "only_thing_they_fear": "Die enigste ding wat hulle vrees... is jy.",
+          "not_a_massage": "Dit was nie 'n massering nie!",
+          "ouch": "Eina! Dit moes seer gewees het.",
+          "secret_area": "Kyk daar! Jy het 'n geheime area gevind.",
+          "be_careful": "Waarskuwing: Wie is daar? Wees versigtig, dit kan 'n lokval wees.",
+          "infested_starport": "Jy het diep in die besmette ruimtehawe inbeweeg.",
+          "created_1993": "DOOM is geskep deur id Software en vrygestel op 10 Desember 1993.",
+          "carmack_engine": "John Carmack het die DOOM-enjin in ongeveer 5 maande geprogrammeer.",
+          "team_of_six": "Die oorspronklike DOOM is ontwikkel deur 'n span van net 6 mense.",
+          "deathmatch": "DOOM het die term 'deathmatch' vir veelspeler-speletjies gewild gemaak.",
+          "bfg": "BFG staan vir 'Big Fragging Gun' (amptelik).",
+          "shareware_bbs": "DOOM is oorspronklik as shareware via bulletinbordstelsels versprei.",
+          "cacodemon_design": "Die Cacodemon se ontwerp is geïnspireer deur 'n wese op die omslag van Dungeons & Dragons se Manual of the Planes.",
+          "moons_of_mars": "Die oorspronklike DOOM speel af op die mane van Mars: Phobos en Deimos.",
+          "bobby_prince": "Bobby Prince het die DOOM-klankbaan gekomponeer, beroemd geïnspireer deur swaarmetal-groepe soos Metallica, Pantera en Slayer.",
+          "open_source": "Die DOOM-bronkode is op 23 Desember 1997 as oopbron vrygestel.",
+          "ported_everywhere": "DOOM is na feitlik elke denkbare rekenaarplatform oorgedra, insluitend OTM's, swangerskapstoetse en slim yskaste.",
+          "doomguy": "Die hoofkarakter van DOOM staan algemeen bekend as 'Doomguy' of die 'Doom Slayer'.",
+          "no_look_up_down": "Die oorspronklike DOOM het geen vermoë gehad om op of af te kyk nie.",
+          "wad_modding": "DOOM was een van die eerste speletjies wat modding deur WAD-lêers ondersteun het.",
+          "iddqd": "Die IDDQD-bedriegkode aktiveer God-modus in die oorspronklike DOOM.",
+          "idkfa": "IDKFA gee jou alle sleutels, volle ammunisie en alle wapens in DOOM.",
+          "spider_mastermind": "Die Spider Mastermind was die eindbons van die oorspronklike DOOM.",
+          "knee_deep_downloads": "DOOM se shareware-episode 'Knee Deep in the Dead' is miljoene kere in sy eerste jaar afgelaai.",
+          "super_shotgun": "DOOM II het die Super Shotgun bekendgestel, een van die geliefste wapens in FPS-geskiedenis.",
+          "cyberdemon": "Die Cyberdemon is een van die mees ikoniese vyande in spelgeskiedenis.",
+          "more_than_windows": "Op sy hoogtepunt was DOOM na raming op meer rekenaars geïnstalleer as Windows 95.",
+          "imp_fireball": "Die Imp se vuurbal was een van die eerste projektielaanvalle in 'n 3D-eerstepersoonskietspel.",
+          "bsp_rendering": "Die DOOM-enjin render pseudo-3D-grafika deur 'n tegniek genaamd binêre ruimtepartisionering (BSP).",
+          "pinky_demon": "Die Pinky-demoon is vernoem na sy oorspronklike helderpers kleur tydens vroeë ontwikkeling.",
+          "speedrun": "Spoedlopers kan DOOM se eerste episode in minder as 5 minute voltooi.",
+          "romero_head": "John Romero se kop op 'n stok is die ware eindbons van DOOM II.",
+          "floppy_disks": "Die oorspronklike DOOM se diskette-installeerder het vier 3,5-duim diskette vereis.",
+          "e1m1": "E1M1 ('Hangar') is een van die mees herkenbare spelvlakke ooit geskep.",
+          "popular_1995": "DOOM was so gewild in 1995 dat dit na raming op meer rekenaars was as Microsoft se Windows 95.",
+          "chainsaw_evil_dead": "Die kettingsaag in DOOM is geïnspireer deur die Evil Dead-films.",
+          "lost_soul": "Die Lost Soul-vyand was oorspronklik bedoel as 'n gegooi skedel van die Pain Elemental, wat in DOOM II bygevoeg is.",
+          "blessed_server": "n Katolieke priester het eenkeer 'n LAN-bediener geseën voor 'n DOOM deathmatch-toernooi.",
+          "resolution_320x200": "Die oorspronklike DOOM loop op 'n resolusie van 320x200 piksels.",
+          "faster_processors": "DOOM het Intel en ander maatskappye gedwing om die ontwikkeling van vinniger verwerkers te versnel.",
+          "mars_setting": "Die Mars-instelling is gekies omdat John Carmack gedink het demone van Mars klink cool."
+        },
+        "name": "Aanhaling/Feit"
+      },
+      "last_played": {
+        "name": "Laas gespeel"
+      },
+      "session_duration": {
+        "name": "Sessieduur"
+      },
+      "total_play_time": {
+        "name": "Totale speeltyd"
+      },
+      "sessions_played": {
+        "name": "Sessies gespeel"
+      },
+      "current_player": {
+        "name": "Huidige speler",
+        "state": {
+          "nobody": "Niemand speel nie"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Skeur en skeur",
+          "off": "Sluimerend"
+        }
+      }
+    }
+  }
+}

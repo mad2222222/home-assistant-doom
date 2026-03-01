@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "De machten van de hel zijn je slimme huis binnengedrongen. Stel DOOM in om terug te vechten met een speelbare kaart direct op je dashboard. Scheur en verscheur, tot het klaar is."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM is al aan het scheuren en verscheuren op je systeem. Er kan slechts één Doom Slayer zijn."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Scheur en verscheur, totdat het klaar is.",
+          "huge_guts": "Je bent enorm! Dat betekent dat je enorme ingewanden hebt! Scheur en verscheur!",
+          "rage_brutal": "Ze zijn woede, bruut, zonder genade. Maar jij. Jij zult erger zijn.",
+          "first_age": "In het eerste tijdperk, in de eerste veldslag, toen de schaduwen zich voor het eerst verlengden, stond er één. Verbrand door de sintels van Armageddon, zijn ziel geblakerd door de vuren van de Hel en besmet voorbij verlossing, koos hij het pad van eeuwige kwelling.",
+          "against_all_evil": "Tegen al het kwaad dat de Hel kan oproepen, al de slechtheid die de mensheid kan voortbrengen, sturen we naar hen enkel jou.",
+          "only_thing_they_fear": "Het enige dat ze vrezen... ben jij.",
+          "not_a_massage": "Dat was geen massage!",
+          "ouch": "Au! Dat moet pijn gedaan hebben.",
+          "secret_area": "Kijk nou! Je hebt een geheim gebied gevonden.",
+          "be_careful": "Waarschuwing: Wie is daar? Wees voorzichtig, dat kan een valstrik zijn.",
+          "infested_starport": "Je bent diep doorgedrongen in de besmette ruimtehaven.",
+          "created_1993": "DOOM is gemaakt door id Software en uitgebracht op 10 december 1993.",
+          "carmack_engine": "John Carmack programmeerde de DOOM-engine in ongeveer 5 maanden.",
+          "team_of_six": "De originele DOOM werd ontwikkeld door een team van slechts 6 mensen.",
+          "deathmatch": "DOOM maakte de term 'deathmatch' populair voor multiplayer-gaming.",
+          "bfg": "De BFG staat voor 'Big Fragging Gun' (officieel).",
+          "shareware_bbs": "DOOM werd oorspronkelijk verspreid als shareware via bulletin board-systemen.",
+          "cacodemon_design": "Het ontwerp van de Cacodemon is geïnspireerd op een wezen van de omslag van de Dungeons & Dragons Manual of the Planes.",
+          "moons_of_mars": "De originele DOOM speelt zich af op de manen van Mars: Phobos en Deimos.",
+          "bobby_prince": "Bobby Prince componeerde de DOOM-soundtrack, beroemd geïnspireerd door heavy metal bands zoals Metallica, Pantera en Slayer.",
+          "open_source": "De DOOM-broncode werd vrijgegeven als open source op 23 december 1997.",
+          "ported_everywhere": "DOOM is geport naar vrijwel elk denkbaar computerplatform, inclusief geldautomaten, zwangerschapstesten en slimme koelkasten.",
+          "doomguy": "De hoofdpersoon van DOOM staat algemeen bekend als 'Doomguy' of de 'Doom Slayer'.",
+          "no_look_up_down": "De originele DOOM had geen mogelijkheid om omhoog of omlaag te kijken.",
+          "wad_modding": "DOOM was een van de eerste games die modding ondersteunde via WAD-bestanden.",
+          "iddqd": "De IDDQD-cheatcode activeert God-modus in de originele DOOM.",
+          "idkfa": "IDKFA geeft je alle sleutels, volledige munitie en alle wapens in DOOM.",
+          "spider_mastermind": "De Spider Mastermind was de eindbaas van de originele DOOM.",
+          "knee_deep_downloads": "DOOM's shareware-episode 'Knee Deep in the Dead' werd miljoenen keren gedownload in het eerste jaar.",
+          "super_shotgun": "DOOM II introduceerde de Super Shotgun, een van de meest geliefde wapens in FPS-geschiedenis.",
+          "cyberdemon": "De Cyberdemon is een van de meest iconische vijanden in de gamegeschiedenis.",
+          "more_than_windows": "Op het hoogtepunt stond DOOM naar schatting op meer computers geïnstalleerd dan Windows 95.",
+          "imp_fireball": "De vuurbal van de Imp was een van de eerste projectielaanvallen in een 3D first-person shooter.",
+          "bsp_rendering": "De DOOM-engine rendert pseudo-3D-graphics met behulp van een techniek genaamd binary space partitioning (BSP).",
+          "pinky_demon": "De Pinky-demon is vernoemd naar zijn oorspronkelijke felroze kleur in de vroege ontwikkeling.",
+          "speedrun": "Speedrunners kunnen de eerste episode van DOOM in minder dan 5 minuten uitspelen.",
+          "romero_head": "John Romero's hoofd op een stok is de echte eindbaas van DOOM II.",
+          "floppy_disks": "De originele DOOM-installatie op diskettes vereiste vier 3,5-inch diskettes.",
+          "e1m1": "E1M1 ('Hangar') is een van de meest herkenbare gamelevels ooit gemaakt.",
+          "popular_1995": "DOOM was zo populair in 1995 dat het naar schatting op meer pc's stond dan Microsoft's Windows 95.",
+          "chainsaw_evil_dead": "De kettingzaag in DOOM is geïnspireerd op de Evil Dead-films.",
+          "lost_soul": "De Lost Soul-vijand was oorspronkelijk bedoeld als een geworpen schedel van de Pain Elemental, die werd toegevoegd in DOOM II.",
+          "blessed_server": "Een katholieke priester heeft ooit een LAN-server gezegend voor een DOOM deathmatch-toernooi.",
+          "resolution_320x200": "De originele DOOM draait op een resolutie van 320x200 pixels.",
+          "faster_processors": "DOOM dwong Intel en andere bedrijven om de ontwikkeling van snellere processoren te versnellen om aan de vraag te voldoen.",
+          "mars_setting": "De Mars-setting werd gekozen omdat John Carmack vond dat demonen vanaf Mars cool klonken."
+        },
+        "name": "Citaat/Feit"
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Scheurt en rijt",
+          "off": "Sluimerend"
+        }
+      }
+    }
+  }
+}

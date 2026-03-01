@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Pekelne sile so vdrle v tvoj pametni dom. Nastavi DOOM, da se boriš nazaj z igralno kartico neposredno na tvoji nadzorni plošči. Trgaj in raztrgaj, dokler ni končano."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM že trga in raztrguje na tvojem sistemu. Lahko obstaja le en Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citat/Dejstvo",
+        "state": {
+          "rip_and_tear": "Trgaj in raztrgaj, dokler ni končano.",
+          "huge_guts": "Ogromen si! To pomeni, da imaš ogromna čreva! Trgaj in raztrgaj!",
+          "rage_brutal": "So bes, brutalni, brez usmiljenja. Ampak ti. Ti boš še hujši.",
+          "first_age": "V prvi dobi, v prvi bitki, ko so se sence prvič podaljšale, je stal eden...",
+          "against_all_evil": "Proti vsemu zlu, ki ga pekel lahko pričara, vsemu hudobiju, ki ga človeštvo lahko ustvari, jim bomo poslali samo tebe.",
+          "only_thing_they_fear": "Edina stvar, ki se je bojijo... si ti.",
+          "not_a_massage": "To ni bila masaža!",
+          "ouch": "Avč! To je moralo boleti.",
+          "secret_area": "Poglej to! Našel si skrito območje.",
+          "be_careful": "Opozorilo: Kdo je tam? Bodi previden, to bi lahko bila past.",
+          "infested_starport": "Prodrl si globoko v okuženo zvezdno pristanišče.",
+          "created_1993": "DOOM je ustvaril id Software in bil izdan 10. decembra 1993.",
+          "carmack_engine": "John Carmack je programiral pogon DOOM v približno 5 mesecih.",
+          "team_of_six": "Izvirni DOOM je razvila ekipa le 6 ljudi.",
+          "deathmatch": "DOOM je populariziral izraz 'deathmatch' za večigralsko igranje.",
+          "bfg": "BFG pomeni 'Big Fragging Gun' (uradno).",
+          "shareware_bbs": "DOOM je bil prvotno distribuiran kot shareware prek sistemov oglasnih desk.",
+          "cacodemon_design": "Zasnova Cacodemona je bila navdihnjena z bitjem z naslovnice D&D priročnika Manual of the Planes.",
+          "moons_of_mars": "Izvirni DOOM se dogaja na lunah Marsa: Fobos in Deimos.",
+          "bobby_prince": "Bobby Prince je skladal glasbeno podlago za DOOM, ki je bila slavno navdihnjena s heavy metal skupinami, kot so Metallica, Pantera in Slayer.",
+          "open_source": "Izvorna koda DOOM je bila izdana kot odprta koda 23. decembra 1997.",
+          "ported_everywhere": "DOOM je bil prenesen na skoraj vsako računalniško platformo, vključno z bankomati, testi nosečnosti in pametnimi hladilniki.",
+          "doomguy": "Protagonist igre DOOM je splošno znan kot 'Doomguy' ali 'Doom Slayer'.",
+          "no_look_up_down": "Izvirni DOOM ni imel možnosti gledanja navzgor ali navzdol.",
+          "wad_modding": "DOOM je bila ena prvih iger, ki so podpirale modifikacije prek datotek WAD.",
+          "iddqd": "Goljufiva koda IDDQD omogoči božji način v izvirnem DOOM-u.",
+          "idkfa": "IDKFA ti da vse ključe, polno strelivo in vsa orožja v DOOM-u.",
+          "spider_mastermind": "Spider Mastermind je bil končni šef izvirnega DOOM-a.",
+          "knee_deep_downloads": "Shareware epizoda DOOM-a 'Knee Deep in the Dead' je bila v prvem letu prenesena milijonkrat.",
+          "super_shotgun": "DOOM II je predstavil Super Shotgun, eno najbolj priljubljenih orožij v zgodovini FPS iger.",
+          "cyberdemon": "Cyberdemon je eden najbolj ikoničnih sovražnikov v zgodovini iger.",
+          "more_than_windows": "V času vrhunca je bilo ocenjeno, da je bil DOOM nameščen na več računalnikih kot Windows 95.",
+          "imp_fireball": "Ognjena krogla Impa je bila eden prvih projektilov v 3D prvoosebni strelski igri.",
+          "bsp_rendering": "Pogon DOOM upodablja psevdo-3D grafiko s tehniko, imenovano binarno razdeljevanje prostora (BSP).",
+          "pinky_demon": "Demon Pinky je dobil ime po svoji prvotni svetlo roza barvi v zgodnjem razvoju.",
+          "speedrun": "Hitrostni tekači lahko dokončajo prvo epizodo DOOM-a v manj kot 5 minutah.",
+          "romero_head": "Glava Johna Romera na palici je pravi končni šef DOOM-a II.",
+          "floppy_disks": "Izvirni namestitveni program DOOM na disketah je zahteval štiri 3,5-palčne diskete.",
+          "e1m1": "E1M1 ('Hangar') je ena najbolj prepoznavnih stopenj videoiger, kar so bile kdaj ustvarjene.",
+          "popular_1995": "DOOM je bil leta 1995 tako priljubljen, da je bilo ocenjeno, da je bil na več osebnih računalnikih kot Microsoftov Windows 95.",
+          "chainsaw_evil_dead": "Motorna žaga v DOOM-u je bila navdihnjena s filmi Zlobnimrtveci.",
+          "lost_soul": "Sovražnik Lost Soul je bil prvotno zamišljen kot vržena lobanja Pain Elementala, ki je bil dodan v DOOM II.",
+          "blessed_server": "Katoliški duhovnik je nekoč blagoslovil strežnik LAN pred turnirjem DOOM deathmatch.",
+          "resolution_320x200": "Izvirni DOOM teče pri ločljivosti 320x200 slikovnih pik.",
+          "faster_processors": "DOOM je prisilil Intel in druga podjetja, da so pospešila razvoj hitrejših procesorjev.",
+          "mars_setting": "Okolje Marsa je bilo izbrano, ker se je Johnu Carmacku zdelo, da demoni z Marsa zvenijo kul."
+        }
+      },
+      "last_played": {
+        "name": "Last played"
+      },
+      "session_duration": {
+        "name": "Session duration"
+      },
+      "total_play_time": {
+        "name": "Total play time"
+      },
+      "sessions_played": {
+        "name": "Sessions played"
+      },
+      "current_player": {
+        "name": "Current player",
+        "state": {
+          "nobody": "Nobody is playing"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Trga in para",
+          "off": "Speč"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "doom-card",
+  "version": "0.0.0",
+  "description": "DOOM Lovelace card for Home Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c --watch --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "lint": "eslint src/",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Franck Nijhof",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frenck/hass-doom"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "custom-card-helpers": "^1.9.0",
+    "home-assistant-js-websocket": "^9.5.0",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@eslint/js": "^10.0.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "rollup": "^4.50.1",
+    "rollup-plugin-serve": "^1.1.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.56.1"
+  }
+}

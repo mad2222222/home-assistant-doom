@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Tá fórsaí ifrinn tar éis do theach cliste a bhriseadh isteach. Socraigh DOOM chun troid ar ais le cárta inimeartha ar do dheais. Stróic agus réab, go dtí go mbeidh sé déanta."
+      }
+    },
+    "abort": {
+      "already_configured": "Tá DOOM ag stróiceadh agus ag réabadh cheana ar do chóras. Ní féidir ach Doom Slayer amháin a bheith ann."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Stróic agus réab, go dtí go bhfuil sé déanta.",
+          "huge_guts": "Tá tú ollmhór! Ciallaíonn sé sin go bhfuil putóga ollmhóra agat! Stróic agus réab!",
+          "rage_brutal": "Is cuthach iad, brúidiúil, gan trócaire. Ach tusa. Beidh tusa níos measa.",
+          "first_age": "Sa chéad aois, sa chéad chath, nuair a d'fhás na scáthanna ar dtús, sheas duine amháin...",
+          "against_all_evil": "In aghaidh an oilc ar fad is féidir le hIfreann a ghairm, an urchóid ar fad is féidir leis an gcine daonna a tháirgeadh, seolfaimid chucu thú amháin.",
+          "only_thing_they_fear": "An t-aon rud a bhfuil eagla orthu roimhe... is tusa é.",
+          "not_a_massage": "Ní suathaireacht a bhí ansin!",
+          "ouch": "Úch! Caithfidh gur ghoill sé sin.",
+          "secret_area": "Féach ar sin! D'aimsigh tú limistéar rúnda.",
+          "be_careful": "Rabhadh: Cé atá ansin? Bí cúramach, d'fhéadfadh sé gur gaiste é.",
+          "infested_starport": "Tá tú brúite go domhain isteach sa réaltphort atá lotnaithe.",
+          "created_1993": "Chruthaigh id Software DOOM agus scaoileadh é ar an 10 Nollaig, 1993.",
+          "carmack_engine": "Ríomhchláraigh John Carmack inneall DOOM i thart ar 5 mhí.",
+          "team_of_six": "D'fhorbair foireann de 6 dhuine amháin an DOOM bunaidh.",
+          "deathmatch": "Rinne DOOM an téarma 'deathmatch' coitianta do chluichíocht ilimreora.",
+          "bfg": "Seasann BFG do 'Big Fragging Gun' (go hoifigiúil).",
+          "shareware_bbs": "Dáileadh DOOM ar dtús mar bhogearraí roinnte trí chórais bhord bhulaitín.",
+          "cacodemon_design": "Spreagadh dearadh an Cacodemon ag créatúr ó chlúdach Lámhleabhar na bPlánéad D&D.",
+          "moons_of_mars": "Tá an DOOM bunaidh suite ar ghealaithe Mhars: Phobos agus Deimos.",
+          "bobby_prince": "Chum Bobby Prince fuaimrian DOOM, a spreagadh go cáiliúil ag bannaí miotal trom ar nós Metallica, Pantera agus Slayer.",
+          "open_source": "Scaoileadh cód foinseach DOOM mar fhoinse oscailte ar an 23 Nollaig, 1997.",
+          "ported_everywhere": "Aistríodh DOOM go beagnach gach ardán ríomhaireachta is féidir a shamhlú, lena n-áirítear uathmheaisíní bainc, tástálacha toirchis agus cuisneoirí cliste.",
+          "doomguy": "Is gnách go dtugtar 'Doomguy' nó an 'Doom Slayer' ar phríomhcharachtar DOOM.",
+          "no_look_up_down": "Ní raibh aon chumas sa DOOM bunaidh féachaint suas nó síos.",
+          "wad_modding": "Bhí DOOM ar cheann de na chéad chluichí a thacaigh le modhnú trí chomhaid WAD.",
+          "iddqd": "Cumasaíonn an cód calaoise IDDQD mód Dé sa DOOM bunaidh.",
+          "idkfa": "Tugann IDKFA gach eochair, lán-armlón agus gach arm duit i DOOM.",
+          "spider_mastermind": "Ba é an Spider Mastermind an ceannaire deiridh sa DOOM bunaidh.",
+          "knee_deep_downloads": "Íoslódáladh eipeasóid bhogearraí roinnte DOOM 'Knee Deep in the Dead' na milliúin uair ina chéad bhliain.",
+          "super_shotgun": "Thug DOOM II isteach an Super Shotgun, ceann de na hairm is ansa i stair FPS.",
+          "cyberdemon": "Tá an Cyberdemon ar cheann de na naimhde is siombalach i stair na gcluichí.",
+          "more_than_windows": "Ag a bhuaicphointe, measadh go raibh DOOM suiteáilte ar níos mó ríomhairí ná Windows 95.",
+          "imp_fireball": "Bhí liathróid tine an Imp ar cheann de na chéad ionsaithe diúracáin i lámhachóir 3D sa chéad phearsa.",
+          "bsp_rendering": "Rindreálann inneall DOOM grafaicí bréag-3D ag baint úsáide as teicníc ar a dtugtar deighilt spáis dhénártha (BSP).",
+          "pinky_demon": "Ainmníodh an deamhan Pinky as a dhath bándearg geal bunaidh le linn luathfhorbartha.",
+          "speedrun": "Is féidir le luasritheoirí an chéad eipeasóid de DOOM a chríochnú i níos lú ná 5 nóiméad.",
+          "romero_head": "Is é ceann John Romero ar mhaide an fíorcheannaire deiridh i DOOM II.",
+          "floppy_disks": "Bhí ceithre dhiosca 3.5-orlach ag teastáil ó shuiteálaí diosca bog an DOOM bunaidh.",
+          "e1m1": "Tá E1M1 ('Hangar') ar cheann de na leibhéil chluichí físeáin is aitheanta a cruthaíodh riamh.",
+          "popular_1995": "Bhí DOOM chomh tóir sin i 1995 gur measadh go raibh sé ar níos mó ríomhairí pearsanta ná Windows 95 Microsoft.",
+          "chainsaw_evil_dead": "Spreag na scannáin Evil Dead an sábh slabhrach i DOOM.",
+          "lost_soul": "Bhí sé beartaithe ar dtús go mbeadh an namhaid Lost Soul ina blaosc caite ón Pain Elemental, a cuireadh leis i DOOM II.",
+          "blessed_server": "Bheannaigh sagart Caitliceach freastalaí LAN uair amháin roimh chomórtas deathmatch DOOM.",
+          "resolution_320x200": "Ritheann an DOOM bunaidh ag taifeach de 320x200 picteilín.",
+          "faster_processors": "Chuir DOOM iallach ar Intel agus ar chomhlachtaí eile forbairt próiseálaithe níos tapúla a bhrostú.",
+          "mars_setting": "Roghnaíodh Mars mar shuíomh toisc gur cheap John Carmack go raibh deamhain ó Mhars fionnuar."
+        },
+        "name": "Athfhriotal/Fior"
+      },
+      "last_played": {
+        "name": "Imeartha go deireanach"
+      },
+      "session_duration": {
+        "name": "Fad an tseisiúin"
+      },
+      "total_play_time": {
+        "name": "Am imeartha iomlán"
+      },
+      "sessions_played": {
+        "name": "Seisiúin imeartha"
+      },
+      "current_player": {
+        "name": "Imreoir reatha",
+        "state": {
+          "nobody": "Níl aon duine ag imirt"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Ag stróiceadh",
+          "off": "Ina chodladh"
+        }
+      }
+    }
+  }
+}

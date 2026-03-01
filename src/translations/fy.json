@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Titel",
+        "sound": "Lûd",
+        "auto_start": "Automatysk starte"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "GODMODUS AKTIVEARRE"
+    }
+  }
+}

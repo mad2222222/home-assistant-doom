@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Mae byddinoedd uffern wedi torri i mewn i'ch cartref clyfar. Gosodwch DOOM i ymladd yn ôl gyda cherdyn chwarae ar eich dangosfwrdd. Rhwygwch a llarpiach, nes ei fod wedi'i wneud."
+      }
+    },
+    "abort": {
+      "already_configured": "Mae DOOM eisoes yn rhwygo a llarpïo ar eich system. Dim ond un Doom Slayer all fod."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Rhwyga a llarpia, nes ei fod wedi'i wneud.",
+          "huge_guts": "Rwyt ti'n enfawr! Mae hynny'n golygu bod gen ti berfedd enfawr! Rhwyga a llarpia!",
+          "rage_brutal": "Cynddaredd ydyn nhw, creulon, heb drugaredd. Ond ti. Byddi di'n waeth.",
+          "first_age": "Yn yr oes gyntaf, yn y frwydr gyntaf, pan ymestynnwyd y cysgodion gyntaf, safodd un...",
+          "against_all_evil": "Yn erbyn yr holl ddrygioni y gall Uffern ei greu, yr holl ddrygioni y gall dynolryw ei gynhyrchu, fe anfonwn atat ti yn unig.",
+          "only_thing_they_fear": "Yr unig beth maen nhw'n ei ofni... yw ti.",
+          "not_a_massage": "Nid tylino oedd hynna!",
+          "ouch": "Aw! Mae hynna'n siŵr o frifo.",
+          "secret_area": "Edrychwch ar hynna! Fe ddaethoch o hyd i ardal gyfrinachol.",
+          "be_careful": "Rhybudd: Pwy sydd yna? Byddwch yn ofalus, gallai hynny fod yn drap.",
+          "infested_starport": "Rydych chi wedi gwthio'n ddwfn i mewn i'r porthladd sêr heintiedig.",
+          "created_1993": "Crëwyd DOOM gan id Software a'i ryddhau ar Ragfyr 10, 1993.",
+          "carmack_engine": "Rhaglennodd John Carmack injan DOOM mewn tua 5 mis.",
+          "team_of_six": "Datblygwyd y DOOM gwreiddiol gan dîm o ddim ond 6 o bobl.",
+          "deathmatch": "Poblogeiddiodd DOOM y term 'deathmatch' ar gyfer gemau aml-chwaraewr.",
+          "bfg": "Mae BFG yn sefyll am 'Big Fragging Gun' (yn swyddogol).",
+          "shareware_bbs": "Dosbarthwyd DOOM yn wreiddiol fel meddalwedd rhannu trwy systemau byrddau bwletin.",
+          "cacodemon_design": "Ysbrydolwyd dyluniad y Cacodemon gan greadur o glawr Llawlyfr y Planiau D&D.",
+          "moons_of_mars": "Mae'r DOOM gwreiddiol wedi'i osod ar leuadau Mawrth: Phobos a Deimos.",
+          "bobby_prince": "Cyfansoddodd Bobby Prince drac sain DOOM, wedi'i ysbrydoli'n enwog gan fandiau metel trwm fel Metallica, Pantera, a Slayer.",
+          "open_source": "Rhyddhawyd cod ffynhonnell DOOM fel cod agored ar Ragfyr 23, 1997.",
+          "ported_everywhere": "Mae DOOM wedi'i bortio i bron bob platfform cyfrifiadurol y gallwch ei ddychmygu, gan gynnwys peiriannau ATM, profion beichiogrwydd, ac oergelloedd clyfar.",
+          "doomguy": "Mae prif gymeriad DOOM yn cael ei adnabod fel 'Doomguy' neu'r 'Doom Slayer'.",
+          "no_look_up_down": "Nid oedd gan y DOOM gwreiddiol y gallu i edrych i fyny nac i lawr.",
+          "wad_modding": "DOOM oedd un o'r gemau cyntaf i gefnogi moddio trwy ffeiliau WAD.",
+          "iddqd": "Mae'r côd twyllo IDDQD yn galluogi modd Duw yn y DOOM gwreiddiol.",
+          "idkfa": "Mae IDKFA yn rhoi'r holl allweddi, ammo llawn, a'r holl arfau i chi yn DOOM.",
+          "spider_mastermind": "Y Spider Mastermind oedd bos olaf y DOOM gwreiddiol.",
+          "knee_deep_downloads": "Cafodd pennod meddalwedd rhannu DOOM 'Knee Deep in the Dead' ei lawrlwytho filiynau o weithiau yn ei flwyddyn gyntaf.",
+          "super_shotgun": "Cyflwynodd DOOM II y Super Shotgun, un o'r arfau mwyaf poblogaidd yn hanes FPS.",
+          "cyberdemon": "Y Cyberdemon yw un o'r gelynion mwyaf eiconig yn hanes gemau.",
+          "more_than_windows": "Ar ei anterth, amcangyfrifwyd bod DOOM wedi'i osod ar fwy o gyfrifiaduron na Windows 95.",
+          "imp_fireball": "Pelen dân yr Imp oedd un o'r ymosodiadau taflegryn cyntaf mewn saethwr person cyntaf 3D.",
+          "bsp_rendering": "Mae injan DOOM yn rendro graffeg ffug-3D gan ddefnyddio techneg o'r enw rhannu gofod deuaidd (BSP).",
+          "pinky_demon": "Enwyd y cythraul Pinky ar ôl ei liw pinc llachar gwreiddiol yn ystod datblygiad cynnar.",
+          "speedrun": "Gall rhedwyr cyflym gwblhau pennod gyntaf DOOM mewn llai na 5 munud.",
+          "romero_head": "Pen John Romero ar ffon yw gwir fos olaf DOOM II.",
+          "floppy_disks": "Roedd gosodwr disg hyblyg DOOM gwreiddiol angen pedwar disg 3.5 modfedd.",
+          "e1m1": "E1M1 ('Hangar') yw un o'r lefelau gêm fideo mwyaf adnabyddus a grëwyd erioed.",
+          "popular_1995": "Roedd DOOM mor boblogaidd yn 1995 fel yr amcangyfrifwyd ei fod ar fwy o gyfrifiaduron personol na Windows 95 Microsoft.",
+          "chainsaw_evil_dead": "Ysbrydolwyd y llif gadwyn yn DOOM gan ffilmiau Evil Dead.",
+          "lost_soul": "Bwriadwyd yn wreiddiol i'r gelyn Lost Soul fod yn benglog a deflir gan y Pain Elemental, a ychwanegwyd yn DOOM II.",
+          "blessed_server": "Bendithiodd offeiriad Catholig unwaith weinydd LAN cyn twrnamaint deathmatch DOOM.",
+          "resolution_320x200": "Mae'r DOOM gwreiddiol yn rhedeg ar gydraniad o 320x200 picsel.",
+          "faster_processors": "Gorfododd DOOM Intel a chwmnïau eraill i gyflymu datblygiad proseswyr cyflymach.",
+          "mars_setting": "Dewiswyd lleoliad Mawrth oherwydd bod John Carmack yn meddwl bod cythreuliaid o Fawrth yn swnio'n cŵl."
+        },
+        "name": "Dyfyniad/Ffaith"
+      },
+      "last_played": {
+        "name": "Chwaraewyd ddiwethaf"
+      },
+      "session_duration": {
+        "name": "Hyd y sesiwn"
+      },
+      "total_play_time": {
+        "name": "Cyfanswm amser chwarae"
+      },
+      "sessions_played": {
+        "name": "Sesiynau a chwaraewyd"
+      },
+      "current_player": {
+        "name": "Chwaraewr presennol",
+        "state": {
+          "nobody": "Neb yn chwarae"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Yn rhwygo",
+          "off": "Yn cysgu"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Helvetin voimat ovat murtautuneet älykkääseen kotiisi. Asenna DOOM taistellaksesi takaisin pelattavalla kortilla suoraan kojelaudallasi. Repi ja raadele, kunnes se on tehty."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM repii ja raatelee jo järjestelmässäsi. Vain yksi Doom Slayer voi olla."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "state": {
+          "rip_and_tear": "Repäise ja raadele, kunnes se on tehty.",
+          "huge_guts": "Olet valtava! Se tarkoittaa, että sinulla on valtavat sisälmykset! Repäise ja raadele!",
+          "rage_brutal": "He ovat raivoa, raakuutta, armottomuutta. Mutta sinä. Sinä olet pahempi.",
+          "first_age": "Ensimmäisellä aikakaudella, ensimmäisessä taistelussa, kun varjot ensi kertaa pitenivät, yksi seisoi. Armageddonin hiilloksien polttama, hänen sielunsa helvetin tulien rakkula ja lunastuksen tuolla puolen turmeltu, hän valitsi ikuisen tuskan polun.",
+          "against_all_evil": "Kaikkea pahaa vastaan, jonka helvetti voi loihtia, kaikkea pahuutta vastaan, jonka ihmiskunta voi tuottaa, lähetämme heitä vastaan vain sinut.",
+          "only_thing_they_fear": "Ainoa asia, jota he pelkäävät... olet sinä.",
+          "not_a_massage": "Se ei ollut hierontaa!",
+          "ouch": "Auts! Sen on täytynyt sattua.",
+          "secret_area": "Katso! Löysit salaisen alueen.",
+          "be_careful": "Varoitus: Kuka siellä? Ole varovainen, se voi olla ansa.",
+          "infested_starport": "Olet tunkeutunut syvälle saastuneeseen avaruussatamaan.",
+          "created_1993": "DOOM luotiin id Softwaren toimesta ja julkaistiin 10. joulukuuta 1993.",
+          "carmack_engine": "John Carmack ohjelmoi DOOM-moottorin noin 5 kuukaudessa.",
+          "team_of_six": "Alkuperäinen DOOM kehitettiin vain 6 hengen tiimillä.",
+          "deathmatch": "DOOM teki 'deathmatch'-termin suosituksi moninpelissä.",
+          "bfg": "BFG tarkoittaa 'Big Fragging Gun' (virallisesti).",
+          "shareware_bbs": "DOOM jaettiin alun perin sharewarena ilmoitustaulujärjestelmien kautta.",
+          "cacodemon_design": "Cacodemin muotoilu sai inspiraationsa Dungeons & Dragons Manual of the Planes -kirjan kannen olennosta.",
+          "moons_of_mars": "Alkuperäinen DOOM sijoittuu Marsin kuihin: Phobokseen ja Deimokseen.",
+          "bobby_prince": "Bobby Prince sävelsi DOOMin soundtrackin, joka sai tunnetusti inspiraationsa heavy metal -yhtyeistä kuten Metallica, Pantera ja Slayer.",
+          "open_source": "DOOMin lähdekoodi julkaistiin avoimena lähdekoodina 23. joulukuuta 1997.",
+          "ported_everywhere": "DOOM on siirretty lähes kaikille kuviteltavissa oleville tietokonealustoille, mukaan lukien pankkiautomaatit, raskaustestit ja älyjääkaapit.",
+          "doomguy": "DOOMin päähenkilö tunnetaan yleisesti nimellä 'Doomguy' tai 'Doom Slayer'.",
+          "no_look_up_down": "Alkuperäisessä DOOMissa ei voinut katsoa ylös tai alas.",
+          "wad_modding": "DOOM oli yksi ensimmäisistä peleistä, joka tuki moddausta WAD-tiedostojen kautta.",
+          "iddqd": "IDDQD-huijauskoodi aktivoi jumalatilan alkuperäisessä DOOMissa.",
+          "idkfa": "IDKFA antaa kaikki avaimet, täydet ammukset ja kaikki aseet DOOMissa.",
+          "spider_mastermind": "Spider Mastermind oli alkuperäisen DOOMin loppuvastus.",
+          "knee_deep_downloads": "DOOMin shareware-jakso 'Knee Deep in the Dead' ladattiin miljoonia kertoja ensimmäisenä vuotenaan.",
+          "super_shotgun": "DOOM II esitteli Super Shotgunin, yhden FPS-historian rakastetuimmista aseista.",
+          "cyberdemon": "Cyberdemon on yksi pelimaailman ikonisimmista vihollisista.",
+          "more_than_windows": "Huipussaan DOOMin arvioitiin olevan asennettuna useammalle tietokoneelle kuin Windows 95.",
+          "imp_fireball": "Impin tulipallo oli yksi ensimmäisistä ammuahyökkäyksistä 3D-ensimmäisen persoonan ammuntapelissä.",
+          "bsp_rendering": "DOOM-moottori renderöi pseudo-3D-grafiikkaa käyttäen tekniikkaa nimeltä binäärinen tilaosiointi (BSP).",
+          "pinky_demon": "Pinky-demoni nimettiin alkuperäisen kehityksen kirkkaanpunaisen värinsä mukaan.",
+          "speedrun": "Nopeusjuoksijat voivat läpäistä DOOMin ensimmäisen jakson alle 5 minuutissa.",
+          "romero_head": "John Romeron pää tikulla on DOOM II:n todellinen loppuvastus.",
+          "floppy_disks": "Alkuperäisen DOOMin levykeasennus vaati neljä 3,5 tuuman levykettä.",
+          "e1m1": "E1M1 ('Hangar') on yksi tunnetuimmista pelitasoista koskaan.",
+          "popular_1995": "DOOM oli niin suosittu vuonna 1995, että sen arvioitiin olevan useammalla tietokoneella kuin Microsoftin Windows 95.",
+          "chainsaw_evil_dead": "DOOMin moottorisaha sai inspiraationsa Evil Dead -elokuvista.",
+          "lost_soul": "Lost Soul -vihollinen oli alun perin tarkoitettu Pain Elementalin heittämäksi kalloksi, joka lisättiin DOOM II:ssa.",
+          "blessed_server": "Katolinen pappi siunasi kerran LAN-palvelimen ennen DOOM deathmatch -turnausta.",
+          "resolution_320x200": "Alkuperäinen DOOM pyörii 320x200 pikselin resoluutiolla.",
+          "faster_processors": "DOOM pakotti Intelin ja muut yritykset nopeuttamaan nopeampien suorittimien kehitystä kysynnän täyttämiseksi.",
+          "mars_setting": "Mars-ympäristö valittiin, koska John Carmack piti ajatusta Marsin demoneista siistinä."
+        },
+        "name": "Lainaus/Fakta"
+      },
+      "last_played": {
+        "name": "Viimeksi pelattu"
+      },
+      "session_duration": {
+        "name": "Istunnon kesto"
+      },
+      "total_play_time": {
+        "name": "Peliaika yhteensä"
+      },
+      "sessions_played": {
+        "name": "Pelatut istunnot"
+      },
+      "current_player": {
+        "name": "Nykyinen pelaaja",
+        "state": {
+          "nobody": "Kukaan ei pelaa"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Repii ja raatelee",
+          "off": "Lepotilassa"
+        }
+      }
+    }
+  }
+}

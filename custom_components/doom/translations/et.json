@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "Põrgu väed on tunginud sinu nutikoju. Seadista DOOM, et võidelda tagasi mängitava kaardiga otse oma armatuurlaual. Rebi ja lõhki, kuni see on tehtud."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM juba rebib ja lõhub sinu süsteemis. Ainult üks Doom Slayer saab olla."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Tsitaat/Fakt",
+        "state": {
+          "rip_and_tear": "Rebi ja kärista, kuni see on tehtud.",
+          "huge_guts": "Sa oled tohutu! See tähendab, et sul on tohutud sisikond! Rebi ja kärista!",
+          "rage_brutal": "Nad on raev, jõhkrad, halastamatud. Aga sina. Sina oled hullem.",
+          "first_age": "Esimesel ajastul, esimeses lahingus, kui varjud esimest korda pikemaks venitusid, seisis üks...",
+          "against_all_evil": "Kogu kurjuse vastu, mida põrgu suudab esile manada, kogu pahelisuse vastu, mida inimkond suudab toota, saadame neile vaid sind.",
+          "only_thing_they_fear": "Ainus, mida nad kardavad... oled sina.",
+          "not_a_massage": "See ei olnud massaaž!",
+          "ouch": "Ai! See pidi haiget tegema.",
+          "secret_area": "Vaata seda! Sa leidsid salajase ala.",
+          "be_careful": "Hoiatus: Kes seal on? Ole ettevaatlik, see võib olla lõks.",
+          "infested_starport": "Sa oled tunginud sügavale nakatunud kosmosesadamasse.",
+          "created_1993": "DOOMi lõi id Software ja see avaldati 10. detsembril 1993.",
+          "carmack_engine": "John Carmack programmeeris DOOMi mootori umbes 5 kuuga.",
+          "team_of_six": "Algse DOOMi arendas vaid 6-liikmeline meeskond.",
+          "deathmatch": "DOOM populariseeris mõiste 'deathmatch' mitmikmängude jaoks.",
+          "bfg": "BFG tähistab 'Big Fragging Gun' (ametlikult).",
+          "shareware_bbs": "DOOMi levitati algselt jagavarana teadetetahvlisüsteemide kaudu.",
+          "cacodemon_design": "Cacodemoni kujundus sai inspiratsiooni olendist D&D Manual of the Planes'i kaanelt.",
+          "moons_of_mars": "Algne DOOM toimub Marsi kuudel: Phobos ja Deimos.",
+          "bobby_prince": "Bobby Prince komponeeris DOOMi heliriba, mis sai kuulsalt inspiratsiooni heavy metal bändidest nagu Metallica, Pantera ja Slayer.",
+          "open_source": "DOOMi lähtekood avaldati avatud lähtekoodina 23. detsembril 1997.",
+          "ported_everywhere": "DOOM on porditud peaaegu igale mõeldavale arvutusplatvormile, sealhulgas pangaautomaatidele, rasedustestidele ja nutikatele külmikutele.",
+          "doomguy": "DOOMi peategelast tuntakse üldiselt kui 'Doomguy'd või 'Doom Slayer'it.",
+          "no_look_up_down": "Algsel DOOMil puudus võimalus üles või alla vaadata.",
+          "wad_modding": "DOOM oli üks esimesi mänge, mis toetas modimist WAD-failide kaudu.",
+          "iddqd": "Pettusekood IDDQD aktiveerib algses DOOMis jumalarežiimi.",
+          "idkfa": "IDKFA annab sulle kõik võtmed, täis laskemoona ja kõik relvad DOOMis.",
+          "spider_mastermind": "Spider Mastermind oli algse DOOMi lõppboss.",
+          "knee_deep_downloads": "DOOMi jagavara episoodi 'Knee Deep in the Dead' laaditi esimesel aastal alla miljoneid kordi.",
+          "super_shotgun": "DOOM II tutvustas Super Shotguni, üht FPS ajaloo armastatuimat relva.",
+          "cyberdemon": "Cyberdemon on üks mänguajaloo ikoonilisemaid vaenlasi.",
+          "more_than_windows": "Oma tippaegadel oli DOOM hinnanguliselt paigaldatud rohkematesse arvutitesse kui Windows 95.",
+          "imp_fireball": "Impi tulekera oli üks esimesi laskekeha rünnakuid 3D esimese isiku tulistamismängus.",
+          "bsp_rendering": "DOOMi mootor renderdab pseudo-3D graafikat tehnikaga, mida nimetatakse binaarseks ruumijaotuseks (BSP).",
+          "pinky_demon": "Pinky deemon sai nime oma algselt eredalt roosalt värvilt varajases arenduses.",
+          "speedrun": "Kiirusjooksikud suudavad DOOMi esimese episoodi läbida alla 5 minutiga.",
+          "romero_head": "John Romero pea kepi otsas on DOOM II tegelik lõppboss.",
+          "floppy_disks": "Algse DOOMi disketi paigaldaja vajas nelja 3,5-tollist disketti.",
+          "e1m1": "E1M1 ('Hangar') on üks tuntuimaid videomängu tasemeid, mis kunagi loodud.",
+          "popular_1995": "DOOM oli 1995. aastal nii populaarne, et hinnanguliselt oli see rohkematel arvutitel kui Microsofti Windows 95.",
+          "chainsaw_evil_dead": "DOOMi kettsaag sai inspiratsiooni filmidest Evil Dead.",
+          "lost_soul": "Vaenlane Lost Soul oli algselt mõeldud Pain Elementali visatud koljuna, mis lisati DOOM II-s.",
+          "blessed_server": "Katoliku preester õnnistas kunagi LAN-serverit enne DOOMi deathmatch-turniiri.",
+          "resolution_320x200": "Algne DOOM töötab eraldusvõimega 320x200 pikslit.",
+          "faster_processors": "DOOM sundis Intelit ja teisi ettevõtteid kiirendama kiiremate protsessorite arendust.",
+          "mars_setting": "Marsi asukoht valiti, sest John Carmack arvas, et deemonid Marsilt kõlavad lahedalt."
+        }
+      },
+      "last_played": {
+        "name": "Viimati mängitud"
+      },
+      "session_duration": {
+        "name": "Seansi kestus"
+      },
+      "total_play_time": {
+        "name": "Mänguaeg kokku"
+      },
+      "sessions_played": {
+        "name": "Mängitud seansse"
+      },
+      "current_player": {
+        "name": "Praegune mängija",
+        "state": {
+          "nobody": "Keegi ei mängi"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Rebib ja kisub",
+          "off": "Uinuv"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "editor": {
+    "card": {
+      "doom": {
+        "title": "Judul",
+        "sound": "Suara",
+        "auto_start": "Mulai otomatis"
+      }
+    }
+  },
+  "dialog": {
+    "iddqd": {
+      "title": "MODE TUHAN DIAKTIFKAN"
+    }
+  }
+}

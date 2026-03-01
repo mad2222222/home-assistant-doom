@@ -1,0 +1,95 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DOOM",
+        "description": "La fortoj de infero eniris vian inteligentan hejmon. Agordu DOOM por kontraŭbatali per ludebla karto rekte sur via panelo. Ŝiru kaj disŝiru, ĝis estos finite."
+      }
+    },
+    "abort": {
+      "already_configured": "DOOM jam ŝiras kaj disŝiras sur via sistemo. Povas esti nur unu Doom Slayer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fact": {
+        "name": "Citaĵo/Fakto",
+        "state": {
+          "rip_and_tear": "Ŝiru kaj disŝiru, ĝis ĝi estos finita.",
+          "huge_guts": "Vi estas grandega! Tio signifas, ke vi havas grandegajn intestojn! Ŝiru kaj disŝiru!",
+          "rage_brutal": "Ili estas kolero, brutalaj, sen kompato. Sed vi. Vi estos pli malbona.",
+          "first_age": "En la unua epoko, en la unua batalo, kiam la ombroj unuafoje longiĝis, unu staris...",
+          "against_all_evil": "Kontraŭ ĉiu malbono, kiun Infero povas elvoki, kontraŭ ĉiu malvirto, kiun la homaro povas produkti, ni sendos al ili nur vin.",
+          "only_thing_they_fear": "La sola afero, kiun ili timas... estas vi.",
+          "not_a_massage": "Tio ne estis masaĝo!",
+          "ouch": "Aŭ! Tio certe doloras.",
+          "secret_area": "Rigardu tion! Vi trovis sekretan areon.",
+          "be_careful": "Averto: Kiu estas tie? Atentu, tio povus esti kaptilo.",
+          "infested_starport": "Vi penetris profunden en la infestitan stelhavon.",
+          "created_1993": "DOOM estis kreita de id Software kaj publikigita la 10-an de decembro 1993.",
+          "carmack_engine": "John Carmack programis la DOOM-motoron en proksimume 5 monatoj.",
+          "team_of_six": "La originala DOOM estis disvolvita de teamo de nur 6 personoj.",
+          "deathmatch": "DOOM popularigis la terminon 'mortomaco' por plurludanta ludado.",
+          "bfg": "BFG signifas 'Big Fragging Gun' (oficiale).",
+          "shareware_bbs": "DOOM estis origine distribuita kiel kundivida programaro per bultenaj tabulosistemoj.",
+          "cacodemon_design": "La desegno de la Kakodemon estis inspirita de kreitaĵo sur la kovrilo de la D&D-manlibro Manual of the Planes.",
+          "moons_of_mars": "La originala DOOM okazas sur la lunoj de Marso: Foboso kaj Deimoso.",
+          "bobby_prince": "Bobby Prince komponis la DOOM-sontrakon, fame inspiritan de pezmetalaj grupoj kiel Metallica, Pantera kaj Slayer.",
+          "open_source": "La fontkodo de DOOM estis publikigita kiel libera programaro la 23-an de decembro 1997.",
+          "ported_everywhere": "DOOM estis portita al preskaŭ ĉiu komputila platformo imagebla, inkluzive de monaŭtomatoj, gravedectestiloj kaj inteligentaj friduĵoj.",
+          "doomguy": "La protagonisto de DOOM estas kutime konata kiel 'Doomguy' aŭ la 'Doom Slayer'.",
+          "no_look_up_down": "La originala DOOM ne havis la kapablon rigardi supren aŭ malsupren.",
+          "wad_modding": "DOOM estis unu el la unuaj ludoj, kiuj subtenis modadon per WAD-dosieroj.",
+          "iddqd": "La trukokodo IDDQD ebligas Dian reĝimon en la originala DOOM.",
+          "idkfa": "IDKFA donas al vi ĉiujn ŝlosilojn, plenan municion kaj ĉiujn armilojn en DOOM.",
+          "spider_mastermind": "La Aranea Ĉefcerbo estis la fina ĉefo de la originala DOOM.",
+          "knee_deep_downloads": "La kundivida epizodo de DOOM 'Knee Deep in the Dead' estis elŝutita milionojn da fojoj en sia unua jaro.",
+          "super_shotgun": "DOOM II enkondukis la Superpafegon, unu el la plej amataj armiloj en la historio de FPS.",
+          "cyberdemon": "La Kiberdemono estas unu el la plej ikonaj malamikoj en la historio de videoludoj.",
+          "more_than_windows": "Ĉe sia pinto, DOOM estis taksita esti instalita sur pli da komputiloj ol Windows 95.",
+          "imp_fireball": "La fajroglobo de la Impo estis unu el la unuaj projektilatkoj en 3D-unuapersona pafilo.",
+          "bsp_rendering": "La DOOM-motoro bildigas pseŭdo-3D-grafikaĵojn uzante teknikon nomatan duuma spaca dispartigo (BSP).",
+          "pinky_demon": "La Rozkolora demono ricevis sian nomon pro sia originala hele rozkolora aspekto en frua disvolvado.",
+          "speedrun": "Rapidkuruloj povas kompletigi la unuan epizodon de DOOM en malpli ol 5 minutoj.",
+          "romero_head": "La kapo de John Romero sur bastono estas la vera fina ĉefo de DOOM II.",
+          "floppy_disks": "La originala DOOM-disketa instalilo postulis kvar 3,5-colajn disketojn.",
+          "e1m1": "E1M1 ('Hangar') estas unu el la plej rekonataj videoludaj niveloj iam kreitaj.",
+          "popular_1995": "DOOM estis tiel populara en 1995, ke oni taksas, ke ĝi estis sur pli da komputiloj ol Windows 95 de Microsoft.",
+          "chainsaw_evil_dead": "La ĉensegilo en DOOM estis inspirita de la filmoj Evil Dead.",
+          "lost_soul": "La malamiko Perdita Animo estis origine intencita kiel ĵetita kranio de la Dolorelemental, kiu estis aldonita en DOOM II.",
+          "blessed_server": "Katolika pastro iam benis LAN-servilon antaŭ DOOM-mortomaca turniro.",
+          "resolution_320x200": "La originala DOOM funkcias je rezolucio de 320x200 bilderoj.",
+          "faster_processors": "DOOM devigis Intel kaj aliajn kompaniojn akceli la disvolvadon de pli rapidaj procesoroj.",
+          "mars_setting": "La Marsa scenejo estis elektita ĉar John Carmack pensis, ke demonoj de Marso sonas mojose."
+        }
+      },
+      "last_played": {
+        "name": "Laste ludita"
+      },
+      "session_duration": {
+        "name": "Seanca daŭro"
+      },
+      "total_play_time": {
+        "name": "Totala ludtempo"
+      },
+      "sessions_played": {
+        "name": "Luditaj seancoj"
+      },
+      "current_player": {
+        "name": "Nuna ludanto",
+        "state": {
+          "nobody": "Neniu ludas"
+        }
+      }
+    },
+    "binary_sensor": {
+      "playing": {
+        "name": "DOOM",
+        "state": {
+          "on": "Ŝiras kaj disŝiras",
+          "off": "Dormanta"
+        }
+      }
+    }
+  }
+}
