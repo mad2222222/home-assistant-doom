@@ -1,4 +1,5 @@
 node_modules/
 custom_components/doom/frontend/doom-card.js
+custom_components/doom/frontend/doom-iddqd.js
 custom_components/doom/frontend/assets/
 package-lock.json

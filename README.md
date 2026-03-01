@@ -105,19 +105,19 @@ The card editor provides the following configuration options:
 
 ### Controls
 
-| Action        | Key                |
-| ------------- | ------------------ |
-| Move forward  | `↑`                |
-| Move backward | `↓`                |
-| Turn left     | `←`                |
-| Turn right    | `→`                |
-| Strafe left   | `,`                |
-| Strafe right  | `.`                |
-| Fire          | `Ctrl`             |
-| Use / Open    | `Space`            |
-| Run           | `Shift`            |
-| Strafe        | `Alt`              |
-| Weapon select | `1`-`7`            |
+| Action        | Key     |
+| ------------- | ------- |
+| Move forward  | `↑`     |
+| Move backward | `↓`     |
+| Turn left     | `←`     |
+| Turn right    | `→`     |
+| Strafe left   | `,`     |
+| Strafe right  | `.`     |
+| Fire          | `Ctrl`  |
+| Use / Open    | `Space` |
+| Run           | `Shift` |
+| Strafe        | `Alt`   |
+| Weapon select | `1`-`7` |
 
 > **Note:** A keyboard is recommended for the best experience.
 
@@ -137,8 +137,8 @@ sends periodic pings while the game is running. If no ping is received within
 
 | State | Label                  |
 | ----- | ---------------------- |
-| `on`    | Ripping and tearing 🔥 |
-| `off`   | Dormant 💤             |
+| `on`  | Ripping and tearing 🔥 |
+| `off` | Dormant 💤             |
 
 ### Quote/Fact sensor
 

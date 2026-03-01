@@ -78,10 +78,7 @@ export class DoomIddqdDialog extends LitElement {
         flexcontent
       >
         <ha-dialog-header slot="header">
-          <ha-icon-button
-            slot="navigationIcon"
-            @click=${this.closeDialog}
-          >
+          <ha-icon-button slot="navigationIcon" @click=${this.closeDialog}>
             <ha-icon icon="mdi:close"></ha-icon>
           </ha-icon-button>
           <span slot="title">${this._title}</span>

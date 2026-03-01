@@ -24,6 +24,7 @@ node_modules/
 
 # Build artifacts
 custom_components/doom/frontend/doom-card.js
+custom_components/doom/frontend/doom-iddqd.js
 
 # OS
 .DS_Store

@@ -19,9 +19,7 @@ declare global {
       canvas: HTMLCanvasElement,
       options: { wdosboxUrl: string }
     ) => {
-      ready: (
-        callback: (fs: DosFS, main: DosMain) => void
-      ) => void;
+      ready: (callback: (fs: DosFS, main: DosMain) => void) => void;
     };
   }
 }
@@ -116,10 +114,7 @@ export class DoomCard extends LitElement implements LovelaceCard {
   connectedCallback(): void {
     super.connectedCallback();
     window.addEventListener("beforeunload", this._boundBeforeUnload);
-    document.addEventListener(
-      "visibilitychange",
-      this._boundVisibilityChange
-    );
+    document.addEventListener("visibilitychange", this._boundVisibilityChange);
   }
 
   disconnectedCallback(): void {
@@ -314,10 +309,7 @@ export class DoomCard extends LitElement implements LovelaceCard {
   private _startPinging(): void {
     this._stopPinging();
     this._sendPing();
-    this._pingInterval = setInterval(
-      () => this._sendPing(),
-      PING_INTERVAL_MS
-    );
+    this._pingInterval = setInterval(() => this._sendPing(), PING_INTERVAL_MS);
   }
 
   private _stopPinging(): void {
@@ -431,7 +423,8 @@ export class DoomCard extends LitElement implements LovelaceCard {
           box-shadow: 0 0 8px rgba(139, 0, 0, 0.3);
         }
         50% {
-          box-shadow: 0 0 20px rgba(139, 0, 0, 0.7),
+          box-shadow:
+            0 0 20px rgba(139, 0, 0, 0.7),
             0 0 40px rgba(139, 0, 0, 0.3);
         }
       }
@@ -470,5 +463,3 @@ export class DoomCard extends LitElement implements LovelaceCard {
     `;
   }
 }
-
-
