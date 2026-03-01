@@ -13,9 +13,8 @@ import setupCustomLocalize from "./localize";
 
 type DoomCardElement = LovelaceCard & { hass?: HomeAssistant; layout?: string };
 
-export interface DoomIddqdDialogParams {
-  // Empty for now — no params needed
-}
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export interface DoomIddqdDialogParams {}
 
 @customElement("doom-iddqd-dialog")
 export class DoomIddqdDialog extends LitElement {
