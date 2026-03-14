@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: I have a question or need support
-    url: https://github.com/frenck/home-assistant-doom/discussions
-    about: Please use our discussion forums for getting help in that case.
-  - name: I have a feature request
-    url: https://github.com/frenck/home-assistant-doom/discussions
-    about: Please use our discussion forums for feature requests.

